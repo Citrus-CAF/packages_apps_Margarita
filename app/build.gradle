@@ -22,6 +22,7 @@ ext {
     byte[] iv = new byte[16]
     new Random().nextBytes(iv)
     IV_KEY = iv
+
 }
 
 android {
@@ -29,7 +30,7 @@ android {
     buildToolsVersion "26.0.0"
 
     defaultConfig {
-        applicationId "substratum.theme.template"
+        applicationId "com.citrus.theme"
         minSdkVersion 24
         targetSdkVersion 26
         versionCode 1

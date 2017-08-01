@@ -7,4 +7,19 @@
         <item name="android:textStyle">italic</item>
         <item name="android:textColor">#60ffffff</item>
     </style>
+    <style name="TextAppearance.NotificationGuts" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Secondary" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Primary" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
+        <item name="android:textSize">16.sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Radio" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
 </resources>

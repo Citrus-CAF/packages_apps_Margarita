@@ -1,14 +1,14 @@
-package substratum.theme.template.internal
+package com.citrus.theme.internal
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.pm.PackageManager
 import android.content.pm.Signature
-import substratum.theme.template.ThemerConstants.BLACKLISTED_APPLICATIONS
-import substratum.theme.template.ThemerConstants.ENABLE_BLACKLISTED_APPLICATIONS
-import substratum.theme.template.ThemerConstants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
-import substratum.theme.template.ThemerConstants.MINIMUM_SUBSTRATUM_VERSION
-import substratum.theme.template.ThemerConstants.OTHER_THEME_SYSTEMS
+import com.citrus.theme.ThemerConstants.BLACKLISTED_APPLICATIONS
+import com.citrus.theme.ThemerConstants.ENABLE_BLACKLISTED_APPLICATIONS
+import com.citrus.theme.ThemerConstants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import com.citrus.theme.ThemerConstants.MINIMUM_SUBSTRATUM_VERSION
+import com.citrus.theme.ThemerConstants.OTHER_THEME_SYSTEMS
 
 object SystemInformation {
 

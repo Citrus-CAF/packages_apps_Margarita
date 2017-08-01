@@ -16,7 +16,7 @@
     </color>
     <color name="notification_ripple_untinted_color">#28ffffff</color>
     <color name="notification_ripple_color_low_priority">#30ffffff</color>
-    <color name="qs_tile_divider">#00000000</color>
+    <color name="qs_tile_divider">@android:color/holo_blue_bright</color>
     <color name="batterymeter_charge_color">#ff00c853</color>
     <color name="navbutton_ripple_color">@android:color/holo_blue_bright</color>
 
@@ -137,4 +137,19 @@
     <color name="smartbar_editor_popup_text">@android:color/white</color>
     <color name="smartbar_editor_popup_icon_fill">@android:color/holo_blue_bright</color>
     <color name="smartbar_editor_popup_horiz_separator">#00000000</color>
+
+    <!-- notification panel background -->
+    <color name="notification_shade_background_color">#33021B1B</color>
+    <color name="notification_gear_color">@android:color/holo_blue_bright</color>
+
+    <!-- QS battery % text color -->
+    <color name="qs_battery_text_color">#ffffffff</color>
+    <!-- QS battery graph text color -->
+    <color name="qs_battery_graph_text_color">@android:color/holo_blue_bright</color>
+    <!-- QS battery accent color -->
+    <color name="qs_battery_accent">@android:color/holo_blue_bright</color>
+    <!-- QS edit page background color -->
+    <color name="qs_edit_item_decoration_bg">@android:color/holo_purple</color>
+    <!-- QS alarm status text color -->
+    <color name="qs_alarm_status_text_color">@android:color/holo_blue_bright</color>
 </resources>

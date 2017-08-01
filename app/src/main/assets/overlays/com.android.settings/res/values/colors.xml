@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="switchbar_background_color">@android:color/holo_blue_light</color>
-    <color name="switch_accent_color">@android:color/white</color>
-    <color name="card_background">@android:color/transparent</color>
+    <color name="switch_accent_color">@android:color/holo_blue_bright</color>
+    <color name="card_background">@android:color/background_dark</color>
     <color name="lock_pattern_view_regular_color">#ffe0e0e0</color>
     <color name="running_processes_system_ram">#fff44336</color>
     <color name="running_processes_apps_ram">#ff3f51b5</color>
@@ -23,7 +23,7 @@
     <color name="qs_tile_tint_color">@android:color/holo_blue_bright</color>
     <color name="exposed_barPrimaryColor">@android:color/holo_blue_bright</color>
     <color name="exposed_datachartfillcolor">@android:color/holo_blue_bright</color>
-    <color name="dashboard_background_color">#00000000</color>
+    <color name="dashboard_background_color">@android:color/background_dark</color>
     <color name="cardview_light_background">@android:color/holo_purple</color>
     <color name="exposed_bg_light">@android:color/background_dark</color>
     <color name="cardview_dark_background">@android:color/background_dark</color>
@@ -64,7 +64,7 @@
     <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
     <color name="crypt_keeper_password_background">#70606060</color>
 
-    <color name="divider_color">#20ffffff</color>
+    <color name="divider_color">@android:color/background_dark</color>
     <color name="setup_divider_color_dark">#33ffffff</color>
     <color name="setup_lock_pattern_view_regular_color_dark">#ffbdbdbd</color>
     <color name="setup_lock_pattern_view_success_color_dark">#ff84ffff</color>
@@ -112,4 +112,21 @@
     <color name="storage_summary_title_color">@android:color/holo_blue_bright</color>
     <color name="action_picker_fab_background">@android:color/holo_purple</color>
     <color name="text_color_black">@android:color/white</color>
+
+    <color name="dashboard_category_background_color">@android:color/holo_purple</color>
+
+    <!-- Condition card colors -->
+    <color name="condition_card_background_color">@android:color/holo_blue_light</color>
+    <color name="condition_card_icon_color">@android:color/holo_blue_bright</color>
+    <color name="condition_card_title_text_color">@*android:color/primary_text_default_material_dark</color>
+    <color name="condition_card_expander_color">@android:color/holo_blue_bright</color>
+    <color name="condition_card_summary_text_color">@*android:color/primary_text_default_material_dark</color>
+    <color name="condition_card_divider_color">@android:color/holo_blue_bright</color>
+    <color name="condition_card_first_button_text_color">@android:color/holo_blue_bright</color>
+    <color name="condition_card_second_button_text_color">@android:color/holo_blue_bright</color>
+
+    <!-- Suggetion card -->
+    <color name="card_background_grey">@android:color/holo_purple</color>
+
+    <color name="material_grey_300">@android:color/background_dark</color>
 </resources>

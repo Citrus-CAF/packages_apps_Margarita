@@ -1,4 +1,4 @@
-package substratum.theme.template.internal
+package com.citrus.theme.internal
 
 object TBOConstants {
 

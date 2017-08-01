@@ -1,4 +1,4 @@
-package substratum.theme.template
+package com.citrus.theme
 
 object ThemerConstants {
     // Simple AntiPiracy Configuration

@@ -8,10 +8,9 @@
         <item name="android:background">@android:color/holo_blue_light</item>
         <item name="android:elevation">0.0dip</item>
     </style>
-    <style name="TextAppearance.CategoryTitle"
-           parent="@android:style/TextAppearance.Material.Small">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@android:color/white</item>
+    <style name="TextAppearance.CategoryTitle" parent="@*android:style/TextAppearance.Material.Body2">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
         <item name="android:textAllCaps">true</item>
     </style>
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
@@ -36,9 +35,11 @@
         <item name="android:singleLine">true</item>
         <item name="android:layout_weight">1.0</item>
     </style>
+
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
-        <item name="android:colorBackground">@android:color/background_dark</item>
-        <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
-        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:dividerVertical">@drawable/preference_list_divider_material</item>
     </style>
 </resources>
