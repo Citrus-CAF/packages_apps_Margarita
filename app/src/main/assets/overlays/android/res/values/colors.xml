@@ -105,4 +105,11 @@
     <color name="datepicker_default_selected_text_color_holo_dark">#ffffffff</color>
     <color name="datepicker_default_pressed_text_color_holo_light">#ffdddddd</color>
     <color name="datepicker_default_pressed_text_color_holo_dark">#ffdddddd</color>
+
+    <color name="holo_blue_light">#ff263238</color>
+    <color name="holo_blue_dark">#ff21272b</color>
+    <color name="holo_blue_bright">#ff009688</color>
+    <color name="background_dark">#ff21272b</color>
+    <color name="holo_purple">#ff263238</color>
+
 </resources>
