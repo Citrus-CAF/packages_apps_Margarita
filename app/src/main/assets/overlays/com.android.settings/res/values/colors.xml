@@ -113,7 +113,7 @@
     <color name="action_picker_fab_background">@android:color/holo_purple</color>
     <color name="text_color_black">@android:color/white</color>
 
-    <color name="dashboard_category_background_color">@android:color/holo_purple</color>
+    <color name="dashboard_category_title_background">@android:color/holo_purple</color>
 
     <!-- Condition card colors -->
     <color name="condition_card_background_color">@android:color/holo_blue_light</color>
