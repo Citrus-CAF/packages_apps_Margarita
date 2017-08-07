@@ -13,16 +13,16 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/category"
-    android:layout_width="match_parent"
-    android:layout_height="@*com.android.settings:dimen/dashboard_category_height"
+    android:layout_width="fill_parent"
+    android:layout_he0dip"
     android:orientation="vertical"
-    android:paddingBottom="@*com.android.settings:dimen/dashboard_category_padding_bottom"
     android:background="@*com.android.settings:drawable/dashboard_category_title_bg">
 
     <TextView android:id="@android:id/title"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:paddingStart="@*com.android.settings:dimen/dashboard_category_title_margin_start"
+        android:paddingStart="15.0dip"
+        android:padding="5.0dip"
         android:singleLine="true"
         android:ellipsize="marquee"
         android:gravity="center_vertical"
