@@ -1,3 +1,5 @@
+<img src="https://github.com/Citrus-CAF/packages_apps_Margarita/raw/n7x/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
+
 # Margarita
 
 ``
