@@ -111,10 +111,10 @@
     <color name="holo_blue_bright">#ff08D8C4</color>
     <!-- Background -->
     <color name="background_dark">#ff021B1B</color>
-    <color name="holo_purple">#ff032D2C</color>
+    <color name="holo_purple">#0E1F1E</color>
     <!-- Primary -->
-    <color name="holo_blue_light">#ff152D30</color>
-    <color name="holo_blue_dark">#ff212020</color>
+    <color name="holo_blue_light">#13282B</color>
+    <color name="holo_blue_dark">#102224</color>
 
     <!-- Notification panel action buttons bg -->
     <color name="notification_action_list">@android:color/holo_purple</color>
