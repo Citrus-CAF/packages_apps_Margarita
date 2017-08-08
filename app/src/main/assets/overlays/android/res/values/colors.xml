@@ -123,4 +123,8 @@
     <!-- Notification panel default color -->
     <color name="notification_text_default_color">@android:color/holo_blue_bright</color>
     <color name="sender_text_color">#FFFFFFFF</color>
+
+    <!-- Status bar color for semi transparent mode. -->
+    <color name="system_bar_background_semi_transparent">#00000000</color> <!-- 0% black -->
+
 </resources>
