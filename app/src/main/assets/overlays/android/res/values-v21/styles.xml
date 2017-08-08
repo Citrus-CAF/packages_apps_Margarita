@@ -16,7 +16,7 @@
         <item name="android:backgroundTint">@android:color/holo_purple</item>
     </style>
     <style name="Widget.DeviceDefault.Light.PopupWindow"
-           parent="@android:style/Widget.Material.PopupWindow">
+        parent="@android:style/Widget.Material.PopupWindow">
         <item name="android:colorBackground">@android:color/holo_purple</item>
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">#ffdddddd</item>
@@ -38,6 +38,6 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="Theme.SettingsBase" parent="@*android:style/Theme.Material.Settings">
-        <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
+        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
     </style>
 </resources>
