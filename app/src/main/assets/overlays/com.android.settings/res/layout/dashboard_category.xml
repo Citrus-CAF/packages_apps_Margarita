@@ -23,6 +23,7 @@
         android:layout_height="fill_parent"
         android:paddingStart="15.0dip"
         android:padding="5.0dip"
+        android:letterSpacing="0.3"
         android:singleLine="true"
         android:ellipsize="marquee"
         android:gravity="center_vertical"
