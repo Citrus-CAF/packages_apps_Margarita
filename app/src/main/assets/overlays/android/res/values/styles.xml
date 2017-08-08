@@ -164,16 +164,16 @@
     <style name="Theme.DeviceDefault.Light.SearchBar" parent="@style/Theme.Material.SearchBar"/>
     <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material">
         <item name="android:colorPrimary">@android:color/holo_blue_light</item>
-        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_light</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
-        <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
+        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
         <item name="android:navigationBarColor">@android:color/background_dark</item>
     </style>
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
         <item name="android:colorPrimary">@android:color/holo_blue_light</item>
-        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_light</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
-        <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
+        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
         <item name="android:navigationBarColor">@android:color/background_dark</item>
     </style>
     <style name="Theme.Material.Settings.NoActionBar"
