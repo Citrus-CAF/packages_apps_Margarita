@@ -72,7 +72,7 @@ task encryptAssets {
     def tempAssets = new File(getProjectDir(), "/src/main/assets-temp")
     if (!tempAssets.exists()) {
         println("encrypting assets...")
-        def list = []
+        def  list = []
         def dir = new File(getProjectDir(), "/src/main/assets")
         dir.eachFileRecurse(FileType.FILES) { file ->
             list << file
