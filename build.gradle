@@ -33,7 +33,7 @@ task clean(type: Delete) {
 
         tempAssets.eachFileRecurse (FileType.FILES) { file ->
             FileInputStream fis = new FileInputStream(file)
-  gradle to 3.0.0           File fo = new File(file.getAbsolutePath().replace("assets-temp", "assets"))
+            File fo = new File(file.getAbsolutePath().replace("assets-temp", "assets"))
             fo.getParentFile().mkdirs()
             FileOutputStream fos = new FileOutputStream(fo)
             byte[] buffer = new byte[4096]
