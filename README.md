@@ -5,6 +5,9 @@
 ``
 A Open-Source Substratum theme made with ❤️ by #TEAMCARDINAL
 ``
+
+[![Build Status](https://travis-ci.org/Citrus-CAF/packages_apps_Margarita.svg?branch=n7x)](https://travis-ci.org/Citrus-CAF/packages_apps_Margarita)
+
 ## Contributors
 - **[@Adarsh-MR](https://github.com/Adarsh-MR)**
 - **[@rohitporoli](https://github.com/rohitporoli)**
