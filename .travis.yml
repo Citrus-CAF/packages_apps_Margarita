@@ -22,3 +22,8 @@ cache:
   - "$HOME/.m2"
   - "$HOME/.gradle"
   - "$ANDROID_HOME"
+env:
+  global:
+  - secure: "EVRlhwIf2ZlYzmaJ01ypS9/n9YcXQIFrXjR8gU5M27rBir2YZ+CGnnsdALaqOZCKLOAEmyuh7VuIgupYZgPFRVWUc4sHA911DNKso6kVeEOZDg4gG3jVtCSNDFvzFtf0Abq1pvQ8pvbrPzpz+eT2veb2HSMDdfz6PcxktQdoEp1uz8k+0vPCccpag6dZlVg9UfPeNf8OLWiL5Hu1vx2lY1NOMtNBDHdKI3IU2RUu85oCw4ADtz5C6nft4ZQ16PwD117oPbeX1oaM7G5gA89MzBvwDOqcqS50NRuf0Fyb/5kP9HOUtYkh5wT7QiS5trUEXEy3LZ16ffeq092klZOI1W2s0sDfTq1KGXJ3m7CiQgGnPxuTc8/1CufogeKp8YzIIG4RYoANlpEBgg4L4i6LsOpKb1KtabCKo0H7KG41TvZhksnE4dwvCqk+ZPqlACnuvbtBgWyWNLsnRZzDYJiOaA6gvDPxBjbOnng0isUJ+ISpePFgy+nMmU1U7WSpqCfr6AqQBwC5xOtx1Xlh3XB0YT3JF3FUMYce9pYtV6Lpeezf+jS2fIocDARtTBvquECMMRYe5Kh8b8CTOb+GbVvpDPvHfATRHyLm4RvJ4nrWBKxSmJ8KiUTAeG3aHUeg70YhoNI/2o5B1dmXZ0x6Q+2mswDEQX5CwJ9SEjnyw00E784="
+after_success:
+- curl https://slack.com/api/files.upload -F token=${TOKEN} -F channels=#margarita -F title=Margarita-debug-$(date +"%Y%m%d-%H:%M").apk -F filename=app-debug.apk -F file=@app/build/outputs/apk/debug/app-debug.apk
