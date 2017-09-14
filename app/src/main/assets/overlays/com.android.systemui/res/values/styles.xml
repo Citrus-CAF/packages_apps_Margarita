@@ -22,4 +22,10 @@
     <style name="TextAppearance.NotificationGuts.Radio" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
         <item name="android:textColor">#ffffffff</item>
     </style>
+
+    <!-- Fonts used in the MediaQueue -->
+       <style name="TextAppearance.MediaQueue"  parent="@*com.android.systemui:style/TextAppearance.MediaQueue">
+           <item name="android:textColor">@android:color/white</item>
+       </style>
+
 </resources>
