@@ -2,30 +2,21 @@
 <resources>
     <style name="systemui_theme" parent="@android:style/Theme.Material"/>
     <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog"/>
-    <style name="TextAppearance.Material.Notification.Parenthetical"
-           parent="@android:style/TextAppearance.Material.Notification">
-        <item name="android:textStyle">italic</item>
-        <item name="android:textColor">#60ffffff</item>
-    </style>
-    <style name="TextAppearance.NotificationGuts" parent="@*android:style/TextAppearance">
+
+    <style name="TextAppearance.NotificationGuts" parent="">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@android:color/holo_blue_bright</item>
         <item name="android:fontFamily">roboto-regular</item>
     </style>
-    <style name="TextAppearance.NotificationGuts.Secondary" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
+    <style name="TextAppearance.NotificationGuts.Secondary" parent="">
         <item name="android:textColor">#ffdddddd</item>
     </style>
-    <style name="TextAppearance.NotificationGuts.Primary" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
+    <style name="TextAppearance.NotificationGuts.Primary" parent="">
         <item name="android:textSize">16.sp</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="TextAppearance.NotificationGuts.Radio" parent="@*com.android.systemui:style/TextAppearance.NotificationGuts">
+    <style name="TextAppearance.NotificationGuts.Radio" parent="">
         <item name="android:textColor">#ffffffff</item>
     </style>
-
-    <!-- Fonts used in the MediaQueue -->
-       <style name="TextAppearance.MediaQueue"  parent="@*com.android.systemui:style/TextAppearance.MediaQueue">
-           <item name="android:textColor">@android:color/white</item>
-       </style>
 
 </resources>
