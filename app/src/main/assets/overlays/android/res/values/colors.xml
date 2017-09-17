@@ -84,8 +84,6 @@
     <color name="notification_action_list">@android:color/holo_purple</color>
     <!-- Notification panel default color -->
     <color name="notification_default_color">@android:color/holo_blue_bright</color>
-
-    <!-- Notification panel default color -->
     <color name="notification_text_default_color">@android:color/holo_blue_bright</color>
     <color name="sender_text_color">#FFFFFFFF</color>
     <color name="notification_material_background_color">#ffffffff</color>
