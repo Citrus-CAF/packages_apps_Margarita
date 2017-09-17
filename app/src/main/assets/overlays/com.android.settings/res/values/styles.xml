@@ -25,11 +25,12 @@
     </style>
 
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+        <item name="android:colorSecondary">@android:color/holo_blue_light</item>
+        <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
         <item name="android:colorPrimaryDark">@android:color/holo_blue_light</item>
         <item name="android:colorPrimary">@android:color/holo_blue_light</item>
         <item name="android:statusBarColor">@android:color/holo_blue_light</item>
         <item name="android:navigationBarColor">@android:color/background_dark</item>
         <item name="android:windowBackground">@android:color/background_dark</item>
-        <item name="android:dividerVertical">@drawable/preference_list_divider_material</item>
     </style>
 </resources>
