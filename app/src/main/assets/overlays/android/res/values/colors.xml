@@ -18,7 +18,6 @@
     <color name="primary_material_dark">@android:color/background_dark</color>
     <color name="background_leanback_dark">@android:color/background_dark</color>
     <color name="notification_action_color_filter">#ffffffff</color>
-    <color name="notification_progress_background_color">@android:color/holo_purple</color>
     <color name="notification_icon_bg_color">#00000000</color>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#4dffffff</color>
@@ -89,6 +88,12 @@
     <!-- Notification panel default color -->
     <color name="notification_text_default_color">@android:color/holo_blue_bright</color>
     <color name="sender_text_color">#FFFFFFFF</color>
+    <color name="notification_material_background_color">#ffffffff</color>
+    <color name="notification_primary_text_color_dark">#ffffff</color>
+    <color name="notification_primary_text_color_light">#ffffff</color>
+    <color name="notification_progress_background_color">#d8ffffff</color>
+    <color name="notification_secondary_text_color_dark">#d8ffffff</color>
+    <color name="notification_secondary_text_color_light">#d8ffffff</color>
 
     <!-- Status bar color for semi transparent mode. -->
     <color name="system_bar_background_semi_transparent">#00000000</color> <!-- 0% black -->
