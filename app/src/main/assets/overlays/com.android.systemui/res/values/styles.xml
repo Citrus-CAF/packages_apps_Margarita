@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="systemui_theme" parent="@android:style/Theme.Material"/>
     <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog"/>
-
     <style name="TextAppearance.NotificationGuts" parent="">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@android:color/holo_blue_bright</item>
@@ -17,6 +15,14 @@
     </style>
     <style name="TextAppearance.NotificationGuts.Radio" parent="">
         <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <!-- qs panel -> add tiles page -->
+    <style name="edit_theme" parent="@android:style/Theme.Material">
+        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorControlActivated">@android:color/holo_blue_bright</item>
+        <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
+        <item name="android:colorPrimary">@android:color/background_dark</item>
     </style>
 
 </resources>
