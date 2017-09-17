@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material"/>
+    <style name="Theme.DeviceDefault.Light" parent="@*android:style/Theme.Material" />
+    <style name="Theme.DeviceDefault.Dark" parent="@*android:style/Theme.Material" />
     <style name="Theme.Material.Light.Dialog.NoActionBar"
            parent="@android:style/Theme.Material.Dialog">
         <item name="windowActionBar">false</item>
