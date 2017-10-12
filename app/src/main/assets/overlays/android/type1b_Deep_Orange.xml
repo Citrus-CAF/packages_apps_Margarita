@@ -2,7 +2,7 @@
 <resources>
 <!-- Background -->
 <color name="background_dark">#150602</color>
-<color name="holo_purple">#230A03</color>
+<color name="holo_purple">#0dffffff</color>
 <!-- Primary -->
 <color name="holo_blue_light">@*android:color/holo_purple</color>
 <color name="holo_blue_dark">@*android:color/background_dark</color>
