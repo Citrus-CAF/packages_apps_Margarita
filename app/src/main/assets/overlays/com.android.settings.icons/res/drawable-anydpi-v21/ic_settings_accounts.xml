@@ -4,31 +4,23 @@
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24"
-    android:tint="?android:attr/colorAccent">
+    android:tint="?android:attr/colorControlNormal">
 
     <path
-        android:strokeColor="#009688"
-        android:strokeWidth="1"
-        android:pathData="M11.955,11.221c1.293,0 2.329,-1.044 2.329,-2.338c0,-1.293 -1.036,-2.338
--2.329,-2.338c-1.294,0 -2.338,1.045 -2.338,2.338c0,1.294 1.044,2.338
-2.338,2.338Zm0,1.558c-1.816,0 -5.455,0.912
--5.455,2.727l0,1.949l10.909,0l0,-1.949c0,-1.815 -3.639,-2.727 -5.454,-2.727Z" />
+        android:fillColor="#4dffffff"
+        android:pathData="M 2.987 2.987 H 21.012 V 21.012 H 2.987 V 2.987 Z" />
     <path
-        android:strokeColor="#009688"
-        android:strokeWidth="1"
-        android:strokeMiterLimit="1.5"
-        android:strokeLineCap="round"
-        android:pathData="M12,23l11,0l0,-22l-22,0l0,14.51" />
+        android:strokeColor="#000"
+        android:strokeWidth="1.2"
+        android:pathData="M 1.13 1.13 H 22.871 V 22.871 H 1.13 V 1.13 Z" />
     <path
-        android:strokeColor="#009688"
-        android:strokeWidth="1"
-        android:strokeMiterLimit="1.5"
-        android:strokeLineCap="round"
-        android:pathData="M20,1l0,3l-16,0l0,16l16,0l0,-7.959" />
-    <path
-        android:strokeColor="#009688"
-        android:strokeWidth="1"
-        android:strokeMiterLimit="1.5"
-        android:strokeLineCap="round"
-        android:pathData="M20,12l3,0" />
+        android:fillColor="#000000"
+        android:pathData="M14.182,11.455c0.905,0 1.631,-0.731 1.631,-1.637c0,-0.905 -0.726,-1.636
+-1.631,-1.636c-0.906,0 -1.637,0.731 -1.637,1.636c0,0.906 0.731,1.637
+1.637,1.637Zm-4.364,0c0.906,0 1.631,-0.731 1.631,-1.637c0,-0.905 -0.725,-1.636
+-1.631,-1.636c-0.905,0 -1.636,0.731 -1.636,1.636c0,0.906 0.731,1.637
+1.636,1.637Zm0,1.09c-1.271,0 -3.818,0.639
+-3.818,1.91l0,1.363l7.636,0l0,-1.363c0,-1.271 -2.547,-1.91
+-3.818,-1.91Zm4.364,0c-0.158,0 -0.338,0.011 -0.529,0.028c0.632,0.458 1.074,1.074
+1.074,1.882l0,1.363l3.273,0l0,-1.363c0,-1.271 -2.547,-1.91 -3.818,-1.91Z" />
 </vector>
