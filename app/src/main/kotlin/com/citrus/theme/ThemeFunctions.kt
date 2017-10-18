@@ -10,7 +10,6 @@ import android.net.Uri
 import android.os.RemoteException
 import android.widget.Toast
 import com.citrus.theme.Constants.BLACKLISTED_APPLICATIONS
-import com.citrus.theme.Constants.ENABLE_BLACKLISTED_APPLICATIONS
 import com.citrus.theme.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
 import com.citrus.theme.Constants.MINIMUM_SUBSTRATUM_VERSION
 import com.citrus.theme.Constants.OTHER_THEME_SYSTEMS
@@ -112,11 +111,9 @@ object ThemeFunctions {
     }
 
     fun getSelfVerifiedPirateTools(context: Context): Boolean {
-        if (ENABLE_BLACKLISTED_APPLICATIONS) {
-            BLACKLISTED_APPLICATIONS
-                    .filter { isPackageInstalled(context, it) }
-                    .forEach { return false }
-        }
+        BLACKLISTED_APPLICATIONS
+                .filter { isPackageInstalled(context, it) }
+                .forEach { return false }
         return true
     }
 
