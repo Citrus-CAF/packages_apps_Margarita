@@ -13,7 +13,7 @@ android:
 before_install:
   - "./notify.sh"
 install:
-  - echo "y" | sdkmanager "ndk-bundle" "cmake;3.6.4111459" "lldb;2.3"
+  - yes | sdkmanager --channel=3 "ndk-bundle" "cmake;3.6.4111459" "lldb;3.0"
 script:
   - "./gradlew clean assembleDebug"
 notifications:
@@ -33,4 +33,3 @@ env:
   - secure: "XhNfjzlqL/v48jAkGRx8QIGp4XCLq/Nar48TkNfoBNNrflbgGfkNXCGk93d2FisvHq8XIAgz+4xlhjentJyahgojwysjcjjef+bzqBehuoH9tZFnobz6Wdk2aKK9TQ30LWGz7IL/IJVvahwEO1BbHYut6/H63ei3vAHeo/vDJj5rf8KOIKOU6TEakZEoWYV6MPj9gyscvlc5SCCaIgkXRrKH7qsY+oMUhPCeUq9lEJ8P1B7pwM39J1kFtMEQk8jTpIaZN5/qhqlbDJHpFs8Hj/MfbUN1LeKJZyEM0nOPMomatIY+nm78DZb+NpPoCGtfW4GyJDH/5FqlQGcBbb8uXx+r2ORSyDUYpHHuOIdf55EzxqtIYOrUbYrCQoEAiuW9uqxXddtBuRPcYActnVPcrjoiHxe1052/716aFN0DhckYe3/RuXBTLlfkX9Tdr3JqOK5FH2XHi+w4t5sXKY0N3vnnsVAQDBdxz2FUbF/gCX1Gk9ihDf4oEuR0HsUWQO6LaAC0McPwXL+N/sJ/KBJ6P5GW+swYwaK8P+m9qsmYSWsSAnHfWFZlVXKPNDrY0QVV6LfnSb3bbHT/Hp8Ut6maoBet5cfXZlrdISa6S+yeUFNECM04ibIRJyMR7Hq6iRIT4fLs+JqBrzcxDnLuNNJpdm25Nb0XDm0EQUBQh77CDFM="
 after_success:
   - "./push.sh"
-
