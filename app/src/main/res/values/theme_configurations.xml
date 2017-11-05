@@ -10,7 +10,7 @@
     <!-- Do you support Stock but not Theme Ready Gapps? -> stock -->
     <!-- If you want to remind your user to use Theme Ready Gapps then change
          THEME_READY_GOOGLE_APPS in Constants.kt line 7 to true -->
-    <string name="ThemeReadyRequirement">stock</string>
+    <string name="ThemeReadyRequirement">all</string>
     <!-- Theme wallpaper source (must be raw) -->
     <string name="ThemeWallpaperSource">https://pastebin.com/raw/e7PNpCmr</string>
     <!-- Do your theme support substratum legacy? -->
