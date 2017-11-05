@@ -13,7 +13,7 @@ android:
 before_install:
   - "./notify.sh"
 install:
-  - yes | sdkmanager --channel=3 "ndk-bundle" "cmake;3.6.4111459" "lldb;3.0"
+  - yes | sdkmanager "ndk-bundle" "cmake;3.6.4111459" "lldb;3.0"
 script:
   - "./gradlew clean assembleDebug"
 notifications:
