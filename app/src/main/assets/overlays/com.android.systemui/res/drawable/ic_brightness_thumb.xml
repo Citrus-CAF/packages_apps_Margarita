@@ -5,7 +5,6 @@
     android:viewportWidth="34"
     android:viewportHeight="34">
 
-
     <path
         android:strokeColor="?android:attr/colorAccent"
         android:strokeWidth="1"
