@@ -37,7 +37,5 @@
         <item name="android:textColorSecondary">#ffdddddd</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="Theme.SettingsBase" parent="@*android:style/Theme.Material.Settings">
-        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
-    </style>
+
 </resources>

@@ -2,10 +2,9 @@
 <resources>
     <style name="PreferenceFragmentListSinglePane" parent="@*android:style/PreferenceFragmentList">
         <item name="android:scrollbarStyle">outsideOverlay</item>
-        <item name="android:background">@android:color/background_dark</item>
+        <item name="android:background">@*android:color/holo_gray_bright</item>
     </style>
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
-        <item name="android:background">@android:color/holo_blue_light</item>
         <item name="android:elevation">0.0dip</item>
     </style>
     <style name="SecurityPreferenceButtonContainer"
@@ -24,13 +23,4 @@
         <item name="android:layout_weight">1.0</item>
     </style>
 
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
-        <item name="android:colorSecondary">@android:color/holo_blue_light</item>
-        <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
-        <item name="android:colorPrimaryDark">@android:color/holo_blue_light</item>
-        <item name="android:colorPrimary">@android:color/holo_blue_light</item>
-        <item name="android:statusBarColor">@android:color/holo_blue_light</item>
-        <item name="android:navigationBarColor">@android:color/background_dark</item>
-        <item name="android:windowBackground">@android:color/background_dark</item>
-    </style>
 </resources>

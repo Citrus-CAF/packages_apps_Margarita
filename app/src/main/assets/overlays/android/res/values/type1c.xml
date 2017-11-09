@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- colors -->
+    <color name="holo_gray_bright">@*android:color/background_dark</color> <!-- used as background color for material settings -->
+    <color name="holo_primary_dark">@*android:color/holo_blue_dark</color> <!-- used as PrimaryDark color for material settings -->
+    <color name="holo_primary">@*android:color/holo_blue_light</color> <!-- used as Primary color for material settings -->
+
+    <!-- styles -->
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
+        <item name="android:statusBarColor">@*android:color/holo_primary_dark</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
+    </style>
+
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
+        <item name="android:statusBarColor">@*android:color/holo_primary_dark</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
+    </style>
+
+    <style name="Theme.Material.Settings.NoActionBar"
+        parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="Theme.Material.Settings.BaseDialog"
+        parent="@*android:style/Theme.Material.BaseDialog">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="Theme.Material.Settings.Dialog.BaseAlert"
+        parent="@*android:style/Theme.Material.Dialog.BaseAlert">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="Theme.Material.Settings.DialogWhenLarge"
+        parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar"
+        parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="Theme.Material.Settings.Dialog.Presentation"
+        parent="@android:style/Theme.Material.Dialog.Presentation">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="colorBackground">@*android:color/holo_gray_bright</item>
+    </style>
+
+    <style name="Theme.Material.Settings.SearchBar"
+        parent="@*android:style/Theme.Material.SearchBar">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="Theme.Material.Settings.CompactMenu"
+        parent="@*android:style/Theme.Material.CompactMenu">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+</resources>
