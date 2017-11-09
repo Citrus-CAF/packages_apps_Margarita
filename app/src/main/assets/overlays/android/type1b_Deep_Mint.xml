@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="background_dark">#ff021B1B</color>
+    <color name="holo_purple">#ff0E1F1E</color>
+    <!-- Primary -->
+    <color name="holo_blue_light">#ff13282B</color>
+    <color name="holo_blue_dark">#ff102224</color>
+</resources>
