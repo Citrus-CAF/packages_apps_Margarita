@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Popup container -->
+    <color name="popup_header_background_color">@*android:color/background_dark</color>
+    <color name="popup_background_color">@*android:color/background_dark</color>
+</resources>
