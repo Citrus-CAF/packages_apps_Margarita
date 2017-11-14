@@ -146,7 +146,7 @@
     <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth"
            parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth"/>
     <style name="Theme.DeviceDefault.Light.DialogWhenLarge"
-           parent="@android:style/Theme.Material.DialogWhenLarge"/>
+           parent="@*android:style/Theme.Material.DialogWhenLarge"/>
     <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar"
            parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar"/>
     <style name="Theme.DeviceDefault.Light.Panel" parent="@android:style/Theme.Material.Panel"/>
@@ -165,6 +165,7 @@
            parent="@android:style/Theme.Material.Dialog.Presentation"/>
     <style name="Theme.DeviceDefault.Light.Dialog.Alert"
            parent="@android:style/Theme.Material.Dialog.Alert"/>
+    <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.DeviceDefault.Light.SearchBar" parent="@style/Theme.Material.SearchBar"/>
 
     <style name="Theme.Material.SearchBar" parent="@android:style/Theme.Material.Panel"/>
@@ -255,7 +256,9 @@
     </style>
 
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:colorPrimary">@android:color/background_dark</item>
-        <item name="android:colorPrimaryDark">@android:color/background_dark</item>
+        <item name="android:colorPrimary">@*android:color/background_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
     </style>
+
 </resources>

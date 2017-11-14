@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog"/>
+    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
+
     <style name="TextAppearance.NotificationGuts" parent="">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@android:color/holo_blue_bright</item>
