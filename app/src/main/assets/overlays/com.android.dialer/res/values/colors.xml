@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colors for the notification actions -->
+    <color name="notification_action_accept">@*android:color/holo_blue_bright</color>
+    <color name="notification_action_answer_video">@*android:color/holo_blue_bright</color>
+    <color name="notification_action_dismiss">@*android:color/holo_blue_bright</color>
+    <color name="notification_action_end_call">@*android:color/holo_blue_bright</color>
+
+</resources>
