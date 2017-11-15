@@ -13,6 +13,8 @@
         <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
         <item name="android:statusBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
+        <item name="android:colorBackground">@*android:color/holo_primary</item>
+
     </style>
 
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
@@ -22,6 +24,7 @@
         <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
         <item name="android:statusBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
+        <item name="android:colorBackground">@*android:color/holo_primary</item>
     </style>
 
     <style name="Theme.Material.Settings.NoActionBar"
