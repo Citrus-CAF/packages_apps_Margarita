@@ -66,10 +66,11 @@
     <color name="volume_settings_icon_color">#7fffffff</color>
 
     <!-- Floating action button -->
-    <color name="fab_color">@android:color/holo_blue_bright</color>
-    <color name="floating_action_button_icon_color">#ffffff</color>
+    <color name="fab_color">#b3000000</color>
+    <color name="floating_action_button_icon_color">@*android:color/holo_blue_bright</color>
 
     <!-- notification panel background -->
     <color name="notification_shade_background_color">#000000</color>
     <color name="notification_gear_color">@android:color/holo_blue_bright</color>
+
 </resources>
