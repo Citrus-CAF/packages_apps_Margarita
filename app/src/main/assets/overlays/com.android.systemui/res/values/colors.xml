@@ -70,7 +70,7 @@
     <color name="floating_action_button_icon_color">@*android:color/holo_blue_bright</color>
 
     <!-- notification panel background -->
-    <color name="notification_shade_background_color">#000000</color>
+    <color name="notification_shade_background_color">@*android:color/holo_purple</color>
     <color name="notification_gear_color">@android:color/holo_blue_bright</color>
 
 </resources>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!-- Background -->
-<color name="background_dark">#ff131313</color>
-<color name="holo_purple">#ff181818</color>
+<color name="background_dark">#ff212121</color>
+<color name="holo_purple">#ff282828</color>
 <!-- Primary -->
-<color name="holo_blue_light">#ff212121</color>
-<color name="holo_blue_dark">#ff181818</color>
+<color name="holo_blue_light">@*android:color/holo_purple</color>
+<color name="holo_blue_dark">@*android:color/background_dark</color>
 </resources>
