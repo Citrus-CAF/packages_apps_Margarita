@@ -72,14 +72,13 @@
 
     <!-- Our changes starts -->
     <!-- Notification panel action buttons bg -->
-    <color name="notification_action_list">@android:color/holo_purple</color>
-    <color name="notification_action_list_dark">@android:color/holo_purple</color>
+    <color name="notification_action_list">@android:color/background_dark</color>
+    <color name="notification_action_list_dark">@android:color/background_dark</color>
 
     <!-- Notification panel default color -->
     <color name="notification_default_color">@android:color/holo_blue_bright</color>
     <color name="notification_text_default_color">@android:color/holo_blue_bright</color>
     <color name="sender_text_color">#FFFFFFFF</color>
-    <color name="notification_material_background_color">#ffffffff</color>
     <color name="notification_primary_text_color_dark">#ffffff</color>
     <color name="notification_primary_text_color_light">#ffffff</color>
     <color name="notification_progress_background_color">#d8ffffff</color>
@@ -92,4 +91,5 @@
     <!-- Primary -->
     <color name="holo_blue_light">@*android:color/holo_purple</color>
     <color name="holo_blue_dark">@*android:color/background_dark</color>
+
 </resources>

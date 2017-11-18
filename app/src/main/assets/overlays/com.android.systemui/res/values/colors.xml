@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="volume_slider_inactive">#ff9e9e9e</color>
-    <color name="notification_legacy_background_color">@android:color/background_dark</color>
-    <color name="notification_material_background_media_default_color">
-        @android:color/background_dark
-    </color>
-    <color name="notification_material_background_color">@android:color/background_dark</color>
-    <color name="notification_material_background_dimmed_color">@android:color/background_dark
-    </color>
-    <color name="notification_material_background_low_priority_color">
-        @android:color/background_dark
-    </color>
+    <color name="notification_legacy_background_color">@android:color/holo_purple</color>
+    <color name="notification_material_background_media_default_color">@android:color/holo_purple</color>
+    <color name="notification_material_background_color">@android:color/holo_purple</color>
+    <color name="notification_material_background_dimmed_color">@android:color/background_dark</color>
+    <color name="notification_material_background_low_priority_color">@android:color/background_dark</color>
     <color name="notification_ripple_untinted_color">#28ffffff</color>
     <color name="notification_ripple_color_low_priority">#30ffffff</color>
     <color name="qs_tile_divider">@android:color/holo_blue_bright</color>
@@ -42,10 +37,8 @@
     <!-- Shadow color for the furthest pixels around the fake shadow for recents. -->
     <color name="fake_shadow_end_color">#03000000</color>
 
-    <color name="screen_pinning_nav_icon_highlight_outer">#40757575
-    </color><!-- 25% deep teal 200 -->
-    <color name="screen_pinning_request_bg">@android:color/holo_blue_bright
-    </color><!-- deep teal 500 -->
+    <color name="screen_pinning_nav_icon_highlight_outer">#40757575</color><!-- 25% deep teal 200 -->
+    <color name="screen_pinning_request_bg">@android:color/holo_blue_bright</color><!-- deep teal 500 -->
     <color name="screen_pinning_request_window_bg">#80000000</color>
 
     <color name="segmented_buttons_background">#14FFFFFF</color><!-- 8% white -->
@@ -66,11 +59,11 @@
     <color name="volume_settings_icon_color">#7fffffff</color>
 
     <!-- Floating action button -->
-    <color name="fab_color">#b3000000</color>
+    <color name="fab_color">@*android:color/holo_purple</color>
     <color name="floating_action_button_icon_color">@*android:color/holo_blue_bright</color>
 
     <!-- notification panel background -->
-    <color name="notification_shade_background_color">@*android:color/holo_purple</color>
+    <color name="notification_shade_background_color">@*android:color/background_dark</color>
     <color name="notification_gear_color">@android:color/holo_blue_bright</color>
 
 </resources>
