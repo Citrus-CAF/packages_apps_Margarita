@@ -2,5 +2,5 @@
 <resources>
     <!-- Background -->
     <color name="background_dark">#ff000000</color>
-    <color name="holo_purple">#ff141414</color>
+    <color name="holo_purple">@*android:color/background_dark</color>
 </resources>
