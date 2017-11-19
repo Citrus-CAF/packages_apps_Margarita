@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="background_dark">#ff181B34</color>
+    <color name="holo_purple">#ff1B1E3A</color>
+</resources>
