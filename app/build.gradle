@@ -75,6 +75,11 @@ android {
             // When you compile an APK as release, your resources and IV keys will be safeguarded
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "Margarita-v${variant.versionName}.apk"
+                }
+            }
         }
     }
     sourceSets {
