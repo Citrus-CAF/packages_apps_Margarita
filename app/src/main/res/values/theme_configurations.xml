@@ -26,6 +26,7 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
+        <item>v2.0.1 - Mon, 20-11-2017\n- Fixed navbar theming.\n- Update copyrights.</item>
         <item>v2.0 - Sun, 19-11-2017\n- Merged upstream substratum template.\n- Oreo support.\n- Redesigned Settings dashboard icons.\n- Cleanedup unneeded resources.\n- Redone Backgrounds and Added more accents.\n- Volte icon.\n- New Brightness slider icon.\n- Themed Navbar icons.\n- Themed Powermenu.\n- Themed Volume panel.\n- Fixed Dialer notification.</item>
         <item>v1\n- Initial</item>
     </string-array>
