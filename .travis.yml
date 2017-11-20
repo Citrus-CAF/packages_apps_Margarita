@@ -10,6 +10,11 @@ android:
   - extra-android-m2repository
   licenses:
   - ".+"
+# exclude ci builds for stable branch
+branches:
+  only:
+  - o8x-exp
+
 before_install:
   - "./notify.sh"
 install:
