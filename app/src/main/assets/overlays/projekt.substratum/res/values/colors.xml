@@ -1,0 +1,94 @@
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+    <!-- main theme colors -->
+    <color name="colorPrimary">@*android:color/holo_blue_light</color>
+    <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
+    <color name="colorAccent">@*android:color/holo_blue_bright</color>
+    <color name="navigationBarColor">@*android:color/holo_blue_light</color>
+    <color name="statusBarColor">@*android:color/holo_blue_dark</color>
+
+    <!-- Hardcode the colors so it doesn't change every time an Android System overlay changes -->
+    <color name="floatui_dialog_background">@*android:color/background_dark</color>
+    <color name="floatui_dialog_header_background">@*android:color/holo_blue_light</color>
+    <color name="floatui_dialog_title_color">@android:color/white</color>
+    <color name="floatui_dialog_checkmark_color">@*android:color/holo_blue_bright</color>
+    <color name="floatui_dialog_button_color">@*android:color/holo_blue_bright</color>
+
+    <!-- sheet dialog bg -->
+    <color name="bottom_sheet_dialog_background">@*android:color/holo_blue_light</color>
+
+    <color name="error_icons">@android:color/white</color>
+
+    <color name="troubleshooting_card_line_color">@*android:color/holo_blue_bright</color>
+
+    <color name="priorities_drag_handle">@*android:color/holo_blue_bright</color>
+
+    <color name="tab_defaults_icon_tint">@*android:color/holo_blue_bright</color>
+
+    <color name="number_progress_bar_validation_success">@*android:color/holo_blue_bright</color>
+
+    <color name="bootanimation_placeholder_tint">@*android:color/holo_blue_bright</color>
+    <color name="bootanimation_window_background">@*android:color/background_dark</color>
+
+    <color name="font_window_background">@*android:color/background_dark</color>
+
+    <color name="sounds_placeholder_tint">@*android:color/holo_blue_light</color>
+    <color name="sounds_play_pause_button_tint">@*android:color/holo_blue_light</color>
+    <color name="sounds_window_background">@*android:color/background_dark</color>
+
+    <color name="backup_button_text_color">@*android:color/holo_blue_bright</color>
+    <color name="restore_button_text_color">@*android:color/holo_blue_bright</color>
+
+    <!-- splashscreen bg -->
+    <color name="splashscreen_background">@*android:color/background_dark</color>
+
+    <!-- used for sheet -->
+    <color name="main_screen_card_background">@*android:color/holo_blue_light</color>
+    <color name="main_screen_card_theme_title">#ffffffff</color>
+    <color name="main_screen_card_theme_author">#dfffffff</color>
+
+    <!-- Wallpaper bg -->
+    <color name="wallpaper_bg_background">@*android:color/background_dark</color>
+
+    <!-- Theme info card shown when long pressed a theme -->
+    <color name="theme_information_background">@*android:color/holo_blue_light</color>
+    <color name="theme_information_card_divider">@*android:color/transparent</color>
+    <color name="theme_information_card_subtext">@android:color/white</color>
+
+    <!-- Drawer menu -->
+    <color name="material_drawer_icon_color">@*android:color/holo_blue_bright</color>
+    <color name="material_drawer_background">@*android:color/holo_blue_light</color>
+    <color name="material_drawer_header_background">@*android:color/holo_blue_dark</color>
+    <color name="material_drawer_primary_text">#ffffff</color>
+    <color name="material_drawer_secondary_text">#d8ffffff</color>
+    <color name="material_drawer_selected">@android:color/holo_blue_dark</color>
+    <color name="material_drawer_selected_text">@android:color/holo_blue_bright</color>
+
+    <!-- FAB -->
+    <color name="fab_menu_background_card">@*android:color/holo_blue_light</color>
+    <color name="fab_menu_icon_color">@*android:color/holo_blue_bright</color>
+    <color name="fab_menu_text_color">@*android:color/white</color>
+    <color name="fab_menu_divider">@*android:color/transparent</color>
+    <color name="fab_background_color">@*android:color/holo_blue_light</color>
+
+    <!-- menu item background and text color -->
+    <color name="material_grey_50">@android:color/background_dark</color>
+    <color name="primary_text_default_material_light">#ffffff</color>
+
+
+</resources>
