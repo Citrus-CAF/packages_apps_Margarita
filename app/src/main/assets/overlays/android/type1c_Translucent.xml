@@ -32,6 +32,7 @@
         <item name="android:colorBackground">@*android:color/holo_primary</item>
         <item name="android:windowBackground">@*android:drawable/menuitem_background</item>
         <item name="android:windowShowWallpaper">true</item>
+        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.DeviceDefault.ActionBar.Accent</item>
     </style>
 
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
