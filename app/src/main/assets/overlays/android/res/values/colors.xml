@@ -19,8 +19,6 @@
     <color name="background_leanback_dark">@android:color/background_dark</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#00000000</color>
-    <color name="ripple_material_dark">#4dffffff</color>
-    <color name="ripple_material_light">#4dffffff</color>
     <color name="holo_red_light">#fff44336</color>
     <color name="holo_orange_light">#ffff9800</color>
     <color name="holo_green_light">#ff4caf50</color>
