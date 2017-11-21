@@ -55,6 +55,12 @@ android {
         }
     }
 
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "Margarita-v${variant.versionName}.apk"
+        }
+    }
+
     signingConfigs {
         debug {
             // Override the local debug keystore, so that
@@ -75,13 +81,9 @@ android {
             // When you compile an APK as release, your resources and IV keys will be safeguarded
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            applicationVariants.all { variant ->
-                variant.outputs.all {
-                    outputFileName = "Margarita-v${variant.versionName}.apk"
-                }
-            }
         }
     }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
@@ -93,9 +95,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.github.javiersantos:PiracyChecker:1.1'
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.github.javiersantos:PiracyChecker:1.1'
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
         transitive = true
     }
 }
