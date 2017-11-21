@@ -33,6 +33,7 @@
         <item name="android:windowBackground">@*android:drawable/menuitem_background</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:actionBarTheme">@*android:style/ThemeOverlay.DeviceDefault.ActionBar.Accent</item>
+        <item name="android:colorEdgeEffect">@*android:color/holo_blue_bright</item>
     </style>
 
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
