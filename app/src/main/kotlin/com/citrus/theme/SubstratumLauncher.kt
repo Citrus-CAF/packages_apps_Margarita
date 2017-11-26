@@ -22,7 +22,6 @@ import com.citrus.theme.Constants.SUBSTRATUM_FILTER_CHECK
 import com.citrus.theme.Constants.THEME_READY_GOOGLE_APPS
 import com.citrus.theme.Constants.THEME_READY_PACKAGES
 import com.citrus.theme.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
-import com.citrus.theme.ThemeFunctions.checkNetworkConnection
 import com.citrus.theme.ThemeFunctions.checkSubstratumIntegrity
 import com.citrus.theme.ThemeFunctions.getSelfSignature
 import com.citrus.theme.ThemeFunctions.getSelfVerifiedIntentResponse
@@ -206,20 +205,13 @@ class SubstratumLauncher : Activity() {
         }
     }
 
-    private fun checkConnection(certified: Boolean, modeLaunch: String?): Boolean {
-        val isConnected = checkNetworkConnection()
-        return if (!isConnected!!) {
-            Toast.makeText(this, R.string.toast_internet, Toast.LENGTH_LONG).show()
-            false
+    private fun checkConnection(certified: Boolean, modeLaunch: String?) {
+        val editor = getPreferences(Context.MODE_PRIVATE).edit()
+        editor.putInt("last_version", BuildConfig.VERSION_CODE).apply()
+        if (THEME_READY_GOOGLE_APPS) {
+            detectThemeReady(certified, modeLaunch)
         } else {
-            val editor = getPreferences(Context.MODE_PRIVATE).edit()
-            editor.putInt("last_version", BuildConfig.VERSION_CODE).apply()
-            if (THEME_READY_GOOGLE_APPS) {
-                detectThemeReady(certified, modeLaunch)
-            } else {
-                calibrateSystem(certified, modeLaunch)
-            }
-            true
+            calibrateSystem(certified, modeLaunch)
         }
     }
 
