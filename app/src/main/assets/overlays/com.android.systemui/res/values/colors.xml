@@ -66,4 +66,8 @@
     <color name="notification_shade_background_color">@*android:color/background_dark</color>
     <color name="notification_gear_color">@android:color/holo_blue_bright</color>
 
+    <!-- Navigation button ripple color -->
+    <color name="navbutton_ripple_color">@*android:color/holo_blue_bright</color>
+    <!-- Navigation button ripple color for LightNavigationBar -->
+    <color name="navbutton_ripple_color_dark">@*android:color/holo_blue_bright</color>
 </resources>
