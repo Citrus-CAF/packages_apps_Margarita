@@ -29,4 +29,9 @@
 
     <!-- Phyisical Keyboard Dialog style -->
     <style name="KeyboardShortcutsDialog" parent="@*android:style/Theme.Material" />
+
+    <!-- Screenshot action colors -->
+    <color name="screenshot_flash_color">@android:color/holo_blue_bright</color>
+    <color name="screenshot_background_color">@android:color/background_dark</color>
+
 </resources>
