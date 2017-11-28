@@ -27,4 +27,6 @@
         <item name="android:colorPrimary">@android:color/background_dark</item>
     </style>
 
+    <!-- Phyisical Keyboard Dialog style -->
+    <style name="KeyboardShortcutsDialog" parent="@*android:style/Theme.Material" />
 </resources>
