@@ -68,6 +68,9 @@ proguard/
 # Temp files for KDE and other Editor's
 *~
 
+# Windows thumbnail database file
+Thumbs.db
+
 #############################################################################
 # Android Studio related files
 #############################################################################
