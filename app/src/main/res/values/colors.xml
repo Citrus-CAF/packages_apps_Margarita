@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright 2015 Google Inc.
-  ~
+  ~ Copyright (C) 2017 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
   ~ You may obtain a copy of the License at
@@ -13,14 +12,27 @@
   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
+  ~
   -->
+
 <resources>
-    <color name="white">#FFFFFF</color>
-    <color name="dark_grey">#424242</color>
-    <color name="medium_grey">#9E9E9E</color>
-    <color name="button_grey">#757575</color>
-    <color name="background_dark">#ff343944</color>
-    <color name="colorPrimary">#ff3f51b5</color>
-    <color name="colorPrimaryDark">#ff3f51b5</color>
-    <color name="colorAccent">#ff448aff</color>
+    <!-- Main colors -->
+    <color name="colorPrimary">#37474f</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#00c853</color>
+    <color name="main_background">#EAEAEA</color>
+    <color name="white_transparent">#99ffffff</color>
+    <color name="toolbar_item_color">#ffffff</color>
+
+    <!-- Navigation drawer -->
+    <color name="nav_drawer_header_background">@color/colorPrimaryDark</color>
+    <color name="nav_drawer_icon_color">#000000</color>
+
+    <!-- Floating action button/menu -->
+    <color name="fab_git_background">#37474F</color>
+    <color name="fab_gplus_background">#DB4437</color>
+    <color name="fab_tg_background">#517EA1</color>
+    <color name="fab_apply_background">#3F51B5</color>
+    <color name="fab_main_background">@color/colorAccent</color>
+    <color name="fab_foreground_tint">#ffffff</color>
 </resources>

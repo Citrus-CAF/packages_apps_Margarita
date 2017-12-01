@@ -1,6 +1,5 @@
 /*
- * Copyright (C) 2015 The Android Open Source Project
- *
+ * Copyright (C) 2017 Citrus-CAF Project
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -12,6 +11,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
  */
 
 package com.citrus.theme;
@@ -19,76 +19,61 @@ package com.citrus.theme;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.NavigationView;
-import android.support.design.widget.TabLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.graphics.drawable.VectorDrawableCompat;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.res.ResourcesCompat;
+import android.support.v4.content.ContextCompat;
+import android.view.View;
+import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * Provides UI for the main screen.
- */
-public class MainActivity extends AppCompatActivity {
-
-    private DrawerLayout mDrawerLayout;
+public class MainActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // Adding Toolbar to Main screen
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        // Setting ViewPager for each Tabs
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-        setupViewPager(viewPager);
-        // Set Tabs inside Toolbar
-        TabLayout tabs = (TabLayout) findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
-        // Create Navigation drawer and inlfate layout
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
         // Adding menu icon to Toolbar
         ActionBar supportActionBar = getSupportActionBar();
         if (supportActionBar != null) {
             VectorDrawableCompat indicator
-                    = VectorDrawableCompat.create(getResources(), R.drawable.ic_menu_black_24dp, getTheme());
-            indicator.setTint(ResourcesCompat.getColor(getResources(), R.color.white,getTheme()));
+                    = VectorDrawableCompat.create(getResources(), R.drawable.ic_nav_menu, getTheme());
+            indicator.setTint(ResourcesCompat.getColor(getResources(), R.color.toolbar_item_color, getTheme()));
             supportActionBar.setHomeAsUpIndicator(indicator);
             supportActionBar.setDisplayHomeAsUpEnabled(true);
         }
-        // Set behavior of Navigation drawer
-        navigationView.setNavigationItemSelectedListener(
-                new NavigationView.OnNavigationItemSelectedListener() {
-                    // This method will trigger on item Click of navigation menu
-                    @Override
-                    public boolean onNavigationItemSelected(MenuItem menuItem) {
-                        // Set item in checked state
-                        menuItem.setChecked(true);
 
-                        // TODO: handle navigation
+        // Hide  title from Expanded toolbar
+        CollapsingToolbarLayout cToolbar = findViewById(R.id.collapsing_toolbar_layout);
+        cToolbar.setExpandedTitleColor(ContextCompat.getColor(this, android.R.color.transparent));
 
-                        // Closing drawer on item click
-                        mDrawerLayout.closeDrawers();
-                        return true;
-                    }
-                });
+        // Close FAB when touched outside
+        com.github.clans.fab.FloatingActionMenu fabMain = findViewById(R.id.fab_main);
+        fabMain.setClosedOnTouchOutside(true);
 
-        com.github.clans.fab.FloatingActionButton fabSub = findViewById(R.id.fab_substratum);
-        fabSub.setOnClickListener(new View.OnClickListener() {
+        com.github.clans.fab.FloatingActionButton fabApply = findViewById(R.id.fab_apply);
+        fabApply.setLabelColors(ContextCompat.getColor(this, R.color.fab_apply_background),
+                ContextCompat.getColor(this, R.color.fab_apply_background),
+                ContextCompat.getColor(this, R.color.white_transparent));
+        fabApply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
@@ -107,62 +92,59 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        com.github.clans.fab.FloatingActionButton fabGPlus = findViewById(R.id.fab_gplus);
-        fabGPlus.setOnClickListener(new View.OnClickListener() {
+        com.github.clans.fab.FloatingActionButton fabTelegram = findViewById(R.id.fab_telegram);
+        fabTelegram.setLabelColors(ContextCompat.getColor(this, R.color.fab_tg_background),
+                ContextCompat.getColor(this, R.color.fab_tg_background),
+                ContextCompat.getColor(this, R.color.white_transparent));
+        fabTelegram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.gplus_substratum_community))));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.telegram_channel_link))));
             }
         });
 
-    }
-
-    // Add Fragments to Tabs
-    private void setupViewPager(ViewPager viewPager) {
-        Adapter adapter = new Adapter(getSupportFragmentManager());
-        adapter.addFragment(new WelcomeFragment(), getString(R.string.first_tab));
-        viewPager.setAdapter(adapter);
-    }
-
-    static class Adapter extends FragmentPagerAdapter {
-        private final List<Fragment> mFragmentList = new ArrayList<>();
-        private final List<String> mFragmentTitleList = new ArrayList<>();
-
-        public Adapter(FragmentManager manager) {
-            super(manager);
-        }
-
-        @Override
-        public Fragment getItem(int position) {
-            return mFragmentList.get(position);
-        }
-
-        @Override
-        public int getCount() {
-            return mFragmentList.size();
-        }
-
-        public void addFragment(Fragment fragment, String title) {
-            mFragmentList.add(fragment);
-            mFragmentTitleList.add(title);
-        }
-
-        @Override
-        public CharSequence getPageTitle(int position) {
-            return mFragmentTitleList.get(position);
-        }
+        com.github.clans.fab.FloatingActionButton fabGPlus = findViewById(R.id.fab_gplus);
+        fabGPlus.setLabelColors(ContextCompat.getColor(this, R.color.fab_gplus_background),
+                ContextCompat.getColor(this, R.color.fab_gplus_background),
+                ContextCompat.getColor(this, R.color.white_transparent));
+        fabGPlus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.gplus_community_link))));
+            }
+        });
+        com.github.clans.fab.FloatingActionButton fabGit = findViewById(R.id.fab_git);
+        fabGit.setLabelColors(ContextCompat.getColor(this, R.color.fab_git_background),
+                ContextCompat.getColor(this, R.color.fab_git_background),
+                ContextCompat.getColor(this, R.color.white_transparent));
+        fabGit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.github_source_link))));
+            }
+        });
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        //noinspection SimplifiableIfStatement
-        if (id == android.R.id.home) {
-            mDrawerLayout.openDrawer(GravityCompat.START);
+    public void onBackPressed() {
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
         }
-        return super.onOptionsItemSelected(item);
+    }
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+        if (id == R.id.nav_dashboard) {
+        }
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
 }

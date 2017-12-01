@@ -14,11 +14,15 @@
   ~
   -->
 
-<resources>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0"
+        android:tint="@color/fab_foreground_tint">
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
-</resources>
+    <path
+        android:pathData="M21,22.428l-9.104,-20.945l-8.896,21.034l7,-0.025l1.926,-15.009l2.074,14.99l7,-0.045Z"
+        android:fillType="nonZero"
+        android:fillColor="#fff"/>
+</vector>
