@@ -16,12 +16,17 @@
 
 package com.citrus.theme;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -66,9 +71,8 @@ public class MainActivity extends AppCompatActivity
         cToolbar.setExpandedTitleColor(ContextCompat.getColor(this, android.R.color.transparent));
 
         // Close FAB when touched outside
-        com.github.clans.fab.FloatingActionMenu fabMain = findViewById(R.id.fab_main);
+        final com.github.clans.fab.FloatingActionMenu fabMain = findViewById(R.id.fab_main);
         fabMain.setClosedOnTouchOutside(true);
-
         com.github.clans.fab.FloatingActionButton fabApply = findViewById(R.id.fab_apply);
         fabApply.setLabelColors(ContextCompat.getColor(this, R.color.fab_apply_background),
                 ContextCompat.getColor(this, R.color.fab_apply_background),
@@ -76,21 +80,36 @@ public class MainActivity extends AppCompatActivity
         fabApply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent();
-                intent = intent.setClassName("projekt.substratum",
-                        "projekt.substratum.activities.launch.ThemeLaunchActivity");
-                intent.putExtra("package_name", getString(R.string.theme_package_name));
-                intent.setAction("projekt.substratum.THEME");
-                intent.setPackage(getString(R.string.theme_package_name));
-                intent.putExtra("calling_package_name", getString(R.string.theme_package_name));
-                intent.putExtra("oms_check", false);
-                intent.putExtra("theme_mode", (String) null);
-                intent.putExtra("notification", false);
-                intent.putExtra("hash_passthrough", true);
-                intent.putExtra("certified", false);
-                startActivity(intent);
+                boolean substratumInstalled = isAppInstalled("projekt.substratum");
+                if (substratumInstalled) {
+                    Intent intent = new Intent();
+                    intent = intent.setClassName("projekt.substratum",
+                            "projekt.substratum.activities.launch.ThemeLaunchActivity");
+                    intent.putExtra("package_name", getString(R.string.theme_package_name));
+                    intent.setAction("projekt.substratum.THEME");
+                    intent.setPackage(getString(R.string.theme_package_name));
+                    intent.putExtra("calling_package_name", getString(R.string.theme_package_name));
+                    intent.putExtra("oms_check", false);
+                    intent.putExtra("theme_mode", (String) null);
+                    intent.putExtra("notification", false);
+                    intent.putExtra("hash_passthrough", true);
+                    intent.putExtra("certified", false);
+                    startActivity(intent);
+                } else {
+                    CoordinatorLayout cLayout = findViewById(R.id.app_bar_main_content);
+                    Snackbar snackbar = Snackbar
+                            .make(cLayout, R.string.substratum_not_installed_message, Snackbar.LENGTH_SHORT)
+                            .setAction(R.string.install_message, new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.substratum_playstore_link))));
+                                }
+                            });
+                    snackbar.show();
+                }
             }
         });
+
 
         com.github.clans.fab.FloatingActionButton fabTelegram = findViewById(R.id.fab_telegram);
         fabTelegram.setLabelColors(ContextCompat.getColor(this, R.color.fab_tg_background),
@@ -146,5 +165,15 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private boolean isAppInstalled(String appUri) {
+        try {
+            PackageManager pm = getApplicationContext().getPackageManager();
+            pm.getPackageInfo(appUri, PackageManager.GET_ACTIVITIES);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }

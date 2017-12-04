@@ -32,5 +32,7 @@
     <string name="fab_gplus_label">G+ community</string>
     <string name="fab_tg_label">Telegram channel</string>
     <string name="fab_apply_label">Apply theme</string>
-
+    <string name="substratum_not_installed_message">Substratum not installed!</string>
+    <string name="install_message">INSTALL</string>
+    <string name="substratum_playstore_link">https://play.google.com/store/apps/details?id=projekt.substratum</string>
 </resources>
