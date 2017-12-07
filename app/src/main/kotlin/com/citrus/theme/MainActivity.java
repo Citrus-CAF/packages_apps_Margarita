@@ -16,7 +16,6 @@
 
 package com.citrus.theme;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -26,7 +25,6 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -71,7 +69,7 @@ public class MainActivity extends AppCompatActivity
         cToolbar.setExpandedTitleColor(ContextCompat.getColor(this, android.R.color.transparent));
 
         // Close FAB when touched outside
-        final com.github.clans.fab.FloatingActionMenu fabMain = findViewById(R.id.fab_main);
+        com.github.clans.fab.FloatingActionMenu fabMain = findViewById(R.id.fab_main);
         fabMain.setClosedOnTouchOutside(true);
         com.github.clans.fab.FloatingActionButton fabApply = findViewById(R.id.fab_apply);
         fabApply.setLabelColors(ContextCompat.getColor(this, R.color.fab_apply_background),
