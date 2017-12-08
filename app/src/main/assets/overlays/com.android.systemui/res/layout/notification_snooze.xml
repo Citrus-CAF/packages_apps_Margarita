@@ -20,6 +20,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:clickable="true"
     android:background="@*com.android.systemui:color/notification_guts_bg_color"
     android:theme="@*android:style/Theme.DeviceDefault.Light">
 

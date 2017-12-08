@@ -30,6 +30,8 @@
         <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
         <item name="android:statusBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary</item>
+        <item name="android:navigationBarDividerColor">@android:color/background_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
         <item name="android:colorEdgeEffect">@*android:color/holo_blue_bright</item>
     </style>
 

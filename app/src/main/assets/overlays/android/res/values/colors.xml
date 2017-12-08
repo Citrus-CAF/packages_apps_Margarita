@@ -84,9 +84,6 @@
     <color name="notification_secondary_text_color_dark">#d8ffffff</color>
     <color name="notification_secondary_text_color_light">#d8ffffff</color>
 
-    <!-- Status bar color for semi transparent mode. -->
-    <color name="system_bar_background_semi_transparent">#00000000</color> <!-- 0% black -->
-
     <!-- Primary -->
     <color name="holo_blue_light">@*android:color/holo_purple</color>
     <color name="holo_blue_dark">@*android:color/background_dark</color>

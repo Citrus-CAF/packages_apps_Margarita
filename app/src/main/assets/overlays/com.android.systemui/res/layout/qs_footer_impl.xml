@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-** Copyright 2012, The Android Open Source Project
-**
-** Licensed under the Apache License, Version 2.0 (the "License");
-** you may not use this file except in compliance with the License.
-** You may obtain a copy of the License at
-**
-**     http://www.apache.org/licenses/LICENSE-2.0
-**
-** Unless required by applicable law or agreed to in writing, software
-** distributed under the License is distributed on an "AS IS" BASIS,
-** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-** See the License for the specific language governing permissions and
-** limitations under the License.
--->
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
 
-<!-- Extends RelativeLayout -->
-<com.android.systemui.qs.QSFooter
+<!-- Extends FrameLayout -->
+<com.android.systemui.qs.QSFooterImpl
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@*com.android.systemui:id/header"
+    android:id="@*com.android.systemui:id/qs_footer"
     android:layout_width="match_parent"
     android:layout_height="48dp"
-    android:elevation="4dp"
     android:baselineAligned="false"
     android:clickable="false"
     android:clipChildren="false"
     android:clipToPadding="false"
     android:paddingTop="0dp"
-    android:background="#00000000"
     android:gravity="center_vertical"
     android:orientation="horizontal">
 
@@ -63,7 +61,7 @@
         </com.android.systemui.statusbar.phone.MultiUserSwitch>
 
         <com.android.systemui.statusbar.AlphaOptimizedImageView
-            android:id="@*android:id/edit"
+            android:id="@android:id/edit"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="?android:attr/selectableItemBackgroundBorderless"
@@ -75,8 +73,9 @@
             android:src="@*com.android.systemui:drawable/ic_mode_edit"
             android:tint="?android:attr/colorAccent"/>
 
-        <com.android.keyguard.AlphaOptimizedImageButton android:id="@*com.android.systemui:id/settings_button"
-            style="@*android:style/Widget.Material.Button.Borderless"
+        <com.android.keyguard.AlphaOptimizedImageButton
+            android:id="@*com.android.systemui:id/settings_button"
+            style="@android:style/Widget.Material.Button.Borderless"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@*com.android.systemui:drawable/ripple_drawable"
@@ -96,9 +95,4 @@
             android:padding="14dp" />
     </LinearLayout>
 
-    <include layout="@*com.android.systemui:layout/qs_divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_gravity="bottom" />
-
-</com.android.systemui.qs.QSFooter>
+</com.android.systemui.qs.QSFooterImpl>

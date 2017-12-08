@@ -42,4 +42,8 @@
     <color name="icon_accent">@android:color/holo_blue_bright</color>
 
     <color name="material_grey_300">@*android:color/transparent</color>
+
+    <!-- Suggestion/condition colors -->
+    <color name="suggestion_condition_background">@*android:color/holo_primary_dark</color>
+    <color name="condition_card_background">@*android:color/holo_primary</color>
 </resources>

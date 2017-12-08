@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
   ~ Copyright (C) 2017 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,12 +14,9 @@
   ~ limitations under the License.
   ~
   -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#cc000000" />
+    <corners android:radius="22dp" />
+</shape>
 
-<resources>
-    <!-- True if the notifications should dynamically tint the app icon and app title -->
-    <bool name="config_allowNotificationIconTextTinting">true</bool>
-
-    <!-- True if the notification's dynamic app icon/title tint should be optimised for dark
-+    backgrounds (requires config_allowNotificationIconTextTinting to be true)-->
-    <bool name="config_useDarkBgNotificationIconTextTinting">false</bool>
-</resources>
