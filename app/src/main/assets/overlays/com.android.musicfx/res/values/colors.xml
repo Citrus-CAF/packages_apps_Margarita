@@ -1,0 +1,47 @@
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+
+    <color name="primaryColor">@*android:color/holo_blue_light</color>
+    <color name="primaryColorDark">@*android:color/holo_blue_dark</color>
+    <color name="accentColor">@*android:color/holo_blue_bright</color>
+    <color name="disabled">#76777c</color>
+    <color name="textColor">@android:color/white</color> <!--black -->
+    <color name="drawer_header_text_color">@android:color/white</color> <!-- left drawer header txt color-->
+    <color name="drawer_header_color">@*com.android.musicfx:color/primaryColorDark</color> <!-- left drawer header background color-->
+    <color name="drawer_background_color">@*com.android.musicfx:color/primaryColor</color> <!-- left drawer menu background color-->
+    <color name="spinner_bg_color">@*android:color/holo_blue_light</color> <!-- spinner box -->
+    <color name="spinner_txt_area_color">@*android:color/holo_blue_dark</color> <!-- "Reverb" txt area plus a small part at right of the spinner box -->
+    <color name="gallery_bg_color">@*android:color/background_dark</color> <!-- horizontal bar where you can scroll the eq presets (after the eq and before the knobs -->
+    <color name="disabled_gallery_text">@*com.android.musicfx:color/disabled</color> <!-- eq presets text color when musicfx is disabled -->
+    <color name="highlight_gallery_text">@*com.android.musicfx:color/accentColor</color> <!-- eq presets text color when musicfx is on for the current selected preset -->
+    <color name="lowlight_gallery_text">@*com.android.musicfx:color/disabled</color> <!-- eq presets text color when musicfx is on for other available presets -->
+    <color name="knobs_area_background">@*com.android.musicfx:color/primaryColor</color> <!-- area around knobs also at right of the eq area -->
+    <color name="knob_disabled">@*com.android.musicfx:color/disabled</color> <!-- knobs level when musicfx is off -->
+    <color name="knob_current_level">@*com.android.musicfx:color/accentColor</color> <!-- knobs level and percentage level inside the knob - - - inner part of the knobs is png drawable-->
+    <color name="eq_area_background">@*android:color/holo_blue_light</color> <!-- eq levels area -->
+    <color name="eq_textColor">@*com.android.musicfx:color/textColor</color> <!--eq levels min-middle-max indicators txt -->
+    <color name="mainBackgroundColor">@*android:color/holo_blue_light</color> <!-- horizontal empty space between the bar showing the current active out source and the eq levels area -->
+    <color name="current_out_source">@*android:color/background_dark</color> <!-- the bar with the current active out source icon and name -->
+    <color name="current_out_source_color">@*android:color/holo_blue_bright</color> <!-- icon and text showing the current active out source -->
+    <color name="visualizer_highlight">#f44336</color> <!-- equalizer active level bar top element  -->
+    <color name="visualizer_lowlight">@*com.android.musicfx:color/accentColor</color> <!-- equalizer active level bar elements -->
+    <color name="visualizer_disabled">@*com.android.musicfx:color/disabled</color> <!-- equalizer level bar when musicfx is off -->
+    <color name="spinner_disabled">#76777c</color>
+    <color name="spinner_reverb_list">@*android:color/background_dark</color>
+    <color name="toolbar_thumb_color">@*com.android.musicfx:color/accentColor</color>
+</resources>
