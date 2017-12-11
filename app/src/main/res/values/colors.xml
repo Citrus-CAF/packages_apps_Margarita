@@ -35,4 +35,9 @@
     <color name="fab_apply_background">#3F51B5</color>
     <color name="fab_main_background">@color/colorAccent</color>
     <color name="fab_foreground_tint">#ffffff</color>
+
+    <!-- Splash screen -->
+    <color name="splash_screen_background">#ffffff</color>
+    <color name="splash_screen_app_title_color">@android:color/primary_text_light</color>
+
 </resources>
