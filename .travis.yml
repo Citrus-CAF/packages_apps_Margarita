@@ -4,7 +4,7 @@ jdk:
 android:
   components:
   - tools
-  - build-tools-27.0.1
+  - build-tools-27.0.2
   - android-27
   - extra-google-m2repository
   - extra-android-m2repository
@@ -18,7 +18,7 @@ branches:
 before_install:
   - "./notify.sh"
 install:
-  - yes | sdkmanager "ndk-bundle" "cmake;3.6.4111459" "lldb;3.0"
+  - yes | sdkmanager "ndk-bundle" "cmake;3.6.4111459" "lldb;3.0" --channel=3
 script:
   - "./gradlew clean assembleDebug"
 notifications:
