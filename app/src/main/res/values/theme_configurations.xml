@@ -26,6 +26,7 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
+        <item>v3.0 - Wed, 13-12-2017\n- Added support for 8.1.\n- Merged upstream template changes.\n- Themed navbar ripple colors.\n- Themed physical keyboard shortcuts BG.\n- Themed qs expand/collapse icons.\n- Themed Lockscreen shortcuts circle BG.\n- Themed notification app icon/name color.\n- Added Shutdown animation and fonts (Requires ROM with SubstratumService).\n- Added Dashboard.\n- Fully themed Launcher3.\n- Fully themed MusicFX.\n- Center/left clock options.\n- Themed notification volume panel icon.\n</item>
         <item>v2.1 - Wed, 29-11-2017\n- Added Carbon black BG.\n- Added Kiwi Accent.\n- Themed Splitscreen Navbar icon.\n- Themed Substratum App.\n- Themed Ripple colors to Accent.\n</item>
         <item>v2.0.1 - Mon, 20-11-2017\n- Fixed navbar theming.\n- Update copyrights.\n</item>
         <item>v2.0 - Sun, 19-11-2017\n- Merged upstream substratum template.\n- Oreo support.\n- Redesigned Settings dashboard icons.\n- Cleanedup unneeded resources.\n- Redone Backgrounds and Added more accents.\n- Volte icon.\n- New Brightness slider icon.\n- Themed Navbar icons.\n- Themed Powermenu.\n- Themed Volume panel.\n- Fixed Dialer notification.\n</item>
