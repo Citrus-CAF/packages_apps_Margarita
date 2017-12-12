@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2017 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,29 +15,27 @@
   -->
 
 <resources>
+
     <!-- Main colors -->
-    <color name="colorPrimary">#37474f</color>
-    <color name="colorPrimaryDark">#263238</color>
-    <color name="colorAccent">#00c853</color>
-    <color name="main_background">#EAEAEA</color>
-    <color name="white_transparent">#99ffffff</color>
-    <color name="toolbar_item_color">#ffffff</color>
+    <color name="colorPrimary">@*android:color/holo_blue_light</color>
+    <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
+    <color name="colorAccent">@*android:color/holo_blue_bright</color>
+    <color name="main_background">@*android:color/background_dark</color>
+    <color name="toolbar_item_color">@android:color/white</color>
 
     <!-- Navigation drawer -->
-    <color name="nav_drawer_header_background">@color/colorPrimaryDark</color>
-    <color name="nav_drawer_icon_color">#000000</color>
+    <color name="nav_drawer_icon_color">@*android:color/holo_blue_bright</color>
 
     <!-- Floating action button/menu -->
     <color name="fab_git_background">#37474F</color>
     <color name="fab_gplus_background">#DB4437</color>
     <color name="fab_tg_background">#517EA1</color>
     <color name="fab_apply_background">#3F51B5</color>
-    <color name="fab_main_background">@color/colorAccent</color>
-    <color name="fab_main_foreground_tint">#ffffff</color>
-    <color name="fab_foreground_tint">#ffffff</color>
+    <color name="fab_main_background">@*android:color/holo_blue_light</color>
+    <color name="fab_main_foreground_tint">@*android:color/holo_blue_bright</color>
 
     <!-- Splash screen -->
-    <color name="splash_screen_background">#ffffff</color>
-    <color name="splash_screen_app_title_color">@android:color/primary_text_light</color>
+    <color name="splash_screen_background">@*android:color/background_dark</color>
+    <color name="splash_screen_app_title_color">@*android:color/holo_blue_bright</color>
 
 </resources>

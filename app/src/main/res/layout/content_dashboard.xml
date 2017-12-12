@@ -64,6 +64,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/dashboard_card_title"
+                        android:layout_marginStart="@dimen/content_margin"
+                        android:layout_marginEnd="@dimen/content_margin"
                         android:layout_marginBottom="@dimen/content_margin"
                         android:gravity="center"
                         android:text="@string/dashboard_card_summary"

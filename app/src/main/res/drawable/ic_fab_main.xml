@@ -19,7 +19,7 @@
         android:height="24dp"
         android:viewportWidth="24.0"
         android:viewportHeight="24.0"
-        android:tint="@color/fab_foreground_tint">
+        android:tint="@color/fab_main_foreground_tint">
 
     <path
         android:fillColor="#fff"
