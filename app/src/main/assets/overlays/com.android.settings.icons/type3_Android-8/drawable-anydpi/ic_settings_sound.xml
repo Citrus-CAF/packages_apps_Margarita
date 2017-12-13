@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorControlNormal">
+
+        <path
+            android:strokeColor="#000"
+            android:strokeWidth="1.2"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:pathData="M20.06,2.59a1,1,0,0,0-1-1H4.59a1,1,0,0,0-1,1V22.37a1,1,0,0,0,1,1H19.07a1,1,0,0,0,1-1V2.59Z" />
+        <path
+            android:fillColor="#4dffffff"
+            android:pathData="M17.31,3.67h-11a.75 .75 ,0,0,0-.75 .75 V20.53a.75 .75 ,0,0,0,.75 .75 h11a.75 .75
+,0,0,0,.75-.75V4.42A.75 .75
+,0,0,0,17.31,3.67Zm-5.48,2.1A1.83,1.83,0,1,1,10,7.6,1.83,1.83,0,0,1,11.83,5.77Zm0,14.46a4.34,4.34,0,1,1,4.34-4.34A4.34,4.34,0,0,1,11.83,20.23Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M11.83,14.06A1.83,1.83,0,1,1,10,15.89a1.83,1.83,0,0,1,1.83-1.83Z" />
+    </vector>
