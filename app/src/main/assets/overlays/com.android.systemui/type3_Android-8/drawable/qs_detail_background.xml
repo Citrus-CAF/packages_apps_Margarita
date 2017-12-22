@@ -15,8 +15,9 @@
   ~
   -->
 
-<inset xmlns:android="http://schemas.android.com/apk/res/android">
-    <shape>
-        <solid android:color="@*android:color/holo_primary_dark"/>
-    </shape>
-</inset>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@*android:color/holo_primary" />
+    <item
+        android:drawable="@*android:color/transparent" />
+</transition>
