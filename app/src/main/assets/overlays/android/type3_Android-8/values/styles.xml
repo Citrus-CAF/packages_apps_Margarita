@@ -244,10 +244,6 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
 
-    <style name="TextAppearance.Toast" parent="@android:style/TextAppearance">
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="Theme.Material.InputMethod" parent="@android:style/Theme.Material.Panel"/>
     <style name="Theme.Holo.Light.Panel" parent="@*android:style/Theme.Holo.Panel"/>
     <style name="Theme.Holo.InputMethod" parent="@*android:style/Theme.Holo.InputMethod">
