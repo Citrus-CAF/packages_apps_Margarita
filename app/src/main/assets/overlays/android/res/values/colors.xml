@@ -98,4 +98,8 @@
 
     <!-- App permission tint -->
     <color name="app_permission_icon_tint">@*android:color/holo_blue_bright</color>
+
+    <!-- Toast text and bg colors -->
+    <color name="toast_bg_color">@*android:color/holo_primary</color>
+    <color name="toast_text_color">@*android:color/primary_text_default_material_dark</color>
 </resources>
