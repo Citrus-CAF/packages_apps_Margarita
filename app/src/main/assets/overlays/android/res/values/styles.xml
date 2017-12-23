@@ -12,7 +12,7 @@
     <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material.Panel">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
-        <item name="android:backgroundTint">@android:color/holo_purple</item>
+        <item name="android:backgroundTint">@*android:color/holo_primary</item>
         <item name="windowNoTitle">true</item>
         <item name="windowIsTranslucent">true</item>
         <item name="windowContentOverlay">@null</item>

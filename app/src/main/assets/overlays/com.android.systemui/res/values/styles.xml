@@ -21,10 +21,10 @@
 
     <!-- qs panel -> add tiles page -->
     <style name="edit_theme" parent="@android:style/Theme.Material">
-        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">@*android:color/holo_gray_bright</item>
         <item name="android:colorControlActivated">@android:color/holo_blue_bright</item>
         <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
-        <item name="android:colorPrimary">@android:color/background_dark</item>
+        <item name="android:colorPrimary">@*android:color/holo_gray_bright</item>
     </style>
 
     <!-- Phyisical Keyboard Dialog style -->

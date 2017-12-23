@@ -22,23 +22,21 @@
     <color name="holo_primary">@*android:color/holo_blue_light</color> <!-- used as Primary color for material settings -->
 
     <!-- styles -->
-    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material">
-        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorPrimary">@*android:color/holo_primary_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:colorSecondary">@*android:color/holo_primary</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
-        <item name="android:statusBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary</item>
         <item name="android:colorEdgeEffect">@*android:color/holo_blue_bright</item>
     </style>
 
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
-        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimary">@*android:color/holo_primary_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
-        <item name="android:statusBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary</item>
     </style>
 
