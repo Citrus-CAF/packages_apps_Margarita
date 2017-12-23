@@ -256,9 +256,18 @@
     </style>
 
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:colorPrimary">@*android:color/background_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/background_dark</item>
-        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:colorSecondary">@*android:color/holo_primary</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:colorSecondary">@*android:color/holo_primary</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
     </style>
 
 </resources>

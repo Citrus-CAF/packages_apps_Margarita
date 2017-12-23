@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2017 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +15,6 @@
   ~
   -->
 
-<inset xmlns:android="http://schemas.android.com/apk/res/android">
-    <shape>
-        <solid android:color="@*android:color/holo_primary_dark"/>
-    </shape>
-</inset>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@*android:color/holo_gray_bright"/>
+</selector>
