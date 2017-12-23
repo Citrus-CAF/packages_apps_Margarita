@@ -88,4 +88,6 @@
     <color name="holo_blue_light">@*android:color/holo_purple</color>
     <color name="holo_blue_dark">@*android:color/background_dark</color>
 
+    <!-- Resolver -->
+    <color name="resolver_list_bg">@*android:color/holo_primary</color>
 </resources>
