@@ -14,7 +14,7 @@
     <color name="holo_orange_dark">@*android:color/holo_gray_bright</color>
     <color name="holo_red_dark">@*android:color/holo_primary</color>
     <color name="background_floating_material_dark">@*android:color/holo_gray_bright</color>
-    <color name="background_material_dark">@"android:color/holo_gray_bright</color>
+    <color name="background_material_dark">@*android:color/holo_gray_bright</color>
     <color name="primary_material_dark">@*android:color/holo_gray_bright</color>
     <color name="background_leanback_dark">@*android:color/holo_gray_bright</color>
     <color name="notification_action_color_filter">#ffffffff</color>
@@ -56,7 +56,7 @@
         @*android:color/holo_gray_bright
     </color>
     <color name="datepicker_default_header_selector_background_holo_dark">
-        @"android:color/holo_gray_bright
+        @*android:color/holo_gray_bright
     </color>
     <color name="datepicker_default_header_dayofweek_background_color_holo_light">#ffffffff</color>
     <color name="datepicker_default_header_dayofweek_background_color_holo_dark">#ffffffff</color>
