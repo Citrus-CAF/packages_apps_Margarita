@@ -18,4 +18,6 @@
     <bool name="dynamicActionBarColors">false</bool>
     <bool name="dynamicNavigationBarColors">false</bool>
     <bool name="SplashscreenWindowLightStatusBar">false</bool>
+    <bool name="windowLightStatusBar">false</bool>
+    <bool name="windowLightNavigationBar">false</bool>
 </resources>

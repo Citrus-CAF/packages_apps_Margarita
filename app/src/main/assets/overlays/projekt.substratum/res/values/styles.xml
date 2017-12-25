@@ -23,4 +23,11 @@
         <item name="*projekt.substratum:windowActionBar">false</item>
         <item name="*projekt.substratum:windowNoTitle">true</item>
     </style>
+
+    <style name="ToolbarTheme" parent="@*projekt.substratum:style/Theme.AppCompat">
+        <item name="*projekt.substratum:colorPrimary">@*projekt.substratum:color/colorPrimary</item>
+        <item name="*projekt.substratum:colorPrimaryDark">@*projekt.substratum:color/colorPrimaryDark</item>
+        <item name="*projekt.substratum:colorAccent">@*projekt.substratum:color/colorAccent</item>
+    </style>
+
 </resources>
