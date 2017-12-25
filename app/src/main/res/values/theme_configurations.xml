@@ -26,6 +26,7 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
+        <item>v3.3 - Mon, 25-12-2017\n- Hotfix update.\n- Fixed substratum new ui theming.\n</item>
         <item>v3.2 - Mon, 25-12-2017\n- Added option to enable/disable rounded corners.\n- Extended Translucent option to Qs, Notifications and PowerMenu.\n- Fully themed Settings suggestions/conditions.\n- Removed Bold text from toast.\n- Updated dark navbar color.\n- Dropped 8.0 support.\n</item>
         <item>v3.1 - Thu, 14-12-2017\n- Added back support for 8.0.\n</item>
         <item>v3.0 - Wed, 13-12-2017\n- Added support for 8.1.\n- Merged upstream template changes.\n- Themed navbar ripple colors.\n- Themed physical keyboard shortcuts BG.\n- Themed qs expand/collapse icons.\n- Themed Lockscreen shortcuts circle BG.\n- Themed notification app icon/name color.\n- Added Shutdown animation and fonts (Requires ROM with SubstratumService).\n- Added Dashboard.\n- Fully themed Launcher3.\n- Fully themed MusicFX.\n- Center/left clock options.\n- Themed notification volume panel icon.\n</item>
