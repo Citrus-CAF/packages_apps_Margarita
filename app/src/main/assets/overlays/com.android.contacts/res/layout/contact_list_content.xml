@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<!-- android:paddingTop is used instead of android:layout_marginTop. It looks
+     android:layout_marginTop is ignored when used with <fragment></fragment>, which
+     only happens in Tablet UI since we rely on ViewPager in Phone UI.
+     Instead, android:layout_marginTop inside <fragment /> is effective. -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.android.contacts:id/pinned_header_list_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:background="@*com.android.contacts:color/background_primary" >
+
+    <LinearLayout
+        android:id="@*com.android.contacts:id/alert_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@*com.android.contacts:color/alert_background"
+        android:paddingStart="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@*com.android.contacts:id/alert_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@*com.android.contacts:id/alert_dismiss_icon"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@*com.android.contacts:string/dismiss_sync_alert"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="center"
+            android:src="@*com.android.contacts:drawable/quantum_ic_cancel_vd_theme_24" />
+    </LinearLayout>
+
+    <!-- Shown only when an Account filter is set.
+         - paddingTop should be here to show "shade" effect correctly. -->
+    <include layout="@*com.android.contacts:layout/account_filter_header" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:id="@*com.android.contacts:id/contact_list">
+
+        <include layout="@*com.android.contacts:layout/contact_list_card"/>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@*com.android.contacts:id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:enabled="false" >
+
+            <view
+                class="com.android.contacts.list.PinnedHeaderListView"
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0.0dp"
+                android:layout_marginRight="0.0dp"
+                android:layout_marginStart="0.0dp"
+                android:layout_marginEnd="0.0dp"
+                android:paddingTop="@*com.android.contacts:dimen/contact_browser_list_item_padding_top_or_bottom"
+                android:clipToPadding="false"
+                android:fastScrollEnabled="true"
+                android:visibility="gone"
+                android:fadingEdge="none" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <ProgressBar
+            android:id="@*com.android.contacts:id/search_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>
