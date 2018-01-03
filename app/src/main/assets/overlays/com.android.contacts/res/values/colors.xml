@@ -195,6 +195,9 @@
     <!-- Background color for the current selected item in the navigation drawer -->
     <color name="drawer_selected_color">@*android:color/holo_blue_light</color>
 
+    <!-- Background color for the current selected item icon in the navigation drawer -->
+    <color name="drawer_selected_icon_color">@*android:color/holo_blue_light</color>
+
     <!-- Highlight color used in places such as ripples -->
     <color name="control_highlight_color">#1Affffff</color>
 
