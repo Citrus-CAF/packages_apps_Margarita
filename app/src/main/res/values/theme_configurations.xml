@@ -26,6 +26,7 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
+        <item>v3.4 - Wed, 03-01-2018\n- Themed AOSP Keyboard.\n- Themed AOSP Dialer and Contacts.\n- Added Blueberry accent.\n- Fixed navbar visibility.\n- Merged upstream template changes.\n</item>
         <item>v3.3 - Mon, 25-12-2017\n- Hotfix update.\n- Fixed substratum new ui theming.\n</item>
         <item>v3.2 - Mon, 25-12-2017\n- Added option to enable/disable rounded corners.\n- Extended Translucent option to Qs, Notifications and PowerMenu.\n- Fully themed Settings suggestions/conditions.\n- Removed Bold text from toast.\n- Updated dark navbar color.\n- Dropped 8.0 support.\n</item>
         <item>v3.1 - Thu, 14-12-2017\n- Added back support for 8.0.\n</item>
