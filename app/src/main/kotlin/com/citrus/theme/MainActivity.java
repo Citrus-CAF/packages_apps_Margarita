@@ -16,6 +16,7 @@
 
 package com.citrus.theme;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -80,18 +81,9 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 boolean substratumInstalled = isAppInstalled("projekt.substratum");
                 if (substratumInstalled) {
-                    Intent intent = new Intent();
-                    intent = intent.setClassName("projekt.substratum",
-                            "projekt.substratum.activities.launch.ThemeLaunchActivity");
-                    intent.putExtra("package_name", getString(R.string.theme_package_name));
-                    intent.setAction("projekt.substratum.THEME");
-                    intent.setPackage(getString(R.string.theme_package_name));
-                    intent.putExtra("calling_package_name", getString(R.string.theme_package_name));
-                    intent.putExtra("oms_check", false);
-                    intent.putExtra("theme_mode", (String) null);
-                    intent.putExtra("notification", false);
-                    intent.putExtra("hash_passthrough", true);
-                    intent.putExtra("certified", false);
+                    Intent intent = new Intent("android.intent.action.MAIN");
+                    intent.setComponent(new ComponentName("projekt.substratum","projekt.substratum.LaunchActivity"));
+
                     startActivity(intent);
                 } else {
                     CoordinatorLayout cLayout = findViewById(R.id.app_bar_main_content);
