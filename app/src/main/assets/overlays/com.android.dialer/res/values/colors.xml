@@ -81,7 +81,7 @@
     <color name="tab_selected_underline_color">@*android:color/holo_blue_bright</color>
     <color name="contactscommon_actionbar_background_color">@*android:color/holo_blue_light</color>
 
-    <color name="design_snackbar_background_color">@*android:color/holo_blue_dark</color>
+    <color name="design_snackbar_background_color">@*android:color/holo_blue_light</color>
     <color name="dialer_flat_button_text_color">@*android:color/holo_blue_bright</color>
 
     <!-- IncallUI -->
