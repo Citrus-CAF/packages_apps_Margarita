@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2018 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout android:id="@*com.android.settings:id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.android.settings:dimen/sim_dialog_margin_top"
+                android:paddingStart="@*com.android.settings:dimen/sim_content_padding"
+                android:text="@*com.android.settings:string/sim_editor_name" />
+
+            <EditText android:id="@*com.android.settings:id/sim_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:paddingStart="@*com.android.settings:dimen/sim_content_padding"
+                android:paddingBottom="@*com.android.settings:dimen/sim_dialog_margin_bottom"
+                android:hint="@*com.android.settings:string/sim_name_hint"
+                android:inputType="textNoSuggestions"
+                android:maxLength="@*com.android.settings:integer/sim_name_length"
+                android:textColor="@*android:color/white"
+                style="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.android.settings:dimen/sim_dialog_margin_top"
+                android:paddingStart="@*com.android.settings:dimen/sim_content_padding"
+                android:text="@*com.android.settings:string/color_title" />
+
+            <Spinner
+                android:id="@*com.android.settings:id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@*com.android.settings:dimen/sim_content_padding" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.android.settings:dimen/sim_dialog_margin_top"
+                android:paddingStart="@*com.android.settings:dimen/sim_content_padding"
+                android:text="@*com.android.settings:string/sim_editor_carrier" />
+
+            <TextView android:id="@*com.android.settings:id/carrier"
+                android:textColor="@*android:color/text_color_secondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@*com.android.settings:dimen/sim_content_padding"
+                android:paddingBottom="@*com.android.settings:dimen/sim_dialog_margin_bottom"
+                android:singleLine="true"
+                style="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.android.settings:dimen/sim_dialog_margin_top"
+                android:paddingStart="@*com.android.settings:dimen/sim_content_padding"
+                android:text="@*com.android.settings:string/sim_editor_number" />
+
+            <TextView android:id="@*com.android.settings:id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@*com.android.settings:dimen/sim_dialog_margin_bottom"
+                android:paddingStart="@*com.android.settings:dimen/sim_content_padding"
+                android:singleLine="true"
+                android:textColor="@*android:color/text_color_secondary"
+                style="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
