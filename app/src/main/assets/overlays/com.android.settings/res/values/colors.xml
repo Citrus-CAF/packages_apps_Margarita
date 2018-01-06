@@ -65,4 +65,10 @@
     <color name="suggestion_condition_card_header_title_text_color">@*android:color/holo_blue_bright</color>
     <color name="suggestion_condition_card_header_summary_text_color">@*android:color/holo_blue_bright</color>
 
+    <!-- MSIM Color picker dialog colors -->
+    <color name="sim_color_picker_edit_text_color">@android:color/white</color>
+    <color name="sim_color_picker_list_text_color">@android:color/white</color>
+    <color name="sim_color_picker_carrier_text_color">@android:color/white</color>
+    <color name="sim_color_picker_number_text_color">@android:color/white</color>
+
 </resources>
