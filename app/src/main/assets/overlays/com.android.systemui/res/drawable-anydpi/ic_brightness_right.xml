@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2018 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48"
+    android:tint="?android:attr/colorAccent">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 9.848 14.571 C 10.4908594488 14.571 11.012 15.0921405512 11.012 15.735 C 11.012 16.3778594488 10.4908594488 16.899 9.848 16.899 C 9.2051405512 16.899 8.684 16.3778594488 8.684 15.735 C 8.684 15.0921405512 9.2051405512 14.571 9.848 14.571 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 37.69 14.571 C 38.3328594488 14.571 38.854 15.0921405512 38.854 15.735 C 38.854 16.3778594488 38.3328594488 16.899 37.69 16.899 C 37.0471405512 16.899 36.526 16.3778594488 36.526 15.735 C 36.526 15.0921405512 37.0471405512 14.571 37.69 14.571 Z" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="2"
+        android:pathData="M32.322,10.107l2.787,-4.376" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="2"
+        android:pathData="M38.854,23.907l5.127,1.138" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="2"
+        android:pathData="M9.146,23.907l-5.127,1.138" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="2"
+        android:pathData="M15.639,10.107l-2.787,-4.376" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 23.98 6.316 C 24.6228594488 6.316 25.144 6.8371405512 25.144 7.48 C 25.144 8.1228594488 24.6228594488 8.644 23.98 8.644 C 23.3371405512 8.644 22.816 8.1228594488 22.816 7.48 C 22.816 6.8371405512 23.3371405512 6.316 23.98 6.316 Z" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="2"
+        android:pathData="M 24 12.308 C 29.2715579371 12.308 33.545 16.5814420629 33.545 21.853 C 33.545 27.1245579371 29.2715579371 31.398 24 31.398 C 18.7284420629 31.398 14.455 27.1245579371 14.455 21.853 C 14.455 16.5814420629 18.7284420629 12.308 24 12.308 Z" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="2"
+        android:pathData="M20.818,35.943l6.364,0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 24 38.669 C 25.757370074 38.669 27.182 40.093629926 27.182 41.851 C 27.182 43.608370074 25.757370074 45.033 24 45.033 C 22.242629926 45.033 20.818 43.608370074 20.818 41.851 C 20.818 40.093629926 22.242629926 38.669 24 38.669 Z" />
+    <path
+        android:fillColor="#4dffffff"
+        android:pathData="M 24 15.863 C 27.313708499 15.863 30 18.549291501 30 21.863 C 30 25.176708499 27.313708499 27.863 24 27.863 C 20.686291501 27.863 18 25.176708499 18 21.863 C 18 18.549291501 20.686291501 15.863 24 15.863 Z" />
+</vector>
