@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2018 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="48"
+    android:viewportHeight="48"
+    android:width="48dp"
+    android:height="48dp"
+    android:tint="?android:attr/colorAccent">
+
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="2"
+        android:pathData="M 24 8.5 C 32.5604136224 8.5 39.5 15.4395863776 39.5 24 C 39.5 32.5604136224 32.5604136224 39.5 24 39.5 C 15.4395863776 39.5 8.5 32.5604136224 8.5 24 C 8.5 15.4395863776 15.4395863776 8.5 24 8.5 Z" />
+    <path
+        android:fillColor="#4dffffff"
+        android:pathData="M 24 12.5 C 30.3512746231 12.5 35.5 17.6487253769 35.5 24 C 35.5 30.3512746231 30.3512746231 35.5 24 35.5 C 17.6487253769 35.5 12.5 30.3512746231 12.5 24 C 12.5 17.6487253769 17.6487253769 12.5 24 12.5 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M26.127,27.322l-0.41,-1.078l-3.492,0l-0.411,1.102c-0.16,0.429 -0.296,0.719
+-0.41,0.87c-0.113,0.15 -0.299,0.225 -0.556,0.225c-0.219,0 -0.412,-0.08
+-0.58,-0.24c-0.168,-0.16 -0.252,-0.342 -0.252,-0.545c0,-0.117 0.019,-0.238
+0.058,-0.363c0.039,-0.125 0.104,-0.299 0.194,-0.522l2.197,-5.578c0.062,-0.16
+0.138,-0.352 0.225,-0.577c0.088,-0.224 0.182,-0.411 0.282,-0.559c0.099,-0.149
+0.23,-0.269 0.392,-0.361c0.162,-0.092 0.363,-0.137 0.601,-0.137c0.242,0
+0.444,0.045 0.606,0.137c0.162,0.092 0.293,0.21 0.393,0.355c0.099,0.144 0.183,0.3
+0.252,0.466c0.068,0.166 0.155,0.387 0.261,0.665l2.244,5.543c0.175,0.421
+0.263,0.728 0.263,0.92c0,0.199 -0.083,0.381 -0.249,0.547c-0.166,0.166
+-0.366,0.249 -0.6,0.249c-0.137,0 -0.254,-0.024 -0.352,-0.073c-0.097,-0.049
+-0.179,-0.115 -0.246,-0.199c-0.066,-0.084 -0.138,-0.213
+-0.214,-0.387c-0.076,-0.174 -0.141,-0.327
+-0.196,-0.46Zm-3.445,-2.385l2.566,0l-1.295,-3.544l-1.271,3.544Z" />
+</vector>
