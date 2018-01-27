@@ -67,15 +67,6 @@
 
         </com.android.keyguard.AlphaOptimizedLinearLayout>
 
-        <ImageView
-            android:id="@*com.android.systemui:id/status_bar_logo"
-            android:layout_width="@*com.android.systemui:dimen/status_bar_icon_size"
-            android:layout_height="@*com.android.systemui:dimen/status_bar_icon_size"
-            android:src="@*com.android.systemui:drawable/status_bar_logo"
-            android:scaleType="centerInside"
-            android:padding="2dp"
-            android:visibility="gone" />
-
         <!-- The alpha of this area is controlled from both PhoneStatusBarTransitions and
              PhoneStatusBar (DISABLE_NOTIFICATION_ICONS). -->
         <com.android.systemui.statusbar.AlphaOptimizedFrameLayout
@@ -113,6 +104,14 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout="@*com.android.systemui:layout/emergency_cryptkeeper_text"
+        />
+
+    <ViewStub
+        android:id="@*com.android.systemui:id/ticker_stub"
+        android:inflatedId="@*com.android.systemui:id/ticker"
+        android:layout="@*com.android.systemui:layout/status_bar_ticker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         />
 
 </com.android.systemui.statusbar.phone.PhoneStatusBarView>
