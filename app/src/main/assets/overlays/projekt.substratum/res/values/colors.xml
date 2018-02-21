@@ -17,10 +17,10 @@
 <resources>
     <!-- main theme colors -->
     <color name="colorPrimary">@*android:color/holo_blue_light</color>
-    <color name="colorPrimaryDark">@*android:color/holo_blue_darkt</color>
+    <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
     <color name="colorAccent">@*android:color/holo_blue_bright</color>
     <color name="navigationBarColor">@*android:color/holo_blue_light</color>
-    <color name="statusBarColor">@*android:color/holo_blue_darkt</color>
+    <color name="statusBarColor">@*android:color/holo_blue_dark</color>
 
     <!-- Hardcode the colors so it doesn't change every time an Android System overlay changes -->
     <color name="floatui_dialog_background">@*android:color/background_dark</color>
