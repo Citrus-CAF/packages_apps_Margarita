@@ -27,7 +27,7 @@
     <dimen name="content_margin">16dp</dimen>
     <dimen name="content_margin_title">24dp</dimen>
     <dimen name="text_content">14sp</dimen>
-    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_title">26sp</dimen>
     <dimen name="card_corner_radius">2dp</dimen>
     <dimen name="card_elevation">2dp</dimen>
     <dimen name="card_image_height">200dp</dimen>

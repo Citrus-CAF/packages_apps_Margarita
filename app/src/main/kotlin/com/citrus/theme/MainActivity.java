@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity
                     = VectorDrawableCompat.create(getResources(), R.drawable.ic_nav_menu, getTheme());
             indicator.setTint(ResourcesCompat.getColor(getResources(), R.color.toolbar_item_color, getTheme()));
             supportActionBar.setHomeAsUpIndicator(indicator);
-            supportActionBar.setDisplayHomeAsUpEnabled(true);
+            supportActionBar.setDisplayHomeAsUpEnabled(false);
         }
 
         // Hide  title from Expanded toolbar

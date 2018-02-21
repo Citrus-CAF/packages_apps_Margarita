@@ -21,7 +21,8 @@
     <string name="nav_header_title">Margarita</string>
     <string name="nav_header_summary">#TEAMCARDINAL</string>
     <string name="dashboard_card_title">Welcome to Margarita!</string>
-    <string name="dashboard_card_summary">A substratum theme made with ❤ by #TEAMCARDINAL!</string>
+    <string name="dashboard_card_summary">A substratum theme made with ❤ by</string>
+    <string name="team_title">#TEAMCARDINAL</string>
     <string name="dashboard_info_title">Highlights</string>
     <string name="dashboard_info_summary"><b>• Frameworks</b>\n - Colorful Accents and unique Backgrounds\n - PowerMenu with custom icons.\n\n<b>• SystemUI</b>\n - Fully themed navbar with uniquely crafted icons.\n - Option to choose Notification title color.\n\n<b>• Settings</b>\n - Fully themed  with custom dashboard icons.\n - Option for translucent BG.</string>
     <string name="theme_package_name">com.citrus.theme</string>

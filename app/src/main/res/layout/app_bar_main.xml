@@ -72,14 +72,14 @@
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:paddingEnd="16dp"
-        android:paddingBottom="16dp"
-        android:paddingStart="10dp"
+        android:layout_gravity="end|bottom"
         app:menu_colorNormal="@color/fab_main_background"
         app:menu_colorPressed="@color/fab_main_background"
         app:menu_icon="@drawable/ic_fab_main"
         fab:menu_labels_ellipsize="end"
-        fab:menu_labels_singleLine="true">
+        fab:menu_labels_singleLine="true"
+        fab:menu_shadowRadius="5dp"
+        fab:menu_backgroundColor="#4d000000">
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab_git"
@@ -87,6 +87,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_fab_git"
             app:fab_label="@string/fab_git_label"
+            fab:fab_shadowRadius="5dp"
             app:fab_colorNormal="@color/fab_git_background"
             app:fab_colorPressed="@color/fab_git_background"/>
 
@@ -96,6 +97,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_fab_gplus"
             app:fab_label="@string/fab_gplus_label"
+            fab:fab_shadowRadius="5dp"
             app:fab_colorNormal="@color/fab_gplus_background"
             app:fab_colorPressed="@color/fab_gplus_background"/>
 
@@ -105,6 +107,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_fab_telegram"
             app:fab_label="@string/fab_tg_label"
+            fab:fab_shadowRadius="5dp"
             app:fab_colorNormal="@color/fab_tg_background"
             app:fab_colorPressed="@color/fab_tg_background"/>
 
@@ -114,6 +117,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_fab_apply"
             app:fab_label="@string/fab_apply_label"
+            fab:fab_shadowRadius="5dp"
             app:fab_colorNormal="@color/fab_apply_background"
             app:fab_colorPressed="@color/fab_apply_background"/>
 
