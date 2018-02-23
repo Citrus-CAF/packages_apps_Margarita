@@ -101,6 +101,13 @@
         android:background="@*android:drawable/cling_arrow_up"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_gravity="top" />
+
+    <View
+        android:id="@*android:id/divider"
+        android:background="@*android:drawable/cling_arrow_up"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
         android:layout_gravity="bottom" />
 
 </com.android.systemui.qs.QSFooterImpl>
