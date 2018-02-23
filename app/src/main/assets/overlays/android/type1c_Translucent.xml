@@ -17,33 +17,33 @@
 
 <resources>
     <!-- colors -->
-    <color name="holo_gray_bright">#66000000</color> <!-- 40% black | used as background color for translucent settings -->
+    <color name="holo_gray_bright">#8c000000</color> <!-- 40% black | used as background color for translucent settings -->
     <color name="holo_primary_dark">@*android:color/holo_gray_bright</color> <!-- 40% black | used as PrimaryDark color for translucent settings -->
-    <color name="holo_primary">#8c000000</color> <!-- 55% black | used as Primary color for translucent settings -->
+    <color name="holo_primary">#66000000</color> <!-- 55% black | used as Primary color for translucent settings -->
 
     <!-- styles -->
     <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:colorPrimary">@*android:color/holo_primary</item>
-        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="android:colorSecondary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimary">@*android:color/holo_primary_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary</item>
+        <item name="android:colorSecondary">@*android:color/holo_primary_dark</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
-        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:navigationBarDividerColor">@*android:color/holo_gray_bright</item>
         <item name="android:windowLightNavigationBar">false</item>
-        <item name="android:colorBackground">@*android:color/holo_primary</item>
+        <item name="android:colorBackground">#33000000</item>
         <item name="android:windowBackground">@*android:drawable/menuitem_background</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:colorEdgeEffect">@*android:color/holo_blue_bright</item>
     </style>
 
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
-        <item name="android:colorPrimary">@*android:color/holo_primary</item>
-        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:colorPrimary">@*android:color/holo_primary_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="android:colorControlNormal">@android:color/holo_blue_bright</item>
-        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
-        <item name="android:colorBackground">@*android:color/holo_primary</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
+        <item name="android:colorBackground">@*android:color/holo_primary_dark</item>
         <item name="android:windowBackground">@*android:drawable/menuitem_background</item>
         <item name="android:windowShowWallpaper">true</item>
     </style>

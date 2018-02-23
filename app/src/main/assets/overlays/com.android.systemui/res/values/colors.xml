@@ -74,6 +74,6 @@
     <color name="keyguard_affordance_circle_background">@android:color/holo_blue_bright</color>
 
     <!-- QS edit page background color -->
-    <color name="qs_edit_item_decoration_bg">@*android:color/holo_primary_dark</color>
+    <color name="qs_edit_item_decoration_bg">#00000000</color>
 
 </resources>
