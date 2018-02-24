@@ -23,6 +23,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v4.content.ContextCompat;
@@ -36,6 +37,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -53,6 +55,7 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
+        drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED, findViewById(R.id.nav_view));
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         // Adding menu icon to Toolbar
@@ -70,13 +73,8 @@ public class MainActivity extends AppCompatActivity
         cToolbar.setExpandedTitleColor(ContextCompat.getColor(this, android.R.color.transparent));
 
         // Close FAB when touched outside
-        com.github.clans.fab.FloatingActionMenu fabMain = findViewById(R.id.fab_main);
-        fabMain.setClosedOnTouchOutside(true);
-        com.github.clans.fab.FloatingActionButton fabApply = findViewById(R.id.fab_apply);
-        fabApply.setLabelColors(ContextCompat.getColor(this, R.color.fab_apply_background),
-                ContextCompat.getColor(this, R.color.fab_apply_background),
-                ContextCompat.getColor(this, R.color.white_transparent));
-        fabApply.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton fabMain = findViewById(R.id.fab_main);
+        fabMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 boolean substratumInstalled = isAppInstalled("projekt.substratum");
@@ -100,36 +98,27 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+        ImageView buttonGit = findViewById(R.id.git_button);
+        buttonGit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.github_source_link))));
+            }
+        });
 
-        com.github.clans.fab.FloatingActionButton fabTelegram = findViewById(R.id.fab_telegram);
-        fabTelegram.setLabelColors(ContextCompat.getColor(this, R.color.fab_tg_background),
-                ContextCompat.getColor(this, R.color.fab_tg_background),
-                ContextCompat.getColor(this, R.color.white_transparent));
-        fabTelegram.setOnClickListener(new View.OnClickListener() {
+        ImageView buttonTg = findViewById(R.id.tg_button);
+        buttonTg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.telegram_channel_link))));
             }
         });
 
-        com.github.clans.fab.FloatingActionButton fabGPlus = findViewById(R.id.fab_gplus);
-        fabGPlus.setLabelColors(ContextCompat.getColor(this, R.color.fab_gplus_background),
-                ContextCompat.getColor(this, R.color.fab_gplus_background),
-                ContextCompat.getColor(this, R.color.white_transparent));
-        fabGPlus.setOnClickListener(new View.OnClickListener() {
+        ImageView buttonGPlus = findViewById(R.id.gplus_button);
+        buttonGPlus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.gplus_community_link))));
-            }
-        });
-        com.github.clans.fab.FloatingActionButton fabGit = findViewById(R.id.fab_git);
-        fabGit.setLabelColors(ContextCompat.getColor(this, R.color.fab_git_background),
-                ContextCompat.getColor(this, R.color.fab_git_background),
-                ContextCompat.getColor(this, R.color.white_transparent));
-        fabGit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.github_source_link))));
             }
         });
     }

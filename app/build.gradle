@@ -18,6 +18,9 @@ ext {
     // there are issues with your theme (DEFAULT: false)
     SUPPORTS_THIRD_PARTY_SYSTEMS = true
 
+    // Library version
+    SUPPORT_LIBRARY_VERSION = "27.0.2"
+
     // Encryption values, do not touch as we generate a random key every time you compile!
     byte[] key = new byte[16]
     new Random().nextBytes(key)
@@ -99,14 +102,12 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.github.javiersantos:PiracyChecker:1.1'
-    implementation ("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
-    }
-    implementation 'com.android.support:appcompat-v7:27.0.1'
-    implementation 'com.android.support:support-v4:27.0.1'
-    implementation 'com.android.support:design:27.0.1'
-    implementation 'com.android.support:cardview-v7:27.0.1'
-    implementation 'com.github.clans:fab:1.6.4'
-    implementation 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
+    implementation "com.android.support:support-v4:$SUPPORT_LIBRARY_VERSION"
+    implementation "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
+    implementation "com.android.support:cardview-v7:$SUPPORT_LIBRARY_VERSION"
+    implementation "com.github.ViksaaSkool:AwesomeSplash:v1.0.0"
 }
 
 // Themers, do not touch this! This is our function to help us encrypt your assets!

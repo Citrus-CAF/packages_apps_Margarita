@@ -19,7 +19,8 @@
     <!-- Main colors -->
     <color name="colorPrimary">#37474f</color>
     <color name="colorPrimaryDark">#263238</color>
-    <color name="colorAccent">#00c853</color>
+    <color name="colorAccent">#66bb6a</color>
+    <color name="colorSecondary">#607d8b</color>
     <color name="main_background">#EAEAEA</color>
     <color name="white_transparent">#99ffffff</color>
     <color name="toolbar_item_color">#ffffff</color>

@@ -23,6 +23,6 @@
     <gradient
         android:angle="0"
         android:centerColor="@*android:color/holo_blue_bright"
-        android:endColor="@*android:color/holo_blue_dark"
+        android:endColor="a"
         android:startColor="@*android:color/holo_blue_dark" />
 </shape>

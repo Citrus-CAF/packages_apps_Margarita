@@ -22,6 +22,6 @@
         android:tint="@color/fab_main_foreground_tint">
 
     <path
-        android:fillColor="#fff"
-        android:pathData="M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+        android:pathData="M18 4L18 3C18 2.45 17.55 2 17 2L5 2C4.45 2 4 2.45 4 3l0 4c0 0.55 0.45 1 1 1l12 0c0.55 0 1 -0.45 1 -1l0 -1 1 0 0 4 -10 0 0 11c0 0.55 0.45 1 1 1l2 0c0.55 0 1 -0.45 1 -1l0 -9 8 0 0 -8 -3 0z"
+        android:fillColor="#000000" />
 </vector>
