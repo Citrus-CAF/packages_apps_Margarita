@@ -71,4 +71,11 @@
     <color name="sim_color_picker_carrier_text_color">@android:color/white</color>
     <color name="sim_color_picker_number_text_color">@android:color/white</color>
 
+    <!-- Expanded desktop -->
+    <drawable name="expanded_item_bg_activated">#00000000</drawable>
+    <drawable name="expanded_item_bg">#00000000</drawable>
+    <color name="expanded_button_color_normal">#4CAF50</color>
+    <color name="expanded_button_color_close">#F44336</color>
+    <color name="white">@android:color/white</color>
+
 </resources>
