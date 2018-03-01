@@ -84,11 +84,6 @@
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/content_divider_size"
-                android:background="#1f000000" />
-
             <android.support.v7.widget.CardView
                 android:id="@+id/dashboard_info_card_view"
                 android:layout_width="match_parent"
