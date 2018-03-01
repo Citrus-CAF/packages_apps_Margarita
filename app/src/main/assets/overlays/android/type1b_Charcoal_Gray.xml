@@ -19,4 +19,9 @@
     <!-- Background -->
     <color name="background_dark">#ff2B3941</color>
     <color name="holo_purple">#ff303F48</color>
+
+    <!-- Transparent background -->
+    <color name="holo_light_primary_dark">#8c2B3941</color>
+    <color name="holo_light_primary">#66303F48</color>
+
 </resources>
