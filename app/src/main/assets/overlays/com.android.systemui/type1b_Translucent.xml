@@ -19,4 +19,13 @@
     <!-- Whether or not a background should be drawn behind a notification. -->
     <bool name="config_drawNotificationBackground">false</bool>
 
+    <color name="notification_legacy_background_color">@*android:color/holo_primary</color>
+    <color name="notification_material_background_media_default_color">@*android:color/holo_primary</color>
+    <color name="notification_material_background_color">@*android:color/holo_primary</color>
+    <color name="notification_material_background_dimmed_color">@*android:color/holo_gray_bright</color>
+    <color name="notification_material_background_low_priority_color">@*android:color/holo_gray_bright</color>
+    <color name="notification_guts_bg_color">@*android:color/holo_gray_bright</color>
+    <color name="notification_shade_background_color">@*android:color/holo_gray_bright</color>
+    <color name="qs_edit_item_decoration_bg">#00000000</color>
+
 </resources>

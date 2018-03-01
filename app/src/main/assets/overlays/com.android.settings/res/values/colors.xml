@@ -44,8 +44,8 @@
     <color name="material_grey_300">@*android:color/transparent</color>
 
     <!-- Suggestion/condition colors -->
-    <color name="suggestion_condition_background">#33000000</color>
-    <color name="condition_card_background">#0d000000</color>
+    <color name="suggestion_condition_background">@*android:color/holo_primary</color>
+    <color name="condition_card_background">@*android:color/holo_primary_dark</color>
 
     <!-- Condition card -->
     <color name="condition_card_icon_color">@*android:color/holo_blue_bright</color>
@@ -55,7 +55,7 @@
     <color name="condition_card_count_text_color">@*android:color/holo_blue_bright</color>
 
     <!-- Suggestion card -->
-    <color name="suggestion_card_background_color">#0d000000</color>
+    <color name="suggestion_card_background_color">@*android:color/holo_primary_dark</color>
     <color name="suggestion_card_icon_tint_color">@*android:color/holo_blue_bright</color>
     <color name="suggestion_card_collapsed_summary_text_color">@*android:color/holo_blue_bright</color>
     <color name="suggestion_card_collapsed_title_text_color">@*android:color/holo_blue_bright</color>
@@ -72,8 +72,8 @@
     <color name="sim_color_picker_number_text_color">@android:color/white</color>
 
     <!-- Expanded desktop -->
-    <drawable name="expanded_item_bg_activated">#00000000</drawable>
-    <drawable name="expanded_item_bg">#00000000</drawable>
+    <drawable name="expanded_item_bg_activated">@*android:color/holo_gray_bright</drawable>
+    <drawable name="expanded_item_bg">@*android:color/holo_gray_bright</drawable>
     <color name="expanded_button_color_normal">#4CAF50</color>
     <color name="expanded_button_color_close">#F44336</color>
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Suggestion/condition colors -->
+    <color name="suggestion_condition_background">#33000000</color>
+    <color name="condition_card_background">#0d000000</color>
+    <color name="suggestion_card_background_color">#0d000000</color>
+    <drawable name="expanded_item_bg_activated">#00000000</drawable>
+    <drawable name="expanded_item_bg">#00000000</drawable>
+
+</resources>
