@@ -20,6 +20,7 @@
     <color name="colorPrimary">@*android:color/holo_blue_light</color>
     <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
     <color name="colorAccent">@*android:color/holo_blue_bright</color>
+    <color name="colorSecondary">@*android:color/holo_blue_bright</color>
     <color name="main_background">@*android:color/background_dark</color>
     <color name="toolbar_item_color">@android:color/white</color>
 
@@ -32,7 +33,7 @@
     <color name="fab_tg_background">#517EA1</color>
     <color name="fab_apply_background">#3F51B5</color>
     <color name="fab_main_background">@*android:color/holo_blue_light</color>
-    <color name="fab_main_foreground_tint">@*android:color/holo_blue_bright</color>
+    <color name="fab_main_foreground_tint">@*android:color/holo_blue_dark</color>
 
     <!-- Splash screen -->
     <color name="splash_screen_background">@*android:color/background_dark</color>
