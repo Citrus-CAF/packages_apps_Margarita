@@ -16,7 +16,7 @@
 
 <resources>
 
-    <style name="ShowcaseDialog" parent="@*projekt.substratum:Theme.AppCompat.Light.Dialog">
+    <style name="ShowcaseDialog" parent="@*projekt.substratum:Theme.AppCompat.DayNight.Dialog">
         <item name="android:background">@android:color/holo_blue_light</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -24,10 +24,12 @@
         <item name="*projekt.substratum:windowNoTitle">true</item>
     </style>
 
-    <style name="ToolbarTheme" parent="@*projekt.substratum:style/Theme.AppCompat">
+    <style name="ToolbarTheme" parent="@*projekt.substratum:style/Theme.AppCompat.DayNight">
         <item name="*projekt.substratum:colorPrimary">@*projekt.substratum:color/colorPrimary</item>
         <item name="*projekt.substratum:colorPrimaryDark">@*projekt.substratum:color/colorPrimaryDark</item>
         <item name="*projekt.substratum:colorAccent">@*projekt.substratum:color/colorAccent</item>
     </style>
+
+    <style name="RestoreDialog" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
 
 </resources>
