@@ -52,4 +52,10 @@ public class SplashScreenActivity extends AwesomeSplash {
         startActivity(new Intent(SplashScreenActivity.this, MainActivity.class));
         finishAfterTransition();
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(SplashScreenActivity.this, MainActivity.class));
+    }
 }
