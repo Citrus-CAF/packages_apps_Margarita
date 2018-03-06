@@ -266,4 +266,8 @@
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
     </style>
 
+    <style name="ThemeOverlay.DeviceDefault.ActionBar.Accent" parent="@*android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:colorControlNormal">@*android:color/holo_blue_bright</item>
+    </style>
+
 </resources>

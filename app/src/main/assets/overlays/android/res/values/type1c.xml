@@ -32,6 +32,7 @@
         <item name="android:navigationBarColor">@*android:color/holo_primary</item>
         <item name="android:navigationBarDividerColor">@*android:color/holo_primary</item>
         <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.DeviceDefault.ActionBar.Accent</item>
         <item name="android:colorEdgeEffect">@*android:color/holo_blue_bright</item>
     </style>
 
