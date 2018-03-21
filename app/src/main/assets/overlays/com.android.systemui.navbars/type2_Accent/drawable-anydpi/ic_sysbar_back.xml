@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2017 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,17 +19,20 @@
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24"
-    android:tint="@android:color/white">
+    android:tint="@*android:color/holo_blue_bright">
 
     <path
         android:strokeColor="#fff"
         android:strokeWidth="1.5"
-        android:pathData="M6,4.5c-0.828,0 -1.5,0.672 -1.5,1.5c1.417,4.529 1.468,8.522 0,12c0,0.828
-0.672,1.5 1.5,1.5l12,-6c0,0 1.5,-0.672 1.5,-1.5c0,-0.828 -1.5,-1.5
--1.5,-1.5l-12,-6Z" />
+        android:pathData="M3.147,12l0,0.007l15.936,8.846c0.977,0 1.77,-0.793 1.77,-1.77l0,-14.166c0,-0.977
+-0.793,-1.77 -1.77,-1.77" />
+    <path
+        android:strokeColor="#fff"
+        android:strokeWidth="1.5"
+        android:pathData="M19.083,3.147l-7.077,3.931" />
     <path
         android:fillColor="#73ffffff"
-        android:pathData="M8.16,7.633c-0.487,0 -0.882,0.395 -0.882,0.882c1.078,2.628 1.078,4.981
-0,7.059c0,0.487 0.395,0.882 0.882,0.882l7.059,-3.529c0,0 0.883,-0.396
-0.883,-0.883c0,-0.487 -0.883,-0.882 -0.883,-0.882l-7.059,-3.529Z" />
+        android:pathData="M18.398,8.046c0,-0.408 -0.331,-0.738 -0.738,-0.738l-8.564,3.954c0,0 -0.738,0.33
+-0.738,0.738l0,0.003c0,0.407 0.738,0.738 0.738,0.738l8.564,3.951c0.407,0
+0.738,-0.33 0.738,-0.738l0,-7.908Z" />
 </vector>
