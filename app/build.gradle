@@ -84,7 +84,7 @@ android {
         }
         release {
             // When you compile an APK as release, your resources and IV keys will be safeguarded
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
