@@ -9,17 +9,24 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material.Panel">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:colorAccent">@android:color/holo_blue_bright</item>
-        <item name="android:backgroundTint">@*android:color/holo_primary</item>
-        <item name="windowNoTitle">true</item>
-        <item name="windowIsTranslucent">true</item>
-        <item name="windowContentOverlay">@null</item>
-        <item name="backgroundDimEnabled">true</item>
-        <item name="windowTranslucentStatus">false</item>
-        <item name="windowTranslucentNavigation">false</item>
-        <item name="windowDrawsSystemBarBackgrounds">false</item>
+    <!-- Theme used for the intent picker activity. -->
+    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
+        <item name="android:windowEnterTransition">@empty</item>
+        <item name="android:windowExitTransition">@empty</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorControlActivated">@*android:color/holo_primary_dark</item>
+        <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
+        <!-- Color palette -->
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
     </style>
 
     <style name="Widget.DeviceDefault.Light" parent="@android:style/Widget.Material"/>
