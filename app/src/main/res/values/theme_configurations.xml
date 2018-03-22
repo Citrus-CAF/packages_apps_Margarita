@@ -20,6 +20,7 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
+        <item>v3.7 - Fri, 23-03-2018\n- Themed AOSP Calculator, Clock.\n- Added Solarized dark BG.\n- Made Clock placement option seperate.\n- Made QS footer theming optional.\n- Updated Substratum overlay.\n- Fixed issues applying on other ROMs.\n- Merged upstream template to v12.1.0.\n</item>
         <item>v3.6.2 - Tue, 06-03-2018\n- Removed Shutdown and bootanimations.\n- Updated Substratum package overlay.\n- Use accent for Settings Actionbar icons.\n</item>
         <item>v3.6.1 - Fri, 02-03-2018\n- Themed Amir's Launcher3 fork.\n- Adjusted Translucent style to use background color.\n</item>
         <item>v3.6 - Thu, 01-03-2018\n- Merged upstream template changes.\n- Dashboard redesign by Robin.\n- Translucent style improvement.\n- Themed QS Brightness buttons.\n- Themed DocumentsUI.\n- Transparent theme improvements.\n</item>
