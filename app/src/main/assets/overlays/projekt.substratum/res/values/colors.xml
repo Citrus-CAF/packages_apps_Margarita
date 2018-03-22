@@ -31,6 +31,10 @@
     <!-- sheet dialog bg -->
     <color name="bottom_sheet_dialog_background">@*android:color/holo_blue_light</color>
     <color name="bottom_sheet_dialog_background_night">@*android:color/holo_blue_light</color>
+    <color name="bottom_sheet_dialog_icons">@*android:color/holo_blue_bright</color>
+    <color name="bottom_sheet_dialog_icons_night">@*android:color/holo_blue_bright</color>
+    <color name="bottom_sheet_dialog_text">@android:color/white</color>
+    <color name="bottom_sheet_dialog_text_night">@android:color/white</color>
 
     <color name="priorities_drag_handle">@android:color/white</color>
 
@@ -59,7 +63,7 @@
     <color name="wallpaper_bg_background">@*android:color/background_dark</color>
 
     <!-- Theme info card shown when long pressed a theme -->
-    <color name="theme_information_background">@*android:color/holo_blue_light</color>
+    <color name="theme_information_background">@*android:color/background_dark</color>
     <color name="theme_information_card_subtext">@android:color/white</color>
 
     <!-- Drawer menu -->

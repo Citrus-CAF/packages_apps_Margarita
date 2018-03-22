@@ -18,6 +18,6 @@
 <resources>
 
     <!-- The height of the divider between the individual notifications. -->
-    <dimen name="notification_divider_height">0.1dp</dimen>
+    <dimen name="notification_divider_height">0.0dp</dimen>
 
 </resources>
