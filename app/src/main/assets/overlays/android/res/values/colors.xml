@@ -69,10 +69,6 @@
     <color name="datepicker_default_pressed_text_color_holo_dark">#ffdddddd</color>
 
     <!-- Our changes starts -->
-    <!-- Notification panel action buttons bg -->
-    <color name="notification_action_list">@*android:color/holo_primary_dark</color>
-    <color name="notification_action_list_dark">@*android:color/holo_primary_dark</color>
-
     <!-- Notification panel default color -->
     <color name="notification_default_color">@android:color/holo_blue_bright</color>
     <color name="notification_ambient_default_color">@android:color/white</color>
