@@ -12,23 +12,24 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   ~
-  -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:name="ic_caret_up"
+  --><vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="ic_caret_down"
     android:width="24dp"
+    android:viewportWidth="24"
     android:height="24dp"
-    android:tint="?android:attr/colorControlNormal"
     android:viewportHeight="24"
-    android:viewportWidth="24">
-    <group android:name="caret___4">
+    android:tint="?android:attr/colorAccent" >
+    <group
+        android:name="caret___4" >
         <group
             android:name="right"
-            android:rotation="-45"
             android:translateX="11.287"
-            android:translateY="15.287">
+            android:translateY="8.701"
+            android:rotation="45" >
             <group
                 android:name="right_pivot"
-                android:translateX="4.242">
+                android:translateX="4.242" >
                 <path
                     android:name="rectangle_path_1"
                     android:fillColor="#FFFFFFFF"
@@ -37,12 +38,12 @@
         </group>
         <group
             android:name="left"
-            android:rotation="45"
             android:translateX="12.699"
-            android:translateY="15.287">
+            android:translateY="8.701"
+            android:rotation="-45" >
             <group
                 android:name="left_pivot"
-                android:translateX="-4.242">
+                android:translateX="-4.242" >
                 <path
                     android:name="rectangle_path_2"
                     android:fillColor="#FFFFFFFF"

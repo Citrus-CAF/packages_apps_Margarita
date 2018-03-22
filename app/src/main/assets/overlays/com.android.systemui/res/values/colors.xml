@@ -66,5 +66,4 @@
     <!-- Keyguard affordance circle background  (circle popup when keyguard L/R shortcuts swiped)-->
     <color name="keyguard_affordance_circle_background">@android:color/holo_blue_bright</color>
 
-
 </resources>
