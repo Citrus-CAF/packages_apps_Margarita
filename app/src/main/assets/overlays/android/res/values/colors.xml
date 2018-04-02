@@ -98,4 +98,8 @@
     <!-- Toast text and bg colors -->
     <color name="toast_bg_color">@*android:color/holo_primary</color>
     <color name="toast_text_color">@*android:color/primary_text_default_material_dark</color>
+
+    <!-- background of top area of resolver eg: quick share -->
+    <color name="chooser_service_row_background_color">@*android:color/holo_primary_dark</color>
+
 </resources>
