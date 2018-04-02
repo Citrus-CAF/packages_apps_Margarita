@@ -102,8 +102,10 @@
     <!-- background of top area of resolver eg: quick share -->
     <color name="chooser_service_row_background_color">@*android:color/holo_primary_dark</color>
 
-    <!-- tooltip -->
-    <color name="tooltip_background_dark">@*android:color/holo_primary</color>
+    <!-- Tooltip background and text colors -->
     <color name="tooltip_background_light">@*android:color/holo_primary</color>
+    <color name="tooltip_background_dark">@*android:color/holo_primary</color>
+    <color name="tooltip_text_light">#ffffff</color>
+    <color name="tooltip_text_dark">#ffffff</color>
 
 </resources>
