@@ -29,6 +29,7 @@
     <string name="telegram_channel_link">https://t.me/tctheme</string>
     <string name="gplus_community_link">https://plus.google.com/communities/110928715574226998482</string>
     <string name="github_source_link">https://github.com/Citrus-CAF/packages_apps_Margarita</string>
+    <string name="sublime_download_link">https://github.com/Citrus-CAF/packages_apps_Sublime/releases/download/v1.0/Sublime-v1.0.apk</string>
     <string name="fab_git_label">GitHub source</string>
     <string name="fab_gplus_label">G+ community</string>
     <string name="fab_tg_label">Telegram channel</string>
@@ -37,4 +38,9 @@
     <string name="install_message">INSTALL</string>
     <string name="substratum_playstore_link">https://play.google.com/store/apps/details?id=projekt.substratum</string>
     <string name="splash_screen_app_title">Margarita</string>
+    <string name="dashboard_sublime_title">Sublime!</string>
+    <string name="dashboard_sublime_summary">Sublime is an extension to Margarita which lets you change fonts and bootanimations</string>
+    <string name="dashboard_sublime_download">DOWNLOAD</string>
+    <string name="dashboard_sublime_open">OPEN</string>
+
 </resources>

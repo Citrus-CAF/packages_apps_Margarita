@@ -37,6 +37,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
@@ -121,6 +122,26 @@ public class MainActivity extends AppCompatActivity
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.gplus_community_link))));
             }
         });
+
+        Button downloadButton = findViewById(R.id.dashboard_sublime_download_button);
+        final boolean sublimeInstalled = isAppInstalled("com.citrus.theme.extension");
+        if (!sublimeInstalled) {
+            downloadButton.setText(getResources().getString(R.string.dashboard_sublime_download));
+        } else {
+            downloadButton.setText(getResources().getString(R.string.dashboard_sublime_open));
+        }
+        downloadButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (sublimeInstalled) {
+                    Intent intent = new Intent("android.intent.action.MAIN");
+                    intent.setComponent(new ComponentName("projekt.substratum","projekt.substratum.LaunchActivity"));
+                    startActivity(intent);
+                } else {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.sublime_download_link))));
+                }
+            }
+        });
     }
 
     @Override
@@ -145,6 +166,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 
     private boolean isAppInstalled(String appUri) {
         try {

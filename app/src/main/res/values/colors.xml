@@ -24,6 +24,7 @@
     <color name="main_background">#EAEAEA</color>
     <color name="white_transparent">#99ffffff</color>
     <color name="toolbar_item_color">#ffffff</color>
+    <color name="dashboard_sublime_download_text_color">#ffffff</color>
 
     <!-- Navigation drawer -->
     <color name="nav_drawer_header_background">@color/colorPrimaryDark</color>

@@ -24,116 +24,173 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-        <LinearLayout
-            android:id="@+id/dashboard_main_card_container"
+    <LinearLayout
+        android:id="@+id/dashboard_main_card_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/dashboard_main_card_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_gravity="center|top"
+            android:layout_marginBottom="0dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation">
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/dashboard_main_card_view"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|top"
-                android:layout_marginBottom="0dp"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="@dimen/card_corner_radius"
-                app:cardElevation="@dimen/card_elevation">
+                android:layout_height="wrap_content">
 
-                <RelativeLayout
+                <TextView
+                    android:id="@+id/dashboard_card_title"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/dashboard_card_title"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/text_title"
+                    android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/dashboard_card_title"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginTop="@dimen/content_margin"
-                        android:gravity="center"
-                        android:text="@string/dashboard_card_title"
-                        android:textColor="?android:attr/textColorPrimary"
-                        android:textSize="@dimen/text_title"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:id="@+id/dashboard_card_summary"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/dashboard_card_title"
-                        android:layout_marginStart="@dimen/content_margin"
-                        android:layout_marginEnd="@dimen/content_margin"
-                        android:gravity="center"
-                        android:text="@string/dashboard_card_summary"
-                        android:textColor="?android:attr/textColorSecondary"
-                        android:textSize="@dimen/text_content" />
-
-                    <TextView
-                        android:id="@+id/team_title"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/dashboard_card_summary"
-                        android:layout_marginStart="@dimen/content_margin"
-                        android:layout_marginEnd="@dimen/content_margin"
-                        android:layout_marginBottom="@dimen/content_margin"
-                        android:gravity="center"
-                        android:text="@string/team_title"
-                        android:textColor="@color/colorAccent"
-                        android:textSize="@dimen/text_content"
-                        android:textStyle="bold"/>
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/dashboard_info_card_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|top"
-                android:layout_marginBottom="30dp"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="@dimen/card_corner_radius"
-                app:cardElevation="@dimen/card_elevation">
-
-                <RelativeLayout
+                <TextView
+                    android:id="@+id/dashboard_card_summary"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dashboard_card_title"
+                    android:layout_marginStart="@dimen/content_margin"
+                    android:layout_marginEnd="@dimen/content_margin"
+                    android:gravity="center"
+                    android:text="@string/dashboard_card_summary"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="@dimen/text_content" />
 
-                    <TextView
-                        android:id="@+id/dashboard_info_card_title"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/content_margin"
-                        android:layout_marginEnd="@dimen/content_margin"
-                        android:layout_marginStart="@dimen/content_margin"
-                        android:layout_marginTop="@dimen/content_margin"
-                        android:gravity="start"
-                        android:text="@string/dashboard_info_title"
-                        android:textStyle="bold"
-                        android:textColor="?android:attr/textColorPrimary"
-                        android:textSize="@dimen/text_title"/>
+                <TextView
+                    android:id="@+id/team_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dashboard_card_summary"
+                    android:layout_marginStart="@dimen/content_margin"
+                    android:layout_marginEnd="@dimen/content_margin"
+                    android:layout_marginBottom="@dimen/content_margin"
+                    android:gravity="center"
+                    android:text="@string/team_title"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text_content"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
 
-                    <TextView
-                        android:id="@+id/dashboard_info_card_summary"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/dashboard_info_card_title"
-                        android:layout_marginBottom="@dimen/content_margin"
-                        android:layout_marginEnd="@dimen/content_margin"
-                        android:layout_marginStart="@dimen/content_margin"
-                        android:gravity="start"
-                        android:text="@string/dashboard_info_summary"
-                        android:textColor="?android:attr/textColorPrimary"
-                        android:textSize="@dimen/text_content" />
-                </RelativeLayout>
+        <android.support.v7.widget.CardView
+            android:id="@+id/dashboard_info_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginBottom="5dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation">
 
-
-            </android.support.v7.widget.CardView>
-
-            <include
-                layout="@layout/footer_buttons"
-                android:layout_height="match_parent"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                />
+                android:layout_height="wrap_content">
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/dashboard_info_card_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/content_margin"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:layout_marginEnd="@dimen/content_margin"
+                    android:layout_marginBottom="@dimen/content_margin"
+                    android:gravity="start"
+                    android:text="@string/dashboard_info_title"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/text_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dashboard_info_card_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dashboard_info_card_title"
+                    android:layout_marginStart="@dimen/content_margin"
+                    android:layout_marginEnd="@dimen/content_margin"
+                    android:layout_marginBottom="@dimen/content_margin"
+                    android:gravity="start"
+                    android:text="@string/dashboard_info_summary"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/text_content" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/dashboard_sublime_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginBottom="30dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dashboard_sublime_card_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/content_margin"
+                    android:layout_marginTop="@dimen/content_margin"
+                    android:layout_marginEnd="@dimen/content_margin"
+                    android:layout_marginBottom="@dimen/content_margin"
+                    android:gravity="start"
+                    android:text="@string/dashboard_sublime_title"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/text_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dashboard_sublime_card_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dashboard_sublime_card_title"
+                    android:layout_marginStart="@dimen/content_margin"
+                    android:layout_marginEnd="@dimen/content_margin"
+                    android:gravity="start"
+                    android:text="@string/dashboard_sublime_summary"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="@dimen/text_content" />
+
+                <Button
+                    android:id="@+id/dashboard_sublime_download_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dashboard_sublime_card_summary"
+                    android:layout_alignEnd="@id/dashboard_sublime_card_summary"
+                    android:layout_marginBottom="@dimen/content_margin"
+                    android:background="@drawable/button_background"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:elevation="@dimen/card_elevation"
+                    android:minWidth="80dp"
+                    android:minHeight="30dp"
+                    android:textColor="@color/dashboard_sublime_download_text_color"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <include
+            layout="@layout/footer_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>
