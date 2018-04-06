@@ -43,8 +43,8 @@ android {
         minSdkVersion 27
         targetSdkVersion 27
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 370
-        versionName "3.7"
+        versionCode 400
+        versionName "4.0"
 
         // Themers: Do not touch this, they will only formulate integrity structure of the core
         //          template
@@ -69,13 +69,18 @@ android {
         debug {
             // Override the local debug keystore, so that
             // all builds have consistent certificates
-            storeFile file("../debug.keystore")
+            storeFile file("../signKeys/debug.keystore")
             storePassword "android"
             keyAlias "androiddebugkey"
             keyPassword "android"
         }
+        release {
+            // Override the local debug keystore, so that
+            // all builds have consistent certificates
+            storeFile file("../signKeys/MargaritaRelease.jks")
+            keyAlias "margarita"
+        }
     }
-
     buildTypes {
         debug {
             minifyEnabled false
