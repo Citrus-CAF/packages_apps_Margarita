@@ -77,4 +77,7 @@
     <color name="expanded_button_color_normal">#4CAF50</color>
     <color name="expanded_button_color_close">#F44336</color>
 
+    <!-- bluetooth confirmation dialog text colors -->
+    <color name="bluetooth_dialog_text_color">@*android:color/text_color_secondary</color>
+
 </resources>
