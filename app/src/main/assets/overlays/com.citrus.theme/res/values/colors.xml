@@ -21,8 +21,9 @@
     <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
     <color name="colorAccent">@*android:color/holo_blue_bright</color>
     <color name="colorSecondary">@*android:color/holo_blue_bright</color>
-    <color name="main_background">@*android:color/background_dark</color>
+    <color name="main_background">@*android:color/holo_blue_light</color>
     <color name="toolbar_item_color">@android:color/white</color>
+    <color name="dashboard_sublime_download_text_color">@*android:color/holo_blue_dark</color>
 
     <!-- Navigation drawer -->
     <color name="nav_drawer_icon_color">@*android:color/holo_blue_bright</color>
