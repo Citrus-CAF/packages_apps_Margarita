@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="@android:color/black">
+
+    <path
+        android:pathData="M18.473 18.684c0.189 0 0.343 -0.153 0.343 -0.343l0 -12.682c0 -0.19 -0.154 -0.343 -0.343 -0.343l-2.745 0c-0.19 0 -0.344 0.153 -0.344 0.343l0 12.682c0 0.19 0.154 0.343 0.344 0.343l2.745 0z"
+        android:fillColor="#009988"/>
+    <path
+        android:pathData="M8.272 18.684c0.19 0 0.344 -0.153 0.344 -0.343l0 -12.682c0 -0.19 -0.154 -0.343 -0.344 -0.343l-2.745 0c-0.189 0 -0.343 0.153 -0.343 0.343l0 12.682c0 0.19 0.154 0.343 0.343 0.343l2.745 0z"
+        android:fillColor="#009988" />
+    <path
+        android:pathData="M20.133 20.884c0.418 0 0.758 -0.339 0.758 -0.758l0 -16.252c0 -0.419 -0.34 -0.758 -0.758 -0.758l-6.066 0c-0.418 0 -0.758 0.339 -0.758 0.758l0 16.252c0 0.419 0.34 0.758 0.758 0.758l6.066 0z"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M9.933 20.884c0.418 0 0.758 -0.339 0.758 -0.758l0 -16.252c0 -0.419 -0.34 -0.758 -0.758 -0.758l-6.066 0c-0.418 0 -0.758 0.339 -0.758 0.758l0 16.252c0 0.419 0.34 0.758 0.758 0.758l6.066 0z"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+</vector>
