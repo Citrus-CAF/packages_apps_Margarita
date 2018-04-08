@@ -17,7 +17,7 @@
 <resources>
 
     <style name="ShowcaseDialog" parent="@*projekt.substratum:Theme.AppCompat.DayNight.Dialog">
-        <item name="android:windowBackground">@*projekt.substratum:color/window_bg</item>
+        <item name="android:windowBackground">@*android:color/holo_gray_bright</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="*projekt.substratum:windowActionBar">false</item>
@@ -35,7 +35,7 @@
         <item name="*projekt.substratum:colorPrimary">@*projekt.substratum:color/colorPrimary</item>
         <item name="*projekt.substratum:colorPrimaryDark">@*projekt.substratum:color/colorPrimaryDark</item>
         <item name="*projekt.substratum:colorAccent">@*projekt.substratum:color/colorAccent</item>
-        <item name="android:windowBackground">@*projekt.substratum:color/window_bg</item>
+        <item name="android:windowBackground">@*android:color/holo_gray_bright</item>
         <item name="android:navigationBarColor">@*projekt.substratum:color/navigationBarColor</item>
         <item name="android:statusBarColor">@*projekt.substratum:color/statusBarColor</item>
         <item name="android:windowLightStatusBar">@*projekt.substratum:bool/windowLightStatusBar</item>

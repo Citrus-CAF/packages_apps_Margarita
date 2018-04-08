@@ -21,7 +21,7 @@
         <item name="*projekt.substratum:colorPrimary">@*projekt.substratum:color/colorPrimary</item>
         <item name="*projekt.substratum:colorPrimaryDark">@*projekt.substratum:color/colorPrimaryDark</item>
         <item name="*projekt.substratum:colorAccent">@*projekt.substratum:color/colorAccent</item>
-        <item name="android:windowBackground">@*projekt.substratum:color/window_bg</item>
+        <item name="android:windowBackground">@*android:color/holo_gray_bright</item>
         <item name="android:navigationBarColor">@*projekt.substratum:color/navigationBarColor</item>
         <item name="android:navigationBarDividerColor">@*projekt.substratum:color/navigation_bar_divider</item>
         <item name="android:statusBarColor">@*projekt.substratum:color/statusBarColor</item>

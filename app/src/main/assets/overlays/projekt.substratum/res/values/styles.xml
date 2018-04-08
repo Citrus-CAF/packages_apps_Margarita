@@ -17,7 +17,7 @@
 <resources>
 
     <style name="ShowcaseDialog" parent="@*projekt.substratum:Theme.AppCompat.DayNight.Dialog">
-        <item name="android:windowBackground">@*projekt.substratum:color/window_bg</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="*projekt.substratum:windowActionBar">false</item>
