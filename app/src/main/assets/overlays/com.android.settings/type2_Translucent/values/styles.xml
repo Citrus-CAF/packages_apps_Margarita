@@ -19,23 +19,15 @@
 <resources>
     <style name="PreferenceFragmentListSinglePane" parent="@*android:style/PreferenceFragmentList">
         <item name="android:scrollbarStyle">outsideOverlay</item>
-        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:background">@*android:color/holo_gray_bright</item>
     </style>
 
-    <style name="SecurityPreferenceButtonContainer"
-           parent="@android:style/Widget.Material.SegmentedButton">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:weightSum">2.0</item>
-        <item name="android:dividerPadding">8.0dip</item>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:elevation">0.0dip</item>
     </style>
-    <style name="SecurityPreferenceButton"
-           parent="@android:style/Widget.Material.Button.Borderless">
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:layout_width">0.0dip</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:layout_weight">1.0</item>
+
+    <style name="CardView" parent="@*com.android.settings:style/Base.CardView">
+        <item name="*com.android.settings:cardBackgroundColor">#33000000</item>
     </style>
 
 </resources>
