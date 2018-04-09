@@ -96,5 +96,5 @@
     <color name="incall_background_gradient_spam_middle">#D6000000</color>
     <color name="incall_background_gradient_spam_bottom">#B8000000</color>
     <color name="incall_background_multiwindow_spam">#E9000000</color>
-
+    <color name="incoming_answer_icon">@android:color/transparent</color>
 </resources>
