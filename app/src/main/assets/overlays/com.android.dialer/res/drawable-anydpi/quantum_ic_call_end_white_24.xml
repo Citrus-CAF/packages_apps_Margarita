@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 Citrus-CAF Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="@*android:color/black">
+
+    <path
+        android:pathData="M5.151 14.68C5.896 13.935 6.729 13.34 7.617 12.893 7.891 12.75 8.075 12.47 8.081 12.143l0 -2.62c2.543 -0.828 5.301 -0.834 7.844 -0.006l0.006 2.626c-0.006 0.327 0.178 0.607 0.452 0.75 0.888 0.447 1.721 1.042 2.466 1.787 0.327 0.327 0.863 0.327 1.191 0l2.084 -2.084c0.328 -0.328 0.328 -0.864 0 -1.192 -5.592 -5.592 -14.656 -5.592 -20.248 0 -0.328 0.328 -0.328 0.864 0 1.192L3.96 14.68c0.328 0.327 0.864 0.327 1.191 0z"
+        android:fillColor="#73ffffff"/>
+    <path
+        android:pathData="M5.151 14.68C5.896 13.935 6.729 13.34 7.617 12.893 7.891 12.75 8.075 12.47 8.081 12.143l0 -2.62c2.543 -0.828 5.301 -0.834 7.844 -0.006l0.006 2.626c-0.006 0.327 0.178 0.607 0.452 0.75 0.888 0.447 1.721 1.042 2.466 1.787 0.327 0.327 0.863 0.327 1.191 0l2.084 -2.084c0.328 -0.328 0.328 -0.864 0 -1.192 -5.592 -5.592 -14.656 -5.592 -20.248 0 -0.328 0.328 -0.328 0.864 0 1.192L3.96 14.68c0.328 0.327 0.864 0.327 1.191 0z"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.41421"
+        android:strokeColor="#000000" />
+</vector>

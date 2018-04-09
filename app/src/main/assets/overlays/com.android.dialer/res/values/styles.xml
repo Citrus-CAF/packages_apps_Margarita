@@ -105,4 +105,15 @@
         <item name="android:backgroundTint">@*android:color/background_dark</item>
     </style>
 
+    <style name="Incall.Button.End" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@*com.android.dialer:drawable/incall_end_call_background</item>
+        <item name="android:backgroundTint">@*android:color/holo_blue_bright</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:layout_width">@*com.android.dialer:dimen/incall_end_call_button_size</item>
+        <item name="android:layout_height">@*com.android.dialer:dimen/incall_end_call_button_size</item>
+        <item name="android:src">@*com.android.dialer:drawable/incall_end_call_icon</item>
+        <item name="android:elevation">8.0dip</item>
+        <item name="android:stateListAnimator">@*com.android.dialer:animator/disabled_alpha</item>
+    </style>
+
 </resources>
