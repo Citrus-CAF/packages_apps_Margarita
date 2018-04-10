@@ -1,0 +1,36 @@
+<!--
+  ~ Copyright (c) 2018 Citrus-CAF Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<resources>
+
+    <style name="AppTheme" parent="@*projekt.substratum:style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="*projekt.substratum:colorPrimary">@*projekt.substratum:color/colorPrimary</item>
+        <item name="*projekt.substratum:colorPrimaryDark">@*projekt.substratum:color/colorPrimaryDark</item>
+        <item name="*projekt.substratum:colorAccent">@*projekt.substratum:color/colorAccent</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:navigationBarColor">@*projekt.substratum:color/navigationBarColor</item>
+        <item name="android:navigationBarDividerColor">@*projekt.substratum:color/navigation_bar_divider</item>
+        <item name="android:statusBarColor">@*projekt.substratum:color/statusBarColor</item>
+        <item name="android:windowLightStatusBar">@*projekt.substratum:bool/windowLightStatusBar</item>
+        <item name="android:windowLightNavigationBar">@*projekt.substratum:bool/windowLightNavigationBar</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:toolbarStyle">@*projekt.substratum:style/ToolbarTheme</item>
+        <item name="*projekt.substratum:preferenceTheme">@*projekt.substratum:style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="*projekt.substratum:colorControlHighlight">@*projekt.substratum:color/colorRipple</item>
+    </style>
+
+</resources>

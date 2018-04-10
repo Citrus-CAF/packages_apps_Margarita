@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <style name="DialtactsActionBarOverflow" parent="@*android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@*com.android.dialer:drawable/ic_overflow_menu</item>
+    </style>
+
+    <!-- Action bar overflow menu icon.  White with no shadow. -->
+    <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@*com.android.dialer:drawable/quantum_ic_more_vert_white_24</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.Light" parent="@*com.android.dialer:style/Base.ThemeOverlay.AppCompat" />
+
+    <!-- Text style for tabs. -->
+    <style name="DialtactsActionBarTabTextStyle" parent="android:style/Widget.Material.ActionBar.TabText">
+        <item name="android:textColor">@*com.android.dialer:color/tab_text_color</item>
+        <item name="android:textSize">@*com.android.dialer:dimen/tab_text_size</item>
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse" parent="@*com.android.dialer:style/Widget.AppCompat.ActionBar.Solid" />
+
+    <style name="AfterCallDialogStyle" parent="@*com.android.dialer:style/Theme.AppCompat.Dialog.MinWidth">
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@*com.android.dialer:style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:colorPrimary">@*com.android.dialer:color/dialtacts_theme_color</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="AppBarTheme" parent="@*com.android.dialer:style/Theme.AppCompat">
+        <item name="android:colorPrimary">@*com.android.dialer:color/dialtacts_theme_color</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="DialerThemeBase" parent="@*com.android.dialer:style/Theme.AppCompat">
+        <item name="android:textColorPrimary">@*com.android.dialer:color/dialer_primary_text_color</item>
+        <item name="android:textColorSecondary">@*com.android.dialer:color/dialer_secondary_text_color</item>
+        <item name="android:textAppearanceButton">@*com.android.dialer:style/DialerButtonTextStyle</item>
+        <item name="android:actionBarStyle">@*com.android.dialer:style/DialerActionBarBaseStyle</item>
+        <item name="android:actionBarSize">@*com.android.dialer:dimen/action_bar_height</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
+        <item name="android:colorControlActivated">@*android:color/holo_blue_bright</item>
+        <item name="android:colorButtonNormal">@*android:color/holo_blue_bright</item>
+        <item name="android:colorPrimary">@*com.android.dialer:color/titlebar_in_recents_background_color</item>
+        <item name="android:colorPrimaryDark">@*com.android.dialer:color/dialer_theme_color_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="*com.android.dialer:actionBarSize">@*com.android.dialer:dimen/action_bar_height</item>
+        <item name="*com.android.dialer:actionBarStyle">@*com.android.dialer:style/DialerActionBarBaseStyle</item>
+    </style>
+    <style name="DialerThemeBase.NoActionBar" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@*com.android.dialer:color/dialer_primary_text_color</item>
+        <item name="android:textColorSecondary">@*com.android.dialer:color/dialer_secondary_text_color</item>
+        <item name="android:textAppearanceButton">@*com.android.dialer:style/DialerButtonTextStyle</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
+        <item name="android:colorControlActivated">@*android:color/holo_blue_bright</item>
+        <item name="android:colorButtonNormal">@*android:color/holo_blue_bright</item>
+        <item name="android:colorPrimary">@*com.android.dialer:color/titlebar_in_recents_background_color</item>
+        <item name="android:colorPrimaryDark">@*com.android.dialer:color/dialer_theme_color_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="NuiMainActivityTheme" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@*com.android.dialer:color/dialtacts_theme_color</item>
+        <item name="android:colorPrimaryDark">@*com.android.dialer:color/dialer_theme_color_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="CallLogActionIconStyle">
+        <item name="android:layout_width">@*com.android.dialer:dimen/call_log_action_icon_dimen</item>
+        <item name="android:layout_height">@*com.android.dialer:dimen/call_log_action_icon_dimen</item>
+        <item name="android:tint">@*android:color/holo_blue_bright</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:layout_marginStart">@*com.android.dialer:dimen/call_log_action_icon_margin_start</item>
+    </style>
+    <!-- Theme for the InCallActivity activity. Should have a transparent background for the
+     circular reveal animation for a new outgoing call to work correctly. We don't just use
+     Theme.Black.NoTitleBar directly, since we want any popups or dialogs from the
+     InCallActivity to have the correct Material style. -->
+    <style name="Theme.InCallScreen" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#DDFFFFFF</item>
+        <item name="android:colorPrimary">@*com.android.dialer:color/dialer_theme_color</item>
+        <item name="android:colorPrimaryDark">@*com.android.dialer:color/dialer_theme_color_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="*com.android.dialer:dialpad_key_button_touch_tint">@*com.android.dialer:color/incall_dialpad_touch_tint</item>
+        <item name="*com.android.dialer:dialpad_style">@*com.android.dialer:style/InCallDialpad</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
+        <item name="android:windowBackground">@*com.android.dialer:drawable/incall_background_gradient</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
+    </style>
+
+    <style name="Incall.Button.End" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@*com.android.dialer:drawable/incall_end_call_background</item>
+        <item name="android:backgroundTint">@*android:color/holo_blue_bright</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:layout_width">@*com.android.dialer:dimen/incall_end_call_button_size</item>
+        <item name="android:layout_height">@*com.android.dialer:dimen/incall_end_call_button_size</item>
+        <item name="android:src">@*com.android.dialer:drawable/incall_end_call_icon</item>
+        <item name="android:elevation">8.0dip</item>
+        <item name="android:stateListAnimator">@*com.android.dialer:animator/disabled_alpha</item>
+    </style>
+
+</resources>

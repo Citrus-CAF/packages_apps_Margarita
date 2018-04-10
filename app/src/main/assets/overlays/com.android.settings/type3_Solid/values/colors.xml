@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_primary">@*android:color/holo_blue_light</color>
+    <color name="theme_primary_dark">@*android:color/holo_blue_dark</color>
+
+    <color name="divider_color">@*android:color/background_dark</color>
+
+    <color name="confirm_device_credential_dark_background">@*android:color/background_dark</color>
+
+    <!-- Suggestion/condition colors -->
+    <color name="suggestion_condition_background">@*android:color/holo_blue_light</color>
+    <color name="condition_card_background">@*android:color/holo_blue_dark</color>
+
+    <!-- Suggestion card -->
+    <color name="suggestion_card_background_color">@*android:color/holo_blue_dark</color>
+
+    <!-- Expanded desktop -->
+    <drawable name="expanded_item_bg_activated">@*android:color/background_dark</drawable>
+    <drawable name="expanded_item_bg">@*android:color/background_dark</drawable>
+
+    <!-- Screen zoom preview -->
+    <color name="message_bubble_incoming">@*android:color/holo_blue_light</color>
+    <color name="message_bubble_outgoing">@*android:color/holo_blue_light</color>
+    <color name="conversation_background">@*android:color/background_dark</color>
+    <color name="message_icon_background_incoming">@*android:color/holo_blue_light</color>
+    <color name="message_icon_background_outgoing">@*android:color/holo_blue_light</color>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2018 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorAccent">
+
+    <path
+        android:fillColor="#4dffffff"
+        android:pathData="M 9.169 4.084 C 11.8619404402 4.084 14.045 6.26705955983 14.045 8.96 C 14.045 11.6529404402 11.8619404402 13.836 9.169 13.836 C 6.47605955983 13.836 4.293 11.6529404402 4.293 8.96 C 4.293 6.26705955983 6.47605955983 4.084 9.169 4.084 Z" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="1"
+        android:pathData="M 9.169 1.995 C 13.0156632826 1.995 16.134 5.11333671743 16.134 8.96 C 16.134 12.8066632826 13.0156632826 15.925 9.169 15.925 C 5.32233671743 15.925 2.204 12.8066632826 2.204 8.96 C 2.204 5.11333671743 5.32233671743 1.995 9.169 1.995 Z" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="2"
+        android:pathData="M21.72,21.706l-7.297,-7.284" />
+</vector>

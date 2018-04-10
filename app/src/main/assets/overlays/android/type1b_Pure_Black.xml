@@ -21,7 +21,7 @@
     <color name="holo_purple">@*android:color/background_dark</color>
 
     <!-- Transparent background -->
-    <color name="holo_light_primary_dark">#8c000000</color>
-    <color name="holo_light_primary">@*android:color/holo_light_primary_dark</color>
+    <color name="holo_primary_dark">#8c000000</color>
+    <color name="holo_primary">@*android:color/holo_light_primary_dark</color>
 
 </resources>

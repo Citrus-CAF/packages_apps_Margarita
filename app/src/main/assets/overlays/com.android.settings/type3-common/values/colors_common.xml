@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lock_pattern_view_regular_color">#ffe0e0e0</color>
+    <color name="running_processes_system_ram">#fff44336</color>
+    <color name="memory_user_light">#ff00796b</color>
+    <color name="memory_user_dark">#ff004d40</color>
+    <color name="theme_accent">@android:color/holo_blue_bright</color>
+    <color name="title_color">#ffffffff</color>
+    <color name="setup_divider_color_light">#33ffffff</color>
+    <color name="setup_wizard_wifi_color_dark">#89ffffff</color>
+    <color name="setup_wizard_wifi_color_light">#89ffffff</color>
+
+    <color name="black">#000</color>
+    <color name="red">#F00</color>
+    <color name="blue">#00F</color>
+
+    <color name="material_empty_color_light">#E0E0E0</color>
+
+    <color name="memory_used">#F00</color>
+    <color name="memory_avail">#E0E0E0</color>
+
+    <color name="fingerprint_title_area_bg">?android:attr/colorAccent</color>
+    <color name="fingerprint_title_color">#ffffffff</color>
+    <color name="fingerprint_message_color">#de000000</color>
+    <color name="fingerprint_progress_ring">?android:attr/colorAccent</color>
+    <color name="fingerprint_progress_ring_bg">#20000000</color>
+    <color name="fingerprint_indicator_background_resting">#12000000</color>
+
+    <color name="warning">#D32F2F</color>
+    <color name="fab_ripple">#1fffffff</color><!-- 12% white -->
+    <color name="fab_shape">?android:attr/colorAccent</color>
+    <color name="voice_interaction_highlight">#33b5e5</color>
+
+    <drawable name="fp_enrollment_header_landscape">#009688</drawable>
+
+    <!-- Accent color that matches the settings launcher icon -->
+    <color name="icon_accent">@android:color/holo_blue_bright</color>
+
+    <color name="material_grey_300">@*android:color/transparent</color>
+
+    <!-- Condition card -->
+    <color name="condition_card_icon_color">@*android:color/holo_blue_bright</color>
+    <color name="condition_card_header_icon_color">@*android:color/holo_blue_bright</color>
+    <color name="condition_card_first_button_text_color">@*android:color/holo_blue_bright</color> <!-- layout adds .8 alpha -->
+    <color name="condition_card_second_button_text_color">@*android:color/holo_blue_bright</color> <!-- layout adds .8 alpha -->
+    <color name="condition_card_count_text_color">@*android:color/holo_blue_bright</color>
+
+    <!-- Suggestion card -->
+    <color name="suggestion_card_icon_tint_color">@*android:color/holo_blue_bright</color>
+    <color name="suggestion_card_collapsed_summary_text_color">@*android:color/holo_blue_bright</color>
+    <color name="suggestion_card_collapsed_title_text_color">@*android:color/holo_blue_bright</color>
+    <color name="suggestion_card_more_text_color">@*android:color/holo_blue_bright</color>
+
+    <!-- Suggestion and Condition header -->
+    <color name="suggestion_condition_card_header_title_text_color">@*android:color/holo_blue_bright</color>
+    <color name="suggestion_condition_card_header_summary_text_color">@*android:color/holo_blue_bright</color>
+
+    <!-- MSIM Color picker dialog colors -->
+    <color name="sim_color_picker_edit_text_color">@android:color/white</color>
+    <color name="sim_color_picker_list_text_color">@android:color/white</color>
+    <color name="sim_color_picker_carrier_text_color">@android:color/white</color>
+    <color name="sim_color_picker_number_text_color">@android:color/white</color>
+
+    <!-- Expanded desktop -->
+    <color name="expanded_button_color_normal">#4CAF50</color>
+    <color name="expanded_button_color_close">#F44336</color>
+
+    <!-- bluetooth confirmation dialog text colors -->
+    <color name="bluetooth_dialog_text_color">@*android:color/text_color_secondary</color>
+
+
+    <!-- Screen zoom preview -->
+    <color name="message_text_incoming">#ffffffff</color>
+    <color name="message_text_outgoing">#ffffffff</color>
+    <color name="timestamp_text_outgoing">@*android:color/holo_blue_bright</color>
+    <color name="timestamp_text_incoming">@*android:color/holo_blue_bright</color>
+    <color name="message_icon_text_incoming">@*android:color/holo_blue_bright</color>
+    <color name="message_icon_text_outgoing">@*android:color/holo_blue_bright</color>
+
+</resources>
