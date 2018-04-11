@@ -24,9 +24,8 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowSharedElementsUseOverlay">false</item>
         <item name="android:textColorSecondary">@*com.android.musicfx:color/textColor</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
-
-    <style name="AppTheme.PopupOverlay" parent="@*com.android.musicfx:style/ThemeOverlay.AppCompat" />
-
 
 </resources>

@@ -17,13 +17,6 @@
 
 <resources>
 
-    <style name="AppTheme" parent="@*com.android.musicfx:style/Theme.AppCompat.NoActionBar">
-        <item name="*com.android.musicfx:colorPrimary">@*com.android.musicfx:color/primaryColor</item>
-        <item name="*com.android.musicfx:colorPrimaryDark">@*com.android.musicfx:color/primaryColorDark</item>
-        <item name="*com.android.musicfx:colorAccent">@*com.android.musicfx:color/accentColor</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowSharedElementsUseOverlay">false</item>
-        <item name="android:textColorSecondary">@*com.android.musicfx:color/textColor</item>
-    </style>
+    <style name="AppTheme.PopupOverlay" parent="@*com.android.musicfx:style/ThemeOverlay.AppCompat" />
 
 </resources>
