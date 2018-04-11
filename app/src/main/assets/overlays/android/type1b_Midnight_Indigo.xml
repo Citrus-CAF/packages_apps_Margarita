@@ -16,12 +16,15 @@
   -->
 
 <resources>
-    <!-- Background -->
-    <color name="background_dark">#ff181B34</color>
-    <color name="holo_purple">#ff1B1E3A</color>
 
-    <!-- Transparent background -->
-    <color name="holo_primary_dark">#8c181B34</color>
+    <!-- primary & background color used for solid style -->
+    <color name="holo_blue_light">#ff1B1E3A</color>
+    <color name="holo_blue_dark">@*android:color/background_dark</color>
+    <color name="background_dark">#ff181B34</color>
+
+    <!-- primary & background color used for translucent style -->
     <color name="holo_primary">#661B1E3A</color>
+    <color name="holo_primary_dark">@*android:color/background_holo_dark</color>
+    <color name="background_holo_dark">#8c181B34</color>
 
 </resources>

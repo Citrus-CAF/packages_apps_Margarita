@@ -52,7 +52,4 @@
     <color name="notification_action_list">@android:color/transparent</color>
     <color name="notification_action_list_dark">@android:color/transparent</color>
 
-    <!-- background color used for translucent style -->
-    <color name="background_holo_dark">@*android:color/holo_primary_dark</color>
-
 </resources>
