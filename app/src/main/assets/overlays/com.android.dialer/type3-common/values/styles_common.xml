@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <style name="DialtactsActionBarOverflow" parent="@*android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@*com.android.dialer:drawable/ic_overflow_menu</item>
+    </style>
+
+    <!-- Action bar overflow menu icon.  White with no shadow. -->
+    <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@*com.android.dialer:drawable/quantum_ic_more_vert_white_24</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.Light" parent="@*com.android.dialer:style/Base.ThemeOverlay.AppCompat" />
+
+    <!-- Text style for tabs. -->
+    <style name="DialtactsActionBarTabTextStyle" parent="android:style/Widget.Material.ActionBar.TabText">
+        <item name="android:textColor">@*com.android.dialer:color/tab_text_color</item>
+        <item name="android:textSize">@*com.android.dialer:dimen/tab_text_size</item>
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse" parent="@*com.android.dialer:style/Widget.AppCompat.ActionBar.Solid" />
+
+    <style name="AfterCallDialogStyle" parent="@*com.android.dialer:style/Theme.AppCompat.Dialog.MinWidth">
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="CallLogActionIconStyle">
+        <item name="android:layout_width">@*com.android.dialer:dimen/call_log_action_icon_dimen</item>
+        <item name="android:layout_height">@*com.android.dialer:dimen/call_log_action_icon_dimen</item>
+        <item name="android:tint">@*android:color/holo_blue_bright</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:layout_marginStart">@*com.android.dialer:dimen/call_log_action_icon_margin_start</item>
+    </style>
+
+    <style name="Incall.Button.End" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@*com.android.dialer:drawable/incall_end_call_background</item>
+        <item name="android:backgroundTint">@*android:color/holo_blue_bright</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:layout_width">@*com.android.dialer:dimen/incall_end_call_button_size</item>
+        <item name="android:layout_height">@*com.android.dialer:dimen/incall_end_call_button_size</item>
+        <item name="android:src">@*com.android.dialer:drawable/incall_end_call_icon</item>
+        <item name="android:elevation">8.0dip</item>
+        <item name="android:stateListAnimator">@*com.android.dialer:animator/disabled_alpha</item>
+    </style>
+
+    <style name="CallDetailsActionItemStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#8afffffd</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="android:drawablePadding">28.0dip</item>
+        <item name="android:paddingStart">28.0dip</item>
+        <item name="android:paddingEnd">28.0dip</item>
+    </style>
+
+    <style name="SecondaryText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#8affffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+</resources>

@@ -17,84 +17,50 @@
 
 <resources>
 
-    <!-- Colors for the notification actions -->
-    <color name="notification_action_accept">@*android:color/holo_blue_bright</color>
-    <color name="notification_action_answer_video">@*android:color/holo_blue_bright</color>
-    <color name="notification_action_dismiss">@*android:color/holo_blue_bright</color>
-    <color name="notification_action_end_call">@*android:color/holo_blue_bright</color>
-
     <!-- Main theme colors -->
-    <color name="dialer_theme_color">@*android:color/holo_blue_light</color>
-    <color name="dialer_theme_color_dark">@*android:color/holo_blue_dark</color>
-    <color name="dialer_theme_color_20pct">#33ffffff</color>
-    <color name="dialer_snackbar_action_text_color">@*android:color/holo_blue_bright</color>
-    <color name="dialtacts_theme_color">@*android:color/holo_blue_bright</color>
+    <color name="dialer_theme_color">@*android:color/holo_primary</color>
+    <color name="dialer_theme_color_dark">@*android:color/holo_primary_dark</color>
 
-    <!-- Primary text color in the Phone app -->
-    <color name="dialer_primary_text_color">@*android:color/text_color_primary</color>
-    <color name="dialer_secondary_color">@*android:color/holo_blue_bright</color>
-    <color name="dialer_secondary_text_color">@*android:color/text_color_secondary</color>
-    <color name="dialer_edit_text_hint_color">@*android:color/text_color_secondary</color>
-
+    <!-- Background color for the call subject history view. -->
+    <color name="call_subject_history_background">@*android:color/background_holo_dark</color>
 
     <!-- Background color of new dialer activity -->
-    <color name="background_dialer_light">@*android:color/holo_blue_dark</color>
+    <color name="background_dialer_light">@*android:color/background_holo_dark</color>
+
     <!-- White background for dialer -->
-    <color name="background_dialer_white">@*android:color/holo_blue_light</color>
-    <color name="background_dialer_results">@*android:color/holo_blue_light</color>
-    <color name="blue_grey_100">@*android:color/holo_blue_bright</color>
+    <color name="background_dialer_white">@*android:color/holo_primary</color>
+    <color name="background_dialer_results">@*android:color/holo_primary</color>
+    <color name="background_dialer_call_log">@*android:color/background_holo_dark</color>
 
     <!-- Dialpad -->
-    <color name="dialpad_fab_green">@*android:color/holo_blue_bright</color>
-    <color name="dialpad_digits_text_color">@*android:color/text_color_primary</color>
-    <color name="dialpad_icon_tint">@*android:color/holo_blue_bright</color>
-    <color name="dialpad_secondary_text_color">@*android:color/holo_blue_bright</color>
-    <color name="dialpad_separator_line_color">@*android:color/holo_blue_bright</color>
-    <color name="dialpad_voicemail_tint">@*android:color/holo_blue_bright</color>
-    <color name="background_dialpad">@*android:color/holo_blue_dark</color>
-    <color name="background_dialpad_pressed">@*android:color/holo_blue_light</color>
-    <color name="dialpad_primary_text_color">@*android:color/text_color_primary</color>
-
-    <!-- Color of call type icons in call log, e.g. voicemail, video, WiFi, HD etc. -->
-    <color name="call_type_icon_color">@*android:color/holo_blue_bright</color>
-
-    <!-- Call log -->
-    <color name="call_log_icon_tint">@*android:color/holo_blue_bright</color>
-    <color name="call_log_primary_color">@*android:color/text_color_primary</color>
-    <color name="call_log_detail_color">@*android:color/text_color_secondary</color>
-    <color name="call_log_day_group_heading_color">@*android:color/holo_blue_bright</color>
-    <color name="call_log_action_divider">@*android:color/holo_blue_bright</color>
-    <color name="call_log_action_text">@*android:color/text_color_primary</color>
-    <color name="call_log_action_color">@*android:color/text_color_primary</color>
+    <color name="background_dialpad">@*android:color/holo_primary_dark</color>
+    <color name="background_dialpad_pressed">@*android:color/holo_primary</color>
 
     <!-- Settings -->
-    <color name="setting_background_color">@*android:color/background_dark</color>
-    <color name="setting_button_color">@*android:color/holo_blue_bright</color>
+    <color name="setting_background_color">@*android:color/background_holo_dark</color>
 
-    <color name="actionbar_background_color_dark">@*com.android.dialer:color/dialer_theme_color</color>
+    <color name="actionbar_background_color_dark">@*android:color/holo_primary_dark</color>
 
     <!-- Searchbox -->
-    <color name="searchbox_background_color">@*android:color/holo_blue_dark</color>
-    <color name="searchbox_hint_text_color">@*android:color/text_color_primary</color>
-    <color name="searchbox_icon_tint">@*android:color/holo_blue_bright</color>
-    <color name="searchbox_text_color">@*android:color/text_color_primary</color>
+    <color name="searchbox_background_color">@*android:color/holo_primary_dark</color>
 
-    <color name="tab_selected_underline_color">@*android:color/holo_blue_bright</color>
-    <color name="contactscommon_actionbar_background_color">@*android:color/holo_blue_light</color>
+    <color name="contactscommon_actionbar_background_color">@*android:color/holo_primary</color>
 
-    <color name="design_snackbar_background_color">@*android:color/holo_blue_light</color>
-    <color name="dialer_flat_button_text_color">@*android:color/holo_blue_bright</color>
+    <color name="design_snackbar_background_color">@*android:color/holo_primary</color>
 
     <!-- IncallUI -->
-    <color name="incall_dialpad_background">@*android:color/holo_blue_dark</color>
-    <color name="incall_dialpad_background_pressed">@*android:color/holo_blue_light</color>
-    <color name="incall_background_gradient_top">#E9000000</color>
-    <color name="incall_background_gradient_middle">#E9000000</color>
-    <color name="incall_background_gradient_bottom">#CC000000</color>
-    <color name="incall_background_multiwindow">#E9000000</color>
-    <color name="incall_background_gradient_spam_top">#E5000000</color>
-    <color name="incall_background_gradient_spam_middle">#D6000000</color>
-    <color name="incall_background_gradient_spam_bottom">#B8000000</color>
-    <color name="incall_background_multiwindow_spam">#E9000000</color>
-    <color name="incoming_answer_icon">@android:color/transparent</color>
+    <color name="incall_dialpad_background">@*android:color/holo_primary_dark</color>
+    <color name="incall_dialpad_background_pressed">@*android:color/holo_primary</color>
+    <color name="incall_background_gradient_top">#00000000</color>
+    <color name="incall_background_gradient_middle">#00000000</color>
+    <color name="incall_background_gradient_bottom">#00000000</color>
+    <color name="incall_background_multiwindow">#00000000</color>
+    <color name="incall_background_gradient_spam_top">#00000000</color>
+    <color name="incall_background_gradient_spam_middle">#00000000</color>
+    <color name="incall_background_gradient_spam_bottom">#00000000</color>
+    <color name="incall_background_multiwindow_spam">#00000000</color>
+
+    <!-- Background color of title bars in recents -->
+    <color name="titlebar_in_recents_background_color">@*android:color/holo_primary</color>
+
 </resources>
