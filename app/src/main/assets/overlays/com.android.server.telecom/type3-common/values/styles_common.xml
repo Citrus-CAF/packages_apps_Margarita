@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2018 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,10 +17,15 @@
 
 <resources>
 
-    <color name="theme_color">@*android:color/holo_primary</color>
+    <style name="TelecomDialerSettingsActionOverflowButtonStyle"
+        parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@*com.android.server.telecom:drawable/ic_more_vert_24dp</item>
+    </style>
 
-    <color name="dialer_settings_color_dark">@*android:color/holo_primary_dark</color>
-
-    <color name="blocked_numbers_butter_bar_color">@*android:color/holo_primary</color>
+    <style name="BlockedNumbersButton">
+        <item name="android:textColor">@*android:color/holo_blue_bright</item>
+        <item name="android:textSize">@*com.android.server.telecom:dimen/blocked_numbers_font_size</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
 
 </resources>

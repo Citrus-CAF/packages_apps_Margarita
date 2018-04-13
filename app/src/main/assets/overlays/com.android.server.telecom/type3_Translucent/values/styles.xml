@@ -17,8 +17,8 @@
 
 <resources>
     <style name="Theme.Telecomm.Transparent" parent="@android:style/Theme.Material">
-        <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
-        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
@@ -28,31 +28,23 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
     <style name="Theme.Telecom.DialerSettings" parent="@android:style/Theme.Material">
-        <item name="android:navigationBarColor">@android:color/holo_blue_light</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
-        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
 
-
     <style name="Theme.Telecom.BlockedNumbers" parent="@android:style/Theme.Material">
-        <item name="android:navigationBarColor">@android:color/holo_blue_light</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
         <item name="android:actionBarStyle">@*com.android.server.telecom:style/TelecomDialerSettingsActionBarStyle</item>
-        <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:homeAsUpIndicator">@*com.android.server.telecom:drawable/ic_back_arrow</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
-    </style>
-
-    <style name="TelecomDialerSettingsActionOverflowButtonStyle"
-        parent="@android:style/Widget.Material.ActionButton.Overflow">
-        <item name="android:src">@*com.android.server.telecom:drawable/ic_more_vert_24dp</item>
-    </style>
-
-    <style name="BlockedNumbersButton">
-        <item name="android:textColor">@*android:color/holo_blue_bright</item>
-        <item name="android:textSize">@*com.android.server.telecom:dimen/blocked_numbers_font_size</item>
-        <item name="android:textAllCaps">true</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
 
 </resources>

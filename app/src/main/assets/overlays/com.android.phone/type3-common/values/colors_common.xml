@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2018 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,10 +17,15 @@
 
 <resources>
 
-    <color name="theme_color">@*android:color/holo_primary</color>
+    <!-- Used with some smaller texts in manage conference screen. -->
+    <color name="manage_conference_secondary_text_color">@*android:color/text_color_secondary</color>
 
-    <color name="dialer_settings_color_dark">@*android:color/holo_primary_dark</color>
+    <!-- Color for icons in the actionbar. Ensure this stays in sync with Dialer version. -->
+    <color name="actionbar_icon_color">@*android:color/holo_blue_bright</color>
 
-    <color name="blocked_numbers_butter_bar_color">@*android:color/holo_primary</color>
+    <!-- Color for the setting text. -->
+    <color name="setting_primary_color">@*android:color/text_color_primary</color>
+    <!-- Color for the setting description text. -->
+    <color name="setting_secondary_color">@*android:color/text_color_secondary</color>
 
 </resources>

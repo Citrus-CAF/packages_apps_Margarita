@@ -21,26 +21,15 @@
     <color name="incall_callTypeSip">@*android:color/holo_blue_bright</color> <!-- green -->
 
     <!-- Color of the theme of the People app -->
-    <color name="people_app_theme_color">@*android:color/holo_blue_light</color>
-
-
-    <!-- Used with some smaller texts in manage conference screen. -->
-    <color name="manage_conference_secondary_text_color">@*android:color/text_color_secondary</color>
+    <color name="people_app_theme_color">@*android:color/holo_primary</color>
 
     <!-- Settings screen should use the same colors as the Dialer -->
-    <color name="phone_settings_background_color">@*android:color/background_dark</color>
-    <!-- Color for icons in the actionbar. Ensure this stays in sync with Dialer version. -->
-    <color name="actionbar_icon_color">@*android:color/holo_blue_bright</color>
-
-    <!-- Color for the setting text. -->
-    <color name="setting_primary_color">@*android:color/text_color_primary</color>
-    <!-- Color for the setting description text. -->
-    <color name="setting_secondary_color">@*android:color/text_color_secondary</color>
+    <color name="phone_settings_background_color">@*android:color/background_holo_dark</color>
 
     <!-- Background color of action bars.  Ensure this stays in sync with Dialer
          actionbar_background_color. -->
-    <color name="actionbar_background_color">@*android:color/holo_blue_light</color>
+    <color name="actionbar_background_color">@*android:color/holo_primary</color>
     <!-- Dark variant of the action bar color.  Ensure this stays in sync with Dialer version. -->
-    <color name="actionbar_background_color_dark">@*android:color/holo_blue_dark</color>
+    <color name="actionbar_background_color_dark">@*android:color/holo_primary_dark</color>
 
 </resources>

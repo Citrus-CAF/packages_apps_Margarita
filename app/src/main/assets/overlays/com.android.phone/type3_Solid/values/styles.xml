@@ -18,13 +18,6 @@
 <resources>
     <drawable name="grayBg">@*android:color/background_dark</drawable>
 
-
-    <style name="VerticalSeparator">
-        <item name="android:layout_width">2dp</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:background">@*android:color/holo_blue_bright</item>
-    </style>
-
     <style name="SettingsLight" parent="@*android:style/Theme.Material">
         <item name="android:windowBackground">@*com.android.phone:color/phone_settings_background_color</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -40,16 +33,6 @@
         <item name="android:textColorSecondary">@*com.android.phone:color/settings_text_color_secondary</item>
     </style>
 
-    <style name="DialerSettingsLight" parent="@*com.android.phone:style/SettingsLight">
-        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
-        <item name="android:dialogTheme">@*com.android.phone:style/DialerAlertDialogTheme</item>
-    </style>
-
-    <style name="DialerAlertDialogTheme"
-        parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
-        <item name="android:textColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
-    </style>
 
     <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="android:switchPreferenceStyle">@*com.android.phone:style/SettingsSwitchPreference</item>
@@ -57,15 +40,6 @@
         <item name="android:preferenceStyle">@*com.android.phone:style/SettingsPreference</item>
         <item name="android:dialogPreferenceStyle">@*com.android.phone:style/SettingsDialogPreference</item>
         <item name="android:preferenceScreenStyle">@*com.android.phone:style/SettingsPreferenceScreen</item>
-    </style>
-
-    <style name="Empty" parent="@android:style/Theme.Material">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:backgroundDimEnabled">true</item>
     </style>
 
     <style name="EmergencyDialerTheme" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
@@ -92,9 +66,8 @@
         <item name="android:actionOverflowButtonStyle">@*com.android.phone:style/DialtactsActionBarOverflow</item>
     </style>
 
-    <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Holo.NoActionBar">
+    <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@android:color/background_dark</item>
-
         <item name="*android:windowAnimationStyle">@*com.android.phone:style/OutgoingAnimationStyle</item>
     </style>
 

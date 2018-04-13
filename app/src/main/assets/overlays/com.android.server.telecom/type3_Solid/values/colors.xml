@@ -20,11 +20,6 @@
 
     <color name="dialer_settings_color_dark">@*android:color/holo_blue_dark</color>
 
-    <color name="blocked_numbers_divider_color">@*android:color/holo_blue_bright</color>
     <color name="blocked_numbers_butter_bar_color">@*android:color/holo_blue_light</color>
-    <color name="blocked_numbers_title_text_color">#bafffffd</color>
-    <color name="blocked_numbers_secondary_text_color">#89ffffff</color>
 
-    <color name="notification_action_answer">@*android:color/holo_blue_bright</color>
-    <color name="notification_action_decline">@*android:color/holo_blue_bright</color>
 </resources>

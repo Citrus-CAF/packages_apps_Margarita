@@ -44,15 +44,4 @@
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
     </style>
 
-    <style name="TelecomDialerSettingsActionOverflowButtonStyle"
-        parent="@android:style/Widget.Material.ActionButton.Overflow">
-        <item name="android:src">@*com.android.server.telecom:drawable/ic_more_vert_24dp</item>
-    </style>
-
-    <style name="BlockedNumbersButton">
-        <item name="android:textColor">@*android:color/holo_blue_bright</item>
-        <item name="android:textSize">@*com.android.server.telecom:dimen/blocked_numbers_font_size</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-
 </resources>

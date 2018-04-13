@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+<resources>
+
+    <style name="VerticalSeparator">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="DialerSettingsLight" parent="@*com.android.phone:style/SettingsLight">
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:dialogTheme">@*com.android.phone:style/DialerAlertDialogTheme</item>
+    </style>
+
+    <style name="DialerAlertDialogTheme"
+        parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+    </style>
+
+    <style name="Empty" parent="@android:style/Theme.Material">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>
