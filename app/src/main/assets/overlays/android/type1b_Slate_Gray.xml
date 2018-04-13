@@ -18,9 +18,9 @@
 <resources>
 
     <!-- primary & background color used for solid style -->
+    <color name="background_dark">#ff212121</color>
     <color name="holo_blue_light">#ff282828</color>
     <color name="holo_blue_dark">@*android:color/background_dark</color>
-    <color name="background_dark">#ff212121</color>
 
     <!-- primary & background color used for translucent style -->
     <color name="holo_primary">#66282828</color>
