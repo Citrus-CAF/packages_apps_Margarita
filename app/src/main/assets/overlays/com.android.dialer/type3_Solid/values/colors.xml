@@ -49,16 +49,8 @@
     <color name="design_snackbar_background_color">@*android:color/holo_blue_light</color>
 
     <!-- IncallUI -->
-    <color name="incall_dialpad_background">@*android:color/holo_blue_dark</color>
-    <color name="incall_dialpad_background_pressed">@*android:color/holo_blue_light</color>
-    <color name="incall_background_gradient_top">#E9000000</color>
-    <color name="incall_background_gradient_middle">#E9000000</color>
-    <color name="incall_background_gradient_bottom">#CC000000</color>
-    <color name="incall_background_multiwindow">#E9000000</color>
-    <color name="incall_background_gradient_spam_top">#E5000000</color>
-    <color name="incall_background_gradient_spam_middle">#D6000000</color>
-    <color name="incall_background_gradient_spam_bottom">#B8000000</color>
-    <color name="incall_background_multiwindow_spam">#E9000000</color>
+    <color name="incall_dialpad_background">@*android:color/holo_blue_light</color>
+    <color name="incall_dialpad_background_pressed">@*android:color/holo_blue_dark</color>
 
     <!-- Background color of title bars in recents -->
     <color name="titlebar_in_recents_background_color">@*android:color/holo_blue_light</color>
