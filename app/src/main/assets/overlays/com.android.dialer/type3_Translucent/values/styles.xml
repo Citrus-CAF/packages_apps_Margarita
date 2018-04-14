@@ -23,6 +23,7 @@
         <item name="android:colorPrimary">@*android:color/holo_primary</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="*com.android.dialer:actionBarSize">@*com.android.dialer:dimen/action_bar_height</item>
         <item name="*com.android.dialer:actionBarStyle">@*com.android.dialer:style/DialerActionBarBaseStyle</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
@@ -39,6 +40,7 @@
         <item name="android:colorPrimary">@*android:color/holo_primary</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
     </style>
@@ -77,6 +79,7 @@
         <item name="*com.android.dialer:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="*android:colorPrimary">@*android:color/holo_primary</item>
         <item name="*android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
     </style>
 
 </resources>
