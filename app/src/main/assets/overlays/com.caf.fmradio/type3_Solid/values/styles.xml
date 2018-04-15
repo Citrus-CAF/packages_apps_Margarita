@@ -22,6 +22,7 @@
         <item name="android:colorPrimaryDark">@*com.caf.fmradio:color/primary_dark</item>
         <item name="android:colorAccent">@*com.caf.fmradio:color/accent</item>
         <item name="android:navigationBarColor">@*com.caf.fmradio:color/navigation_bar_color</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
     </style>
 
 </resources>
