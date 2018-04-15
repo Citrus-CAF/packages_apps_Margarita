@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+<resources>
+
+    <style name="DrawerArrowStyle" parent="@*com.android.contacts:style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="*com.android.contacts:spinBars">false</item>
+        <item name="*com.android.contacts:color">@*android:color/holo_blue_bright</item>
+        <item name="android:color">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Material.Dialog.MinWidth">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:textColorPrimary">@*com.android.contacts:color/primary_text_color</item>
+        <item name="android:textColorSecondary">@*com.android.contacts:color/secondary_text_color</item>
+        <item name="android:listViewStyle">@*com.android.contacts:style/ListViewStyle</item>
+        <item name="android:colorAccent">@*com.android.contacts:color/contacts_accent_color</item>
+    </style>
+
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- Activities that use this theme are background activities without obvious displays.
+            However, some also have dialogs. Therefore, it doesn't make sense to set this true.-->
+        <item name="android:windowNoDisplay">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Theme.CallSubjectDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowElevation">0dp</item>
+    </style>
+
+    <style name="TextAppearanceMedium" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceSmall" parent="@*android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+
+    <style name="NoAccountViewButtonStyle" parent="@*com.android.contacts:style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*com.android.contacts:color/contacts_accent_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="AddContactsButtonStyle" parent="@*com.android.contacts:style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@*com.android.contacts:color/contacts_accent_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="DrawerItemTextActiveStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*com.android.contacts:color/contacts_accent_color</item>
+    </style>
+
+</resources>

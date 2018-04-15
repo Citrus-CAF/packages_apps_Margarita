@@ -21,81 +21,38 @@
         <item name="android:windowBackground">@*com.android.contacts:drawable/quantum_launchscreen_contacts</item>
         <!-- Ensure the status bar color matches the background (grey 500) -->
         <!-- TODO(yaolu): Switch to use quantum_grey if in Google3 -->
-        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
     </style>
 
     <style name="PopupMenuStyle" parent="@android:style/Widget.PopupMenu">
-        <item name="android:popupBackground">@*android:color/holo_blue_dark</item>
+        <item name="android:popupBackground">@*android:color/holo_primary_dark</item>
     </style>
 
 
     <style name="PopupMenuStyleAppCompat" parent="@*com.android.contacts:style/Widget.AppCompat.PopupMenu">
-        <item name="android:popupBackground">@*android:color/holo_blue_dark</item>
-    </style>
-
-    <style name="DrawerArrowStyle" parent="@*com.android.contacts:style/Widget.AppCompat.DrawerArrowToggle">
-        <item name="*com.android.contacts:spinBars">false</item>
-        <item name="*com.android.contacts:color">@*android:color/holo_blue_bright</item>
-        <item name="android:color">@*android:color/holo_blue_bright</item>
-    </style>
-
-    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Material.Dialog.MinWidth">
-        <item name="android:windowCloseOnTouchOutside">true</item>
-    </style>
-
-    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth">
-        <item name="android:windowCloseOnTouchOutside">true</item>
-        <item name="android:textColorPrimary">@*com.android.contacts:color/primary_text_color</item>
-        <item name="android:textColorSecondary">@*com.android.contacts:color/secondary_text_color</item>
-        <item name="android:listViewStyle">@*com.android.contacts:style/ListViewStyle</item>
-        <item name="android:colorAccent">@*com.android.contacts:color/contacts_accent_color</item>
+        <item name="android:popupBackground">@*android:color/holo_primary_dark</item>
     </style>
 
 
     <style name="SelectableItem" parent="@android:style/Theme.Material">
-        <item name="android:background">@*android:color/holo_blue_light</item>
+        <item name="android:background">@*android:color/holo_primary</item>
     </style>
 
     <!-- Inherit from Theme.Material.Light.Dialog instead of Theme.Material.Light.Dialog.Alert
         since the Alert dialog is private. They are identical anyway. -->
     <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorAccent">@*com.android.contacts:color/contacts_accent_color</item>
-        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowElevation">0.5dip</item>
     </style>
 
 
     <style name="ContactsAlertDialogThemeAppCompat" parent="@*com.android.contacts:style/Theme.AppCompat.Dialog.MinWidth">
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="*com.android.contacts:attr/colorAccent">@*com.android.contacts:color/contacts_accent_color</item>
-        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowElevation">0.5dip</item>
     </style>
-
-    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Material">
-        <item name="android:windowBackground">@null</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowAnimationStyle">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <!-- Activities that use this theme are background activities without obvious displays.
-            However, some also have dialogs. Therefore, it doesn't make sense to set this true.-->
-        <item name="android:windowNoDisplay">false</item>
-        <item name="android:windowIsFloating">true</item>
-    </style>
-
-    <style name="Theme.CallSubjectDialogTheme" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-
-        <!-- No backgrounds, titles or window float -->
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">false</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowElevation">0dp</item>
-    </style>
-
 
     <style name="PeopleTheme" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@*com.android.contacts:style/ContactsActionBarStyle</item>
@@ -107,8 +64,9 @@
         <item name="android:icon">@android:color/transparent</item>
         <item name="android:listViewStyle">@*com.android.contacts:style/ListViewStyle</item>
         <item name="android:windowBackground">@*com.android.contacts:color/background_primary</item>
-        <item name="android:colorPrimaryDark">@*com.android.contacts:color/primary_color_dark</item>
-        <item name="android:colorPrimary">@*com.android.contacts:color/primary_color</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="android:alertDialogTheme">@*com.android.contacts:style/ContactsAlertDialogTheme</item>
         <item name="*com.android.contacts:list_item_height">@*com.android.contacts:dimen/contact_browser_list_item_height</item>
@@ -145,23 +103,16 @@
         <item name="*com.android.contacts:favorites_padding_bottom">0dip</item>
         <!-- Popup menu -->
         <item name="android:popupMenuStyle">@*com.android.contacts:style/PopupMenuStyle</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowElevation">0.5dip</item>
     </style>
 
     <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
-        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:background">@*android:color/background_holo_dark</item>
         <item name="android:elevation">@*com.android.contacts:dimen/design_bottom_sheet_modal_elevation</item>
         <item name="*com.android.contacts:behavior_peekHeight">auto</item>
         <item name="*com.android.contacts:behavior_hideable">true</item>
         <item name="*com.android.contacts:behavior_skipCollapsed">false</item>
-    </style>
-
-    <style name="TextAppearanceMedium" parent="@*android:style/TextAppearance.Medium">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="TextAppearanceSmall" parent="@*android:style/TextAppearance.Small">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">#ffdddddd</item>
     </style>
 
     <style name="PeopleThemeAppCompat" parent="@*com.android.contacts:style/Theme.AppCompat">
@@ -180,10 +131,11 @@
         <item name="android:icon">@android:color/transparent</item>
         <item name="android:listViewStyle">@*com.android.contacts:style/ListViewStyle</item>
         <item name="android:windowBackground">@*com.android.contacts:color/background_primary</item>
-        <item name="android:colorPrimaryDark">@*com.android.contacts:color/primary_color_dark</item>
-        <item name="*com.android.contacts:colorPrimaryDark">@*com.android.contacts:color/primary_color_dark</item>
-        <item name="android:colorPrimary">@*com.android.contacts:color/primary_color</item>
-        <item name="*com.android.contacts:colorPrimary">@*com.android.contacts:color/primary_color</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="*com.android.contacts:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+        <item name="*com.android.contacts:colorPrimary">@*android:color/holo_primary</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="*com.android.contacts:colorAccent">@*com.android.contacts:color/contacts_accent_color</item>
         <item name="android:alertDialogTheme">@*com.android.contacts:style/ContactsAlertDialogThemeAppCompat</item>
@@ -227,24 +179,8 @@
         <!-- Popup menu -->
         <item name="android:popupMenuStyle">@*com.android.contacts:style/PopupMenuStyleAppCompat</item>
         <item name="*com.android.contacts:popupMenuStyle">@*com.android.contacts:style/PopupMenuStyleAppCompat</item>
-    </style>
-
-    <style name="NoAccountViewButtonStyle" parent="@*com.android.contacts:style/Widget.AppCompat.Button.Borderless">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@*com.android.contacts:color/contacts_accent_color</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="AddContactsButtonStyle" parent="@*com.android.contacts:style/Widget.AppCompat.Button.Borderless">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@*com.android.contacts:color/contacts_accent_color</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-
-    <style name="DrawerItemTextActiveStyle">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@*com.android.contacts:color/contacts_accent_color</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowElevation">0.5dip</item>
     </style>
 
 </resources>

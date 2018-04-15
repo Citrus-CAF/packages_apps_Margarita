@@ -17,190 +17,64 @@
 
 <resources>
 
-    <color name="ic_add_contact_shortcut_background">@*android:color/holo_blue_bright</color>
-
-    <!-- 87% white -->
-    <color name="quantum_black_text">#ddffffff</color>
-
-    <!-- 54% white -->
-    <color name="quantum_black_secondary_text">#89ffffff</color>
-
-    <!-- 38% white -->
-    <color name="quantum_black_hint_text">#61ffffff</color>
-
-    <!-- contact card -->
-    <color name="quickcontact_entry_sub_header_text_color">#4dffffff</color>
-    <color name="quickcontact_entry_header_text_color">@*android:color/text_color_primary</color>
-
     <!-- Action bar -->
-    <color name="action_bar_background">@*android:color/holo_blue_light</color>
-    <color name="action_bar_button_text_color">@*android:color/text_color_primary</color>
-    <color name="actionbar_background_color">@*android:color/holo_blue_light</color>
-
-    <color name="nav_item_selected_background">#0f000000</color>
+    <color name="action_bar_background">@*android:color/holo_primary</color>
+    <color name="actionbar_background_color">@*android:color/holo_primary</color>
 
     <!-- Actionbar shown when long press -->
-    <color name="contextual_selection_bar_color">@*android:color/holo_blue_light</color>
+    <color name="contextual_selection_bar_color">@*android:color/holo_primary</color>
     <!-- Color of the status bar above the contextual selection bar. -->
-    <color name="contextual_selection_bar_status_bar_color">@*android:color/holo_blue_dark</color>
+    <color name="contextual_selection_bar_status_bar_color">@*android:color/holo_primary_dark</color>
 
     <!-- primary colors -->
-    <color name="primary_color_dark">@*android:color/holo_blue_dark</color>
-    <color name="primary_color">@*android:color/holo_blue_light</color>
-    <color name="group_primary_color_dark">@*android:color/holo_blue_dark</color>
-    <color name="group_primary_color">@*android:color/holo_blue_light</color>
-    <!-- Color of the selected tab underline -->
-    <color name="contacts_accent_color">@*android:color/holo_blue_bright</color>
-
-    <!-- FAB -->
-    <color name="floating_action_button_icon_color">@*android:color/white</color>
-
-    <!-- Horizontal separator line should be 12% dark in the light theme. -->
-    <color name="divider_line_color_light">@*android:color/holo_blue_bright</color>
-
-    <!-- Color of the text on an ExpandingEntryCard button -->
-    <color name="expanding_entry_card_button_text_color">@android:color/white</color>
+    <color name="primary_color_dark">@*android:color/holo_primary_dark</color>
+    <color name="primary_color">#98000000</color>
+    <color name="group_primary_color_dark">@*android:color/holo_primary_dark</color>
+    <color name="group_primary_color">#98000000</color>
 
     <!-- Background color for an ExpandingEntryCard -->
-    <color name="expanding_entry_card_background_color">@*android:color/holo_blue_light</color>
+    <color name="expanding_entry_card_background_color">@*android:color/holo_primary</color>
 
     <!-- Color of the background of cards -->
-    <color name="card_margin_color">@*android:color/background_dark</color>
-
-    <!-- incoming call icon -->
-    <color name="call_arrow_green">@*android:color/holo_blue_bright</color>
+    <color name="card_margin_color">@*android:color/background_holo_dark</color>
 
     <!-- Background color of pinned header items. -->
-    <color name="list_item_pinned_header_color">@*android:color/holo_blue_dark</color>
-
-    <!-- Color of the mime-type icons inside the editor. 50% black. -->
-    <color name="editor_icon_color">@*android:color/holo_blue_bright</color>
-
-    <!-- Color of disabled text and unfocused hint text inside the contact editor. 25% black. -->
-    <color name="editor_disabled_text_color">#40ffffff</color>
-
-    <!-- Color of text on disabled link contacts button, 25% black. -->
-    <color name="disabled_button_text">#40ffffff</color>
-
-    <!-- Color of background of disabled link contacts button, 15% black. -->
-    <color name="disabled_button_background">#26ffffff</color>
-
-    <!-- Color of text of people names in contact list when item is disabled. 30% black -->
-    <color name="disabled_contact_list_name_text">#4Dffffff</color>
+    <color name="list_item_pinned_header_color">@*android:color/holo_primary_dark</color>
 
     <!-- Color of background of all empty states. -->
-    <color name="empty_state_background">@*android:color/holo_blue_light</color>
-
-    <!-- Color of ripples used for views with dark backgrounds -->
-    <color name="ripple_material_dark">#a0ffffff</color>
-
-    <!-- Divider color for header separator -->
-    <color name="primary_text_color">#ffffff</color>
-
-    <!-- Color of the theme of the People app -->
-    <color name="people_app_theme_color">@*android:color/holo_blue_bright</color>
-
-    <!-- Color of the theme of the Dialer app -->
-    <color name="dialtacts_theme_color">@*android:color/holo_blue_bright</color>
-
-    <!-- Primary text color in the Phone app -->
-    <color name="dialtacts_primary_text_color">#333333</color>
-
-    <!-- Secondary text color in the Phone app -->
-    <color name="dialtacts_secondary_text_color">@*android:color/text_color_secondary</color>
-
-    <color name="shortcut_overlay_text_background">#7f000000</color>
-
-    <color name="textColorIconOverlay">#fff</color>
-    <color name="textColorIconOverlayShadow">#000</color>
+    <color name="empty_state_background">@*android:color/background_holo_dark</color>
 
     <!-- The default color used for tinting photos when no color can be extracted via Palette,
             this is Blue Grey 500 -->
-    <color name="quickcontact_default_photo_tint_color">@*android:color/holo_blue_light</color>
+    <color name="quickcontact_default_photo_tint_color">@*android:color/holo_primary</color>
+
     <!-- The default secondary color when no color can be extracted via Palette,
             this is Blue Grey 700 -->
-    <color name="quickcontact_default_photo_tint_color_dark">@*android:color/holo_blue_light</color>
+    <color name="quickcontact_default_photo_tint_color_dark">@*android:color/holo_primary</color>
 
-
-    <color name="letter_tile_default_color">#cccccc</color>
-
-    <color name="letter_tile_font_color">#ffffff</color>
-
-    <!-- Color for icons in the actionbar -->
-    <color name="actionbar_icon_color">@*android:color/text_color_primary</color>
-
-    <!-- Color of the title to the Frequently Contacted section -->
-    <color name="frequently_contacted_title_color">@*android:color/holo_blue_bright</color>
-
-    <!-- Color of action bar text. Ensure this stays in sync with packages/Telephony
-    phone_settings_actionbar_text_color-->
-    <color name="actionbar_text_color">#ffffff</color>
-    <!-- 54% black for icons -->
-    <color name="actionbar_icon_color_grey">#8Cffffff</color>
-    <!-- 87% black for actionbar text -->
-    <color name="actionbar_text_color_black">#DFffffff</color>
-    <!-- Solid grey for status bar overlay-->
-    <color name="actionbar_color_grey_solid">#777777</color>
-
-    <!-- Text color of the search box text as entered by user  -->
-    <color name="searchbox_text_color">#ffffff</color>
     <!-- Background color of the search box -->
-    <color name="searchbox_background_color">@*android:color/holo_blue_dark</color>
-
-    <color name="searchbox_hint_text_color">#66ffffff</color>
+    <color name="searchbox_background_color">@*android:color/holo_primary_dark</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
-    <color name="background_primary">@*android:color/background_dark</color>
-    <color name="contact_all_list_background_color">@*android:color/background_dark</color>
-
-    <!-- Tint color for the call subject history icon. -->
-    <color name="call_subject_history_icon">@*android:color/holo_blue_bright</color>
-
-    <!-- Divider line on the call subject dialog. -->
-    <color name="call_subject_divider">@*android:color/holo_blue_bright</color>
-
-    <!-- Text color for the SEND & CALL button on the call subject dialog. -->
-    <color name="call_subject_button">@*android:color/holo_blue_bright</color>
+    <color name="background_primary">@*android:color/background_holo_dark</color>
+    <color name="contact_all_list_background_color">@*android:color/background_holo_dark</color>
 
     <!-- Background color for the call subject history view. -->
-    <color name="call_subject_history_background">@*android:color/background_dark</color>
-    <color name="search_video_call_icon_tint">@*android:color/holo_blue_bright</color>
+    <color name="call_subject_history_background">@*android:color/background_holo_dark</color>
 
-    <!-- Text color for an action in a snackbar. -->
-    <color name="snackbar_action_text">@*android:color/holo_blue_bright</color>
     <!-- Background color for a snackbar. -->
-    <color name="snackbar_background">@*android:color/holo_blue_dark</color>
-
-    <!-- Color of account/custom filters -->
-    <color name="account_filter_text_color">#ffffff</color>
-    <color name="custom_filter_divider">@*android:color/holo_blue_bright</color>
-
-    <color name="material_star_pink">@*android:color/holo_blue_bright</color>
-
-    <!-- Primary text color in Contacts app -->
-    <color name="contacts_text_color">#ffffff</color>
-
-    <!-- tint color for device account icons -->
-    <color name="device_account_tint_color">@*android:color/holo_blue_bright</color>
+    <color name="snackbar_background">@*android:color/holo_primary_dark</color>
 
     <!-- Background color for sync-off alert. -->
-    <color name="alert_background">@*android:color/holo_blue_light</color>
-
-    <!-- Divider color in navigation drawer -->
-    <color name="drawer_divider_color">@*android:color/holo_blue_bright</color>
+    <color name="alert_background">@*android:color/holo_primary</color>
 
     <!-- Background color for the navigation drawer -->
-    <color name="navigation_drawer_background_color">@*android:color/holo_blue_dark</color>
+    <color name="navigation_drawer_background_color">@*android:color/holo_primary_dark</color>
 
     <!-- Background color for the current selected item in the navigation drawer -->
-    <color name="drawer_selected_color">@*android:color/holo_blue_light</color>
+    <color name="drawer_selected_color">@*android:color/holo_primary</color>
 
     <!-- Background color for the current selected item icon in the navigation drawer -->
-    <color name="drawer_selected_icon_color">@*android:color/holo_blue_light</color>
-
-    <!-- Highlight color used in places such as ripples -->
-    <color name="control_highlight_color">#1Affffff</color>
-
-    <color name="contact_list_name_text_color">#ffffffff</color>
+    <color name="drawer_selected_icon_color">@*android:color/holo_primary</color>
 
 </resources>

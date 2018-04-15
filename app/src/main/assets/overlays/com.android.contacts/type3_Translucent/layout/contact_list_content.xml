@@ -26,8 +26,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:visibility="gone"
-    android:background="@*com.android.contacts:color/background_primary" >
+    android:visibility="gone">
 
     <LinearLayout
         android:id="@*com.android.contacts:id/alert_container"
