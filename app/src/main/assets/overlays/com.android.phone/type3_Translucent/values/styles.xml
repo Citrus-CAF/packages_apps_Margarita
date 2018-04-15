@@ -33,6 +33,7 @@
         <!-- Setting description. -->
         <item name="android:textColorSecondary">@*com.android.phone:color/settings_text_color_secondary</item>
         <item name="android:windowShowWallpaper">true</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
     </style>
 
 
@@ -44,6 +45,7 @@
         <item name="android:preferenceScreenStyle">@*com.android.phone:style/SettingsPreferenceScreen</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
     </style>
 
     <style name="EmergencyDialerTheme" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
@@ -70,6 +72,7 @@
         <item name="android:actionOverflowButtonStyle">@*com.android.phone:style/DialtactsActionBarOverflow</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
     </style>
 
     <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Material.NoActionBar">

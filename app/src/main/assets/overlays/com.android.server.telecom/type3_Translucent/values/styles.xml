@@ -34,6 +34,7 @@
         <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:windowShowWallpaper">true</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
     </style>
 
     <style name="Theme.Telecom.BlockedNumbers" parent="@android:style/Theme.Material">
@@ -45,6 +46,7 @@
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:windowShowWallpaper">true</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
     </style>
 
 </resources>
