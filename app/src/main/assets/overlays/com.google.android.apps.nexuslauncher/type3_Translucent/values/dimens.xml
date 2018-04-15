@@ -15,11 +15,8 @@
   ~
   -->
 <resources>
-    <color name="all_apps_bg_hand_fill">@*android:color/holo_blue_dark</color>
-    <color name="all_apps_bg_hand_fill_dark">@*android:color/holo_blue_dark</color>
 
-    <!-- Backports -->
-    <color name="colorPrimary">@*android:color/holo_blue_light</color>
-    <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
+    <!-- Deep shortcuts -->
+    <dimen name="deep_shortcuts_elevation">0dp</dimen>
 
 </resources>
