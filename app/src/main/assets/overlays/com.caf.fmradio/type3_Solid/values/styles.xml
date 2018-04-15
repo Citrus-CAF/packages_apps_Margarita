@@ -24,6 +24,4 @@
         <item name="android:navigationBarColor">@*com.caf.fmradio:color/navigation_bar_color</item>
     </style>
 
-    <style name="FMTheme_DialogAlert" parent="@android:Theme.Material.Dialog.Alert" />
-
 </resources>

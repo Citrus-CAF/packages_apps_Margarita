@@ -18,25 +18,19 @@
 <resources>
 
     <!-- Favorite bottom bar-->
-    <color name="favorite_button_normal">@*android:color/holo_blue_dark</color> <!-- color of bottom bar -->
-    <color name="favorite_button_active">@*android:color/holo_blue_light</color> <!-- color of bottom bar when pressed -->
-    <color name="favorite_button_text_color">@android:color/white</color> <!-- text color of bottom bar -->
+    <color name="favorite_button_normal">@*android:color/holo_primary_dark</color> <!-- color of bottom bar -->
+    <color name="favorite_button_active">@*android:color/holo_primary</color> <!-- color of bottom bar when pressed -->
 
     <!-- frequency area -->
-    <color name="picker_background_color">@*android:color/holo_blue_light</color> <!-- background of frequency dial and spikes -->
-    <color name="picker_frequency_color">@*android:color/white</color> <!-- color of frequency spikes -->
+    <color name="picker_background_color">@*android:color/holo_primary</color> <!-- background of frequency dial and spikes -->
 
     <!-- Frequency dialog -->
-    <color name="picker_frequency_back_forward_button_tint">@*android:color/secondary_material_settings</color> <!-- color of back and forward button of near frequency info -->
-    <color name="picker_frequency_dialog_khz_background_color">@*android:color/holo_blue_light</color> <!-- background color of kHz on frequency dialog -->
-    <color name="picker_frequency_dialog_mhz_background_color">@*android:color/holo_blue_light</color> <!-- background color of mHz on frequency dialog -->
-    <color name="buttons_enabled">@android:color/white</color>
-    <color name="buttons_disabled">#4dffffff</color>
+    <color name="picker_frequency_dialog_khz_background_color">@*android:color/holo_primary</color> <!-- background color of kHz on frequency dialog -->
+    <color name="picker_frequency_dialog_mhz_background_color">@*android:color/holo_primary</color> <!-- background color of mHz on frequency dialog -->
 
     <!-- Material -->
-    <color name="primary">@*android:color/holo_blue_light</color>
-    <color name="primary_dark">@*android:color/holo_blue_dark</color>
-    <color name="accent">@*android:color/holo_blue_bright</color>
-    <color name="background_color">@*android:color/background_dark</color>
+    <color name="primary">@*android:color/holo_primary</color>
+    <color name="primary_dark">@*android:color/holo_primary_dark</color>
+    <color name="background_color">@*android:color/background_holo_dark</color>
 
 </resources>

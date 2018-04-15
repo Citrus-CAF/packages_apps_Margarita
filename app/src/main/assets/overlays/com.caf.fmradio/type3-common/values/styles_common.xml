@@ -17,14 +17,6 @@
 
 <resources>
 
-    <style name="FMTheme" parent="@android:Theme.Material">
-        <item name="android:colorPrimary">@*com.caf.fmradio:color/primary</item>
-        <item name="android:colorPrimaryDark">@*com.caf.fmradio:color/primary_dark</item>
-        <item name="android:colorAccent">@*com.caf.fmradio:color/accent</item>
-        <item name="android:navigationBarColor">@*com.caf.fmradio:color/navigation_bar_color</item>
-        <item name="android:statusBarColor">@*android:color/transparent</item>
-        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
-        <item name="android:windowShowWallpaper">true</item>
-    </style>
+    <style name="FMTheme_DialogAlert" parent="@android:Theme.Material.Dialog.Alert" />
 
 </resources>
