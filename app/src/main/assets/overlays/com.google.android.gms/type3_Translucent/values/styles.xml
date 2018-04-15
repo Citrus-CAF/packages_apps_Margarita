@@ -16,9 +16,10 @@
   -->
 
 <resources>
+
     <style name="common.Theme.Base.GoogleSettings" parent="@*com.google.android.gms:style/Theme.AppCompat">
         <item name="android:listPreferredItemHeight">72.0dip</item>
-        <item name="android:statusBarColor">@*android:color/holo_primary_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="android:colorEdgeEffect">@*android:color/holo_blue_bright</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.google.android.gms:popupTheme">@*com.google.android.gms:style/ThemeOverlay.AppCompat</item>
@@ -27,16 +28,14 @@
         <item name="*com.google.android.gms:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="*com.google.android.gms:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="*com.google.android.gms:preferenceTheme">@*com.google.android.gms:style/PreferenceTheme</item>
-    </style>
-
-    <style name="common.Theme.Base.ActionBar" parent="@*com.google.android.gms:style/ThemeOverlay.AppCompat.ActionBar">
-        <item name="android:colorControlNormal">@*android:color/holo_blue_bright</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
 
     <style name="IdentityWhiteAppTheme" parent="@*com.google.android.gms:style/IdentityWhiteAppThemeBase">
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.google.android.gms:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="android:background">@*android:color/background_holo_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_holo_dark</item>
     </style>
 
     <style name="IdentityWhiteAppThemeBase" parent="@*com.google.android.gms:style/Theme.AppCompat">
@@ -47,16 +46,8 @@
         <item name="*com.google.android.gms:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="*com.google.android.gms:colorControlNormal">@*android:color/holo_blue_bright</item>
         <item name="*com.google.android.gms:actionBarTheme">@*com.google.android.gms:style/common.Theme.Base.ActionBar</item>
-    </style>
-
-    <style name="AsSectionTextAppearance" parent="@*com.google.android.gms:style/TextAppearance.AppCompat.Body1">
-        <item name="android:textSize">@*com.google.android.gms:dimen/as_text_size_menu_section</item>
-        <item name="android:textColor">@*android:color/holo_blue_bright</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="IdentityWhiteSpinnerDropDownItemStyle" parent="@*com.google.android.gms:style/Widget.AppCompat.DropDownItem.Spinner">
-        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
 
 </resources>
