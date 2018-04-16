@@ -18,17 +18,19 @@
 
 <resources>
     <style name="Theme.DeskClock" parent="@*com.android.deskclock:style/Theme.AppCompat.NoActionBar">
-        <item name="android:colorBackgroundFloating">@*android:color/background_dark</item>
-        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
+        <item name="android:colorBackgroundFloating">@*android:color/background_holo_dark</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
         <item name="android:popupTheme">?attr/popupTheme</item>
         <item name="android:timePickerStyle">@*com.android.deskclock:style/Widget.TimePicker</item>
         <item name="android:windowBackground">@*com.android.deskclock:color/default_background</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="*com.android.deskclock:colorAccent">@*android:color/holo_blue_bright</item>
-        <item name="*com.android.deskclock:colorBackgroundFloating">@*android:color/background_dark</item>
+        <item name="*com.android.deskclock:colorBackgroundFloating">@*android:color/background_holo_dark</item>
         <item name="*com.android.deskclock:colorControlActivated">@*android:color/holo_blue_bright</item>
         <item name="*com.android.deskclock:colorControlNormal">@*android:color/holo_blue_bright</item>
-        <item name="*com.android.deskclock:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="*com.android.deskclock:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="*com.android.deskclock:imageButtonStyle">@*com.android.deskclock:style/Widget.ImageButton</item>
         <item name="*com.android.deskclock:popupTheme">@*com.android.deskclock:style/ThemeOverlay.Popup</item>
     </style>

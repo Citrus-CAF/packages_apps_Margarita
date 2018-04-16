@@ -18,6 +18,6 @@
 
 <resources>
 
-    <color name="default_background">@*android:color/background_dark</color>
+    <color name="default_background">@*android:color/background_holo_dark</color>
 
 </resources>
