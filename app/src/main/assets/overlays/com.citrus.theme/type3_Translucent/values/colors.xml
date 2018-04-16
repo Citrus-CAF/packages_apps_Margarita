@@ -17,13 +17,13 @@
 <resources>
 
     <!-- Main colors -->
-    <color name="colorPrimary">@*android:color/holo_blue_light</color>
-    <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
+    <color name="colorPrimary">@*android:color/holo_primary</color>
+    <color name="colorPrimaryDark">@*android:color/holo_primary_dark</color>
     <color name="colorAccent">@*android:color/holo_blue_bright</color>
     <color name="colorSecondary">@*android:color/holo_blue_bright</color>
-    <color name="main_background">@*android:color/holo_blue_light</color>
+    <color name="main_background">@*android:color/holo_primary</color>
     <color name="toolbar_item_color">@android:color/white</color>
-    <color name="dashboard_sublime_download_text_color">@*android:color/holo_blue_dark</color>
+    <color name="dashboard_sublime_download_text_color">@*android:color/holo_primary_dark</color>
 
     <!-- Navigation drawer -->
     <color name="nav_drawer_icon_color">@*android:color/holo_blue_bright</color>
@@ -33,11 +33,11 @@
     <color name="fab_gplus_background">#DB4437</color>
     <color name="fab_tg_background">#517EA1</color>
     <color name="fab_apply_background">#3F51B5</color>
-    <color name="fab_main_background">@*android:color/holo_blue_light</color>
-    <color name="fab_main_foreground_tint">@*android:color/holo_blue_dark</color>
+    <color name="fab_main_background">@*android:color/holo_primary</color>
+    <color name="fab_main_foreground_tint">@*android:color/holo_primary_dark</color>
 
     <!-- Splash screen -->
-    <color name="splash_screen_background">@*android:color/background_dark</color>
+    <color name="splash_screen_background">@*android:color/background_holo_dark</color>
     <color name="splash_screen_app_title_color">@*android:color/holo_blue_bright</color>
 
 </resources>

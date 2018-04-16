@@ -24,6 +24,7 @@
         <item name="*com.citrus.theme:colorAccent">@*com.citrus.theme:color/colorAccent</item>
         <item name="android:navigationBarColor">@*com.citrus.theme:color/colorPrimary</item>
         <item name="android:windowBackground">@*com.citrus.theme:color/main_background</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
 
     <style name="AppTheme.PopupOverlay" parent="@*com.citrus.theme:style/ThemeOverlay.AppCompat" />
