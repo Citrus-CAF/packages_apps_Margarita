@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 Citrus-CAF Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="17dp"
+    android:height="17dp"
+    android:viewportWidth="17"
+    android:viewportHeight="17">
+    <path
+        android:pathData="M8.427 7.964c0 2.05 -1.664 3.714 -3.713 3.714C2.664 11.678 1 10.014 1 7.964 1 5.915 2.664 4.251 4.714 4.251c2.049 0 3.713 1.664 3.713 3.713z"
+        android:strokeWidth="1"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5" />
+    <path
+        android:fillColor="#4dffffff"
+        android:pathData="M6.784 7.964c0 1.143 -0.928 2.071 -2.07 2.071 -1.143 0 -2.071 -0.928 -2.071 -2.071 0 -1.143 0.928 -2.07 2.071 -2.07 1.142 0 2.07 0.927 2.07 2.07z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M15.812 8.906C15.916 8.906 16 8.822 16 8.718L16 7.211C16 7.107 15.916 7.022 15.812 7.022l-7.196 0c-0.104 0 -0.189 0.085 -0.189 0.189l0 1.507c0 0.104 0.085 0.188 0.189 0.188l7.196 0z"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M14.343 12.749c0.086 0 0.157 -0.07 0.157 -0.157l0 -3.686 -1.572 0 0 3.686c0 0.087 0.07 0.157 0.157 0.157l1.258 0z" />
+</vector>
