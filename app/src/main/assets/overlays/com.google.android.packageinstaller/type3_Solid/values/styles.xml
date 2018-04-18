@@ -21,7 +21,8 @@
         <item name="android:textAppearanceMedium">@*com.android.packageinstaller:style/MediumText</item>
         <item name="android:textAppearanceSmall">@*com.android.packageinstaller:style/SmallText</item>
         <item name="android:titleTextStyle">@*com.android.packageinstaller:style/TitleText</item>
-        <item name="android:statusBarColor">@*android:color/holo_blue_light</item>
+        <item name="android:statusBarColor">@*android:color/holo_blue_dark</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
     
 </resources>
