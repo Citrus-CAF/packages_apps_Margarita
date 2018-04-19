@@ -20,8 +20,8 @@
 <resources>
 
     <style name="BaseLauncherThemeWithCustomAttrs" parent="@*com.android.launcher3:style/BaseLauncherTheme">
-        <item name="*com.android.launcher3:allAppsScrimColor">#66000000</item>
-        <item name="*com.android.launcher3:allAppsNavBarScrimColor">#66000000</item>
+        <item name="*com.android.launcher3:allAppsScrimColor">@*android:color/background_holo_dark</item>
+        <item name="*com.android.launcher3:allAppsNavBarScrimColor">@*android:color/holo_primary</item>
         <item name="*com.android.launcher3:popupColorPrimary">@*android:color/holo_primary</item>
         <item name="*com.android.launcher3:popupColorSecondary">@*android:color/holo_primary_dark</item> <!-- Gray 100 -->
         <item name="*com.android.launcher3:popupColorTertiary">@*android:color/holo_primary_dark</item> <!-- Gray 300 -->
@@ -42,8 +42,8 @@
         <item name="android:textColorHint">#A0FFFFFF</item>
         <item name="android:colorControlHighlight">#A0FFFFFF</item>
         <item name="android:colorPrimary">@*android:color/holo_primary</item>
-        <item name="*com.android.launcher3:allAppsScrimColor">#66000000</item>
-        <item name="*com.android.launcher3:allAppsNavBarScrimColor">#66000000</item>
+        <item name="*com.android.launcher3:allAppsScrimColor">@*android:color/background_holo_dark</item>
+        <item name="*com.android.launcher3:allAppsNavBarScrimColor">@*android:color/holo_primary</item>
         <item name="*com.android.launcher3:popupColorPrimary">@*android:color/holo_primary</item>
         <item name="*com.android.launcher3:popupColorSecondary">@*android:color/holo_primary_dark</item> <!-- Gray 800 -->
         <item name="*com.android.launcher3:popupColorTertiary">@*android:color/holo_primary_dark</item> <!-- Gray 600 -->
