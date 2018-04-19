@@ -13,11 +13,11 @@
     <drawable name="expanded_item_bg">#00000000</drawable>
 
     <!-- Screen zoom preview -->
-    <color name="message_bubble_incoming">@*android:color/holo_primary</color>
-    <color name="message_bubble_outgoing">@*android:color/holo_primary</color>
+    <color name="message_bubble_incoming">@*android:color/holo_blue_light</color>
+    <color name="message_bubble_outgoing">@*android:color/holo_blue_light</color>
     <color name="conversation_background">@*android:color/background_holo_dark</color>
-    <color name="message_icon_background_incoming">@*android:color/holo_primary</color>
-    <color name="message_icon_background_outgoing">@*android:color/holo_primary</color>
+    <color name="message_icon_background_incoming">@*android:color/holo_blue_light</color>
+    <color name="message_icon_background_outgoing">@*android:color/holo_blue_light</color>
 
     <!-- Suggestion/condition colors -->
     <color name="suggestion_condition_background">#33000000</color>
