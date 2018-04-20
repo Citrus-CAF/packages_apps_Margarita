@@ -82,7 +82,7 @@
         <item name="android:textColorTertiary">#CCFFFFFF</item>
         <item name="android:textColorHint">#A0FFFFFF</item>
         <item name="android:colorControlHighlight">#A0FFFFFF</item>
-        <item name="android:colorPrimary">#FF333333</item>
+        <item name="android:colorPrimary">@*com.android.launcher3:color/colorPrimary</item>
         <item name="*com.android.launcher3:allAppsScrimColor">@*android:color/background_holo_dark</item>
         <item name="*com.android.launcher3:allAppsNavBarScrimColor">@*android:color/holo_primary</item>
         <item name="*com.android.launcher3:popupColorPrimary">@*android:color/holo_blue_light</item>

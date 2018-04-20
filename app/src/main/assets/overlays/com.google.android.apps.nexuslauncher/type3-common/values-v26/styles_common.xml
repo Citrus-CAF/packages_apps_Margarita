@@ -22,6 +22,7 @@
         <item name="android:colorEdgeEffect">?android:attr/colorAccent</item>
         <item name="android:colorAccent">@*com.android.launcher3:color/colorAccent</item>
         <item name="android:colorPrimary">@*com.android.launcher3:color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@*com.android.launcher3:color/colorPrimaryDark</item>
         <item name="android:textColorPrimary">#FFFFFFFF</item>
         <item name="android:textColorSecondary">#FFFFFFFF</item>
         <item name="android:textColorTertiary">#CCFFFFFF</item>
