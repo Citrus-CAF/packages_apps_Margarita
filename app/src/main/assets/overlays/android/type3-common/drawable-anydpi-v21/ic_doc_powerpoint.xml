@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 Citrus-CAF Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:width="24dp"
+    android:height="24dp"
+    android:tint="?android:attr/colorAccent">
+
+    <path
+        android:pathData="M22.966 3.193C22.966 1.983 21.983 1 20.773 1L3.227 1C2.017 1 1.034 1.983 1.034 3.193l0 17.614c0 1.21 0.983 2.193 2.193 2.193l17.546 0c1.21 0 2.193 -0.983 2.193 -2.193l0 -17.614z"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M19.975 5.595C19.975 4.715 19.26 4 18.38 4L5.62 4C4.74 4 4.025 4.715 4.025 5.595l0 12.81C4.025 19.285 4.74 20 5.62 20l12.76 0c0.88 0 1.595 -0.715 1.595 -1.595l0 -12.81z"
+        android:fillColor="#4d000000" />
+    <path
+        android:pathData="M16.301453 10.251297q0 0.585937 -0.205078 1.148437 -0.205078 0.556641 -0.585938 0.9375 -0.521484 0.515625 -1.166015 0.779297 -0.638672 0.263672 -1.59375 0.263672l-1.400391 0 0 2.841797 -2.2499998 0 0 -8.7246093 3.7031248 0q0.832031 0 1.400391 0.1464844 0.574219 0.140625 1.013672 0.4277344 0.527343 0.3457031 0.802734 0.8847656 0.28125 0.5390625 0.28125 1.2949219zm-2.326172 0.05273q0 -0.3691403 -0.199219 -0.6328121 -0.199218 -0.2695313 -0.46289 -0.375Q12.961609 9.1555939 12.627625 9.1438751 12.293641 9.126297 11.737 9.126297l-0.386719 0 0 2.613281 0.644531 0q0.574219 0 0.94336 -0.07031 0.375 -0.07031 0.626953 -0.28125 0.216797 -0.1875 0.310547 -0.445313 0.09961 -0.263672 0.09961 -0.638672z"
+        android:fillColor="#000000" />
+</vector>

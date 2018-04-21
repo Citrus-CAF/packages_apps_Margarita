@@ -30,16 +30,10 @@
         android:strokeLineCap="round" />
     <path
         android:pathData="M21 12a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9z"
-        android:fillColor="#4d000000"
-        android:strokeLineJoin="round"
-        android:strokeMiterLimit="1.5"
-        android:strokeLineCap="round" />
+        android:fillColor="#4d000000" />
     <path
         android:pathData="M16 12a4 4 0 0 1 -4 4 4 4 0 0 1 -4 -4 4 4 0 0 1 4 -4 4 4 0 0 1 4 4z"
-        android:fillColor="#000000"
-        android:strokeLineJoin="round"
-        android:strokeMiterLimit="1.5"
-        android:strokeLineCap="round" />
+        android:fillColor="#000000" />
     <path
         android:pathData="M13 12a1 1 0 0 1 -1 1 1 1 0 0 1 -1 -1 1 1 0 0 1 1 -1 1 1 0 0 1 1 1z"
         android:fillColor="#4d000000"

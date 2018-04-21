@@ -23,9 +23,7 @@
     android:height="24dp">
     <path
         android:pathData="M7.722 9.556l-4.889 0 8.556 -8.556 8.555 8.556 -5.011 0c0 6.111 1.956 10.388 6.234 13.444C15.056 21.778 8.944 18.111 7.722 9.556Z"
-        android:fillColor="#4d000000"
-        android:strokeLineJoin="round"
-        android:strokeMiterLimit="1.41421" />
+        android:fillColor="#4d000000" />
     <path
         android:pathData="M7.722 9.556l-4.889 0 8.556 -8.556 8.555 8.556 -5.011 0c0 6.111 1.956 10.388 6.234 13.444C15.056 21.778 8.944 18.111 7.722 9.556Z"
         android:strokeWidth="1"

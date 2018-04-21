@@ -23,10 +23,7 @@
 
     <path
         android:pathData="M20.745 8.61l-10.763 0C9.777 6.753 10.422 5.85 9.055 5.431l-4.401 0c-0.772 0 -1.399 0.587 -1.399 1.31l0 10.48c0 0.723 0.627 1.31 1.399 1.31l14.692 0c0.772 0 1.399 -0.587 1.399 -1.31l0 -8.611z"
-        android:fillColor="#4d000000"
-        android:strokeLineJoin="round"
-        android:strokeMiterLimit="1.5"
-        android:strokeLineCap="round" />
+        android:fillColor="#4d000000" />
     <path
         android:pathData="M22.931 6.534L12 6.534C12.176 4.753 12.024 3.396 10.34 3.255l-7.522 0c-0.966 0 -1.749 0.784 -1.749 1.749l0 13.992c0 0.965 0.783 1.749 1.749 1.749l18.364 0c0.966 0 1.749 -0.784 1.749 -1.749l0 -12.462z"
         android:strokeWidth="1"
