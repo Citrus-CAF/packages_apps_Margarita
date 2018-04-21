@@ -18,7 +18,7 @@
     <!-- main theme colors -->
     <color name="colorPrimary">@*android:color/holo_primary</color>
     <color name="colorPrimaryDark">@*android:color/holo_primary_dark</color>
-    <color name="navigationBarColor">@*android:color/holo_primary</color>
+    <color name="navigationBarColor">@*android:color/holo_primary_dark</color>
     <color name="statusBarColor">@*android:color/transparent</color>
     <color name="window_bg">@*android:color/background_holo_dark</color>
 

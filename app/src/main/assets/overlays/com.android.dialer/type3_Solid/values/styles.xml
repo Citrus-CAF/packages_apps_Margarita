@@ -23,6 +23,7 @@
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="*com.android.dialer:actionBarSize">@*com.android.dialer:dimen/action_bar_height</item>
         <item name="*com.android.dialer:actionBarStyle">@*com.android.dialer:style/DialerActionBarBaseStyle</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
     <style name="DialerThemeBase.NoActionBar" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
         <item name="android:textColorPrimary">@*com.android.dialer:color/dialer_primary_text_color</item>
@@ -34,12 +35,14 @@
         <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
     <style name="NuiMainActivityTheme" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
         <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
     <!-- Theme for the InCallActivity activity. Should have a transparent background for the
@@ -69,6 +72,7 @@
         <item name="*android:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="*android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
         <item name="*android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
 </resources>

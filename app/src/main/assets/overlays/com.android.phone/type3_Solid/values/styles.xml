@@ -31,6 +31,7 @@
         <item name="android:textColorPrimary">@*com.android.phone:color/settings_text_color_primary</item>
         <!-- Setting description. -->
         <item name="android:textColorSecondary">@*com.android.phone:color/settings_text_color_secondary</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
 
@@ -64,6 +65,7 @@
         <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
         <item name="android:homeAsUpIndicator">@*com.android.phone:drawable/ic_back_arrow</item>
         <item name="android:actionOverflowButtonStyle">@*com.android.phone:style/DialtactsActionBarOverflow</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
     <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Material.NoActionBar">

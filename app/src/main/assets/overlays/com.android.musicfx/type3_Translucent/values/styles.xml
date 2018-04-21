@@ -26,6 +26,7 @@
         <item name="android:textColorSecondary">@*com.android.musicfx:color/textColor</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:windowShowWallpaper">true</item>
+        <item name="android:navigationBarColor">@*com.android.musicfx:color/primaryColorDark</item>
     </style>
 
 </resources>

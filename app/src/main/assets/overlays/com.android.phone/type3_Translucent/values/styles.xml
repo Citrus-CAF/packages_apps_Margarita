@@ -34,8 +34,8 @@
         <item name="android:textColorSecondary">@*com.android.phone:color/settings_text_color_secondary</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
-
 
     <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="android:switchPreferenceStyle">@*com.android.phone:style/SettingsSwitchPreference</item>
@@ -73,6 +73,7 @@
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
     <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Material.NoActionBar">

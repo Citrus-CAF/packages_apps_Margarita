@@ -20,7 +20,6 @@
 
     <style name="Theme" parent="@android:style/Theme.Material">
         <item name="android:colorPrimary">@*com.android.calculator2:color/calculator_primary_color</item>
-        <item name="android:colorPrimaryDark">@*com.android.calculator2:color/calculator_statusbar_color</item>
         <item name="android:colorAccent">@*com.android.calculator2:color/calculator_accent_color</item>
         <item name="android:statusBarColor">@*com.android.calculator2:color/calculator_statusbar_color</item>
         <item name="android:navigationBarColor">@*com.android.calculator2:color/calculator_statusbar_color</item>

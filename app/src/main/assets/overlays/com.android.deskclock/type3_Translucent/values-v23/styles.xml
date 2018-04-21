@@ -19,7 +19,7 @@
 <resources>
     <style name="Theme.DeskClock" parent="@*com.android.deskclock:style/Theme.AppCompat.NoActionBar">
         <item name="android:colorBackgroundFloating">@*android:color/background_holo_dark</item>
-        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:popupTheme">?attr/popupTheme</item>
         <item name="android:timePickerStyle">@*com.android.deskclock:style/Widget.TimePicker</item>
         <item name="android:windowBackground">@*com.android.deskclock:color/default_background</item>

@@ -33,5 +33,6 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
         <item name="android:windowShowWallpaper">true</item>
+        <item name="android:navigationBarColor">@*com.android.documentsui:color/primary_dark</item>
     </style>
 </resources>

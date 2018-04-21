@@ -23,6 +23,7 @@
         <item name="android:windowBackground">@*com.android.fmradio:color/theme_windowBackground</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:actionOverflowButtonStyle">@*com.android.fmradio:style/FmOverflowButtonStyle</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
     <style name="LightTheme" parent="@android:style/Theme.Material">
@@ -31,6 +32,7 @@
         <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:windowNoTitle">false</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
 </resources>

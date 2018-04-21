@@ -32,5 +32,6 @@
     <color name="primary">@*android:color/holo_primary</color>
     <color name="primary_dark">@*android:color/holo_primary_dark</color>
     <color name="background_color">@*android:color/background_holo_dark</color>
+    <color name="navigation_bar_color">@*android:color/holo_primary_dark</color>
 
 </resources>

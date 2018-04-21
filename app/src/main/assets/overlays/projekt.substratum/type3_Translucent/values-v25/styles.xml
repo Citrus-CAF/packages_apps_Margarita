@@ -18,7 +18,7 @@
 
     <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:colorBackgroundFloating">@*android:color/background_holo_dark</item>
-        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
     </style>
 

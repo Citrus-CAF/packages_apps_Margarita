@@ -10,7 +10,7 @@
         <item name="android:windowBackground">@*android:color/transparent</item>
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:statusBarColor">@*android:color/transparent</item>
-        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:colorControlActivated">@*android:color/holo_primary_dark</item>
         <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>

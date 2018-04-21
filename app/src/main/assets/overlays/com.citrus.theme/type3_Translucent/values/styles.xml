@@ -22,7 +22,7 @@
         <item name="*com.citrus.theme:colorPrimary">@*com.citrus.theme:color/colorPrimary</item>
         <item name="*com.citrus.theme:colorPrimaryDark">@*com.citrus.theme:color/colorPrimaryDark</item>
         <item name="*com.citrus.theme:colorAccent">@*com.citrus.theme:color/colorAccent</item>
-        <item name="android:navigationBarColor">@*com.citrus.theme:color/colorPrimary</item>
+        <item name="android:navigationBarColor">@*com.citrus.theme:color/colorPrimaryDark</item>
         <item name="android:windowBackground">@*com.citrus.theme:color/main_background</item>
         <item name="android:windowShowWallpaper">true</item>
     </style>

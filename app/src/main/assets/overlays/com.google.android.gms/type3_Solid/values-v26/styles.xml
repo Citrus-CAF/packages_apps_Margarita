@@ -28,6 +28,7 @@
         <item name="*com.google.android.gms:colorPrimaryDark">@*android:color/holo_blue_dark</item>
         <item name="*com.google.android.gms:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="*com.google.android.gms:preferenceTheme">@*com.google.android.gms:style/PreferenceTheme</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
 </resources>

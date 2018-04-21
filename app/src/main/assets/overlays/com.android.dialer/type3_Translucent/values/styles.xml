@@ -29,6 +29,7 @@
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowElevation">0.5dip</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
     <style name="DialerThemeBase.NoActionBar" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
         <item name="android:textColorPrimary">@*com.android.dialer:color/dialer_primary_text_color</item>
@@ -43,12 +44,14 @@
         <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
     <style name="NuiMainActivityTheme" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
         <item name="android:colorPrimary">@*android:color/holo_primary</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
     <!-- Theme for the InCallActivity activity. Should have a transparent background for the
@@ -80,6 +83,7 @@
         <item name="*android:colorPrimary">@*android:color/holo_primary</item>
         <item name="*android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
         <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
 </resources>
