@@ -105,6 +105,7 @@
         <item name="android:popupMenuStyle">@*com.android.contacts:style/PopupMenuStyle</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowElevation">0.5dip</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
     <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
@@ -181,6 +182,7 @@
         <item name="*com.android.contacts:popupMenuStyle">@*com.android.contacts:style/PopupMenuStyleAppCompat</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowElevation">0.5dip</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
 </resources>

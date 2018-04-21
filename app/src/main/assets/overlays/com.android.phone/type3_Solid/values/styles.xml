@@ -70,7 +70,8 @@
 
     <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@android:color/background_dark</item>
-        <item name="*android:windowAnimationStyle">@*com.android.phone:style/OutgoingAnimationStyle</item>
+        <item name="android:windowAnimationStyle">@*com.android.phone:style/OutgoingAnimationStyle</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
 

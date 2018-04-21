@@ -100,6 +100,7 @@
         <item name="*com.android.contacts:favorites_padding_bottom">0dip</item>
         <!-- Popup menu -->
         <item name="android:popupMenuStyle">@*com.android.contacts:style/PopupMenuStyle</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
     <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
@@ -173,6 +174,7 @@
         <!-- Popup menu -->
         <item name="android:popupMenuStyle">@*com.android.contacts:style/PopupMenuStyleAppCompat</item>
         <item name="*com.android.contacts:popupMenuStyle">@*com.android.contacts:style/PopupMenuStyleAppCompat</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
 </resources>

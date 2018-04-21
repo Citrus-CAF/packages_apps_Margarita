@@ -79,7 +79,8 @@
     <style name="OutgoingCallBroadcasterTheme" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="*android:windowAnimationStyle">@*com.android.phone:style/OutgoingAnimationStyle</item>
+        <item name="android:windowAnimationStyle">@*com.android.phone:style/OutgoingAnimationStyle</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
 
