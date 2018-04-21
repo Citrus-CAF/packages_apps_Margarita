@@ -18,10 +18,10 @@
 <resources>
 
     <!-- Accent -->
-    <color name="holo_blue_bright">#4285F4</color>
+    <color name="holo_blue_bright">#2979ff</color>
     <!-- Ripple effect when long pressed - 30% of accent -->
-    <color name="ripple_material_dark">#4d4285F4</color>
+    <color name="ripple_material_dark">#4d2979ff</color>
     <!-- Ripple effect when long pressed - 30% of accent -->
-    <color name="ripple_material_light">#4d4285F4</color>
+    <color name="ripple_material_light">#4d2979ff</color>
 
 </resources>
