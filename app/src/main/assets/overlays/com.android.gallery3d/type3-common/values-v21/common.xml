@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+    <!-- configuration for album set page -->
+    <!-- material_grey_900 -->
+    <color name="albumset_background">@*android:color/background_dark</color>
+    <color name="albumset_placeholder">@*android:color/holo_blue_light</color>
+    <!-- material_grey_800 -->
+    <color name="albumset_label_background">@*android:color/holo_blue_light</color>
+    <color name="albumset_label_count">@*android:color/holo_blue_bright</color>
+
+    <!-- configuration for album page -->
+    <color name="album_background">@*android:color/background_dark</color>
+    <color name="album_placeholder">@*android:color/holo_blue_light</color>
+
+    <!-- configuration for photo page -->
+    <color name="photo_background">@*android:color/background_dark</color>
+    <color name="photo_placeholder">@*android:color/holo_blue_light</color>
+
+    <!-- configuration for manage cache page -->
+    <color name="cache_background">@*android:color/background_dark</color>
+    <color name="cache_placeholder">@*android:color/holo_blue_light</color>
+
+    <color name="bitmap_screennail_placeholder">@*android:color/holo_blue_light</color>
+
+    <color name="slideshow_background">@*android:color/holo_blue_light</color>
+
+    <color name="button_dark_transparent_background">@*android:color/holo_primary_dark</color>
+
+    <color name="ingest_highlight_semitransparent">@*android:color/holo_primary</color>
+
+    <!-- FAB -->
+    <color name="floating_action_button_touch_tint">@*android:color/ripple_material_dark</color>
+    <color name="floating_action_button_icon_color">@*android:color/holo_blue_light</color>
+
+    <color name="primary">@*android:color/holo_blue_light</color>
+    <color name="primary_dark">@*android:color/holo_blue_dark</color>
+    <color name="accent">@*android:color/holo_blue_bright</color>
+    
+    <style name="Theme.GalleryBase" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">@*com.android.gallery3d:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.android.gallery3d:color/primary_dark</item>
+        <item name="android:colorAccent">@*com.android.gallery3d:color/accent</item>
+        <item name="*com.android.gallery3d:listPreferredItemHeightSmall">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="*com.android.gallery3d:switchStyle">@android:style/Widget.CompoundButton</item>
+        <item name="android:dialogTheme">@*com.android.gallery3d:style/DialogTheme</item>
+        <item name="android:alertDialogTheme">@*com.android.gallery3d:style/DialogTheme</item>
+        <item name="android:popupTheme">@*com.android.gallery3d:style/PopupThemePrimary</item>
+        <item name="android:actionModeBackground">@*com.android.gallery3d:drawable/actionmode_background</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+
+</resources>
