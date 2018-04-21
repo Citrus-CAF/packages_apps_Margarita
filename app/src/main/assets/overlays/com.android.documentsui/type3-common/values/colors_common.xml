@@ -16,6 +16,8 @@
   -->
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="accent">@*android:color/holo_blue_bright</color>
     <color name="accent_dark">@*android:color/holo_blue_bright</color>
 
     <color name="text_cursor">@*android:color/white</color>

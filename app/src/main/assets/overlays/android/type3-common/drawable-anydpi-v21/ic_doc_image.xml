@@ -19,7 +19,9 @@
     android:viewportWidth="24"
     android:viewportHeight="24"
     android:width="24dp"
-    android:height="24dp">
+    android:height="24dp"
+    android:tint="?android:attr/colorAccent">
+
     <path
         android:pathData="M22.549 3.561c0 -1.165 -0.945 -2.11 -2.11 -2.11l-16.878 0c-1.165 0 -2.11 0.945 -2.11 2.11l0 16.878c0 1.165 0.945 2.11 2.11 2.11l16.878 0c1.165 0 2.11 -0.945 2.11 -2.11l0 -16.878z"
         android:strokeWidth="1"
