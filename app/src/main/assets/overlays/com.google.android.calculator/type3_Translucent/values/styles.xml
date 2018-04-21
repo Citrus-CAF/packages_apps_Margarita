@@ -18,15 +18,14 @@
 
 <resources>
 
-    <style name="Theme" parent="@android:style/Theme.Material">
-        <item name="android:colorPrimary">@*com.android.calculator2:color/calculator_primary_color</item>
-        <item name="android:colorPrimaryDark">@*com.android.calculator2:color/calculator_statusbar_color</item>
-        <item name="android:colorAccent">@*com.android.calculator2:color/calculator_accent_color</item>
+    <style name="Theme" parent="@*android:style/Theme.Material">
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:colorPrimary">@*com.google.android.calculator:color/calculator_primary_color</item>
+        <item name="android:colorAccent">@*com.google.android.calculator:color/calculator_accent_color</item>
         <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
-        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
-        <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
 
 </resources>
