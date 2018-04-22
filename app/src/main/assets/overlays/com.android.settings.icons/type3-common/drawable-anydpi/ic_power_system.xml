@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017-2018 Citrus-CAF Project
+  ~ Copyright (C) 2018 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
   ~ You may obtain a copy of the License at
@@ -30,16 +30,30 @@
         android:strokeMiterLimit="1.5"
         android:strokeLineCap="round" />
     <path
-        android:pathData="M21.437 12A9.4370003 9.4370003 0 0 1 12 21.437 9.4370003 9.4370003 0 0 1 2.5629997 12 9.4370003 9.4370003 0 0 1 12 2.5629997 9.4370003 9.4370003 0 0 1 21.437 12Z"
+        android:pathData="M21 12a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9z"
         android:fillColor="#4d000000" />
     <path
-        android:pathData="M13.287 12A1.2869999 1.2869999 0 0 1 12 13.287 1.2869999 1.2869999 0 0 1 10.713 12 1.2869999 1.2869999 0 0 1 12 10.713 1.2869999 1.2869999 0 0 1 13.287 12Z"
+        android:pathData="M16.965 14.64l-9.93 0c0 -2.741 2.224 -4.966 4.965 -4.966 2.741 0 4.965 2.225 4.965 4.966zm-6.878 -2.244c0.384 0 0.696 0.312 0.696 0.696 0 0.384 -0.312 0.696 -0.696 0.696 -0.384 0 -0.696 -0.312 -0.696 -0.696 0 -0.384 0.312 -0.696 0.696 -0.696zm3.783 0c0.384 0 0.696 0.312 0.696 0.696 0 0.384 -0.312 0.696 -0.696 0.696 -0.384 0 -0.696 -0.312 -0.696 -0.696 0 -0.384 0.312 -0.696 0.696 -0.696z"
         android:fillColor="#000000" />
     <path
-        android:pathData="M17.31 12A5.3099999 5.3099999 0 0 1 12 17.31 5.3099999 5.3099999 0 0 1 6.6900001 12 5.3099999 5.3099999 0 0 1 12 6.6900001 5.3099999 5.3099999 0 0 1 17.31 12Z"
-        android:strokeWidth="1"
+        android:pathData="M13.886 10.015L15.442 7.793"
+        android:strokeWidth="0.71"
         android:strokeLineJoin="round"
         android:strokeColor="#000000"
         android:strokeMiterLimit="1.5"
         android:strokeLineCap="round" />
+    <path
+        android:pathData="M10.17 10.015L8.614 7.793"
+        android:strokeWidth="0.71"
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M7.035 16.207l9.93 0"
+        android:strokeWidth="0.71"
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="butt" />
 </vector>

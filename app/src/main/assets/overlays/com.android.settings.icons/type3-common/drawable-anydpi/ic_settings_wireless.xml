@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Copyright (C) 2017-2018 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
   ~ You may obtain a copy of the License at
@@ -23,16 +23,33 @@
     android:tint="?android:attr/colorControlNormal">
 
     <path
-        android:strokeColor="#000"
-        android:strokeWidth="1.2"
-        android:pathData="M1.18,11.096l10.82,-10.142l10.72,10.142" />
+        android:pathData="M14.007 20.993A2.007 2.007 0 0 1 12 23 2.007 2.007 0 0 1 9.993 20.993 2.007 2.007 0 0 1 12 18.986a2.007 2.007 0 0 1 2.007 2.007z"
+        android:fillColor="#000000" />
     <path
-        android:strokeColor="#000"
-        android:strokeWidth="1.2"
-        android:pathData="M4.18,14.755l7.806,-7.317l7.734,7.317" />
+        android:pathData="M17 15.446A2.007 2.007 0 0 1 14.993 17.453 2.007 2.007 0 0 1 12.986 15.446 2.007 2.007 0 0 1 14.993 13.439 2.007 2.007 0 0 1 17 15.446Z"
+        android:fillColor="#000000" />
     <path
-        android:fillColor="#4dffffff"
-        android:strokeColor="#000"
-        android:strokeWidth="1"
-        android:pathData="M 11.95 14.706 C 14.1591389993 14.706 15.95 16.4968610007 15.95 18.706 C 15.95 20.9151389993 14.1591389993 22.706 11.95 22.706 C 9.74086100068 22.706 7.95 20.9151389993 7.95 18.706 C 7.95 16.4968610007 9.74086100068 14.706 11.95 14.706 Z" />
+        android:pathData="M20.077999 9.993a2.007 2.007 0 0 1 -2.007 2.007 2.007 2.007 0 0 1 -2.007 -2.007 2.007 2.007 0 0 1 2.007 -2.0069999 2.007 2.007 0 0 1 2.007 2.0069999z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M7.9429998 9.993A2.007 2.007 0 0 1 5.9359999 12a2.007 2.007 0 0 1 -2.007 -2.007 2.007 2.007 0 0 1 2.007 -2.0069999A2.007 2.007 0 0 1 7.9429998 9.993Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M11.014 15.446A2.007 2.007 0 0 1 9.007 17.453 2.007 2.007 0 0 1 7 15.446a2.007 2.007 0 0 1 2.007 -2.007 2.007 2.007 0 0 1 2.007 2.007z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M14.007 9.993A2.007 2.007 0 0 1 12 12 2.007 2.007 0 0 1 9.993 9.993 2.007 2.007 0 0 1 12 7.9860001 2.007 2.007 0 0 1 14.007 9.993Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M4.9919999 4.6430001a2.007 2.007 0 0 1 -2.007 2.007 2.007 2.007 0 0 1 -2.00699997 -2.007 2.007 2.007 0 0 1 2.00699997 -2.0069999 2.007 2.007 0 0 1 2.007 2.0069999z"
+        android:fillColor="#4d000000" />
+    <path
+        android:pathData="M11.014 4.6430001a2.007 2.007 0 0 1 -2.007 2.007 2.007 2.007 0 0 1 -2.007 -2.007 2.007 2.007 0 0 1 2.007 -2.0069999 2.007 2.007 0 0 1 2.007 2.0069999z"
+        android:fillColor="#4d000000" />
+    <path
+        android:pathData="M17 4.6430001a2.007 2.007 0 0 1 -2.007 2.007 2.007 2.007 0 0 1 -2.007 -2.007A2.007 2.007 0 0 1 14.993 2.6360002 2.007 2.007 0 0 1 17 4.6430001Z"
+        android:fillColor="#4d000000" />
+    <path
+        android:pathData="M23.021999 4.6430001a2.007 2.007 0 0 1 -2.007 2.007 2.007 2.007 0 0 1 -2.007 -2.007 2.007 2.007 0 0 1 2.007 -2.0069999 2.007 2.007 0 0 1 2.007 2.0069999z"
+        android:fillColor="#4d000000" />
 </vector>
