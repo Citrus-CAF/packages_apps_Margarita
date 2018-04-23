@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Copyright (C) 2017-18 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
   ~ You may obtain a copy of the License at
@@ -23,19 +23,23 @@
     android:tint="?android:attr/colorControlNormal">
 
     <path
-        android:strokeColor="#000"
+        android:pathData="M18.466 4.587c0 -0.714 -0.58 -1.293 -1.294 -1.293l-10.344 0c-0.714 0 -1.294 0.579 -1.294 1.293l0 17.12c0 0.714 0.58 1.293 1.294 1.293l10.344 0c0.714 0 1.294 -0.579 1.294 -1.293l0 -17.12z"
         android:strokeWidth="1.2"
-        android:pathData="M 6 3.954 H 18 V 22.706 H 6 V 3.954 Z" />
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="square" />
     <path
-        android:fillColor="#000000"
-        android:pathData="M16,1.094c0,-0.077 -0.063,-0.14 -0.14,-0.14l-7.72,0c-0.077,0 -0.14,0.063
--0.14,0.14l0,1.121c0,0.078 0.063,0.141 0.14,0.141l7.72,0c0.077,0 0.14,-0.063
-0.14,-0.141l0,-1.121Z" />
+        android:pathData="M16.885 5.771c0 -0.54 -0.438 -0.977 -0.977 -0.977l-7.816 0c-0.539 0 -0.977 0.437 -0.977 0.977l0 14.752c0 0.539 0.438 0.977 0.977 0.977l7.816 0c0.539 0 0.977 -0.438 0.977 -0.977l0 -14.752z"
+        android:fillColor="#4d000000" />
     <path
-        android:fillColor="#4dffffff"
-        android:pathData="M 7.45 5.305 H 16.5 V 21.305 H 7.45 V 5.305 Z" />
+        android:pathData="M16.885 13.982c-4.798 7.556 -5.361 -5.453 -9.77 -3l0 9.683c0 0.461 0.345 0.835 0.771 0.835l8.228 0c0.426 0 0.771 -0.374 0.771 -0.835l0 -6.683z"
+        android:fillColor="#000000" />
     <path
-        android:fillColor="#000000"
-        android:pathData="M7.45,14.812c1.268,1.975 3.917,2.62 4.55,0.201c1.015,-3.881 3.896,-3.148
-4.5,-3.013l0,9.305l-9,0l-0.05,-6.493Z" />
+        android:pathData="M8.305 1l7.39 0"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
 </vector>

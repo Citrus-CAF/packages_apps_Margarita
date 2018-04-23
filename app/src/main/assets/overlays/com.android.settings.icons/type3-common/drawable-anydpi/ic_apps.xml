@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Copyright (C) 2017-18 Citrus-CAF Project
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
   ~ You may obtain a copy of the License at
@@ -23,18 +23,29 @@
     android:tint="?android:attr/colorControlNormal">
 
     <path
-        android:strokeColor="#000"
+        android:pathData="M10 2.353C10 1.984 9.7 1.684 9.331 1.684l-7.024 0c-0.369 0 -0.669 0.3 -0.669 0.669l0 9.385c0 0.369 0.3 0.669 0.669 0.669l7.024 0C9.7 12.407 10 12.107 10 11.738l0 -9.385z"
+        android:fillColor="#4d000000" />
+    <path
+        android:pathData="M10 2.353C10 1.984 9.7 1.684 9.331 1.684l-7.024 0c-0.369 0 -0.669 0.3 -0.669 0.669l0 9.385c0 0.369 0.3 0.669 0.669 0.669l7.024 0C9.7 12.407 10 12.107 10 11.738l0 -9.385z"
         android:strokeWidth="1.2"
-        android:fillColor="#4dffffff"
-        android:pathData="M14.111,11.889 L22,11.889 L22,22 L14.111,22 L14.111,11.889 Z" />
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
     <path
-        android:fillColor="#000000"
-        android:pathData="M13.28,0.954 L22.719,0.954 L22.719,7.621 L13.28,7.621 L13.28,0.954 Z" />
+        android:pathData="M23 1.52C23 1.233 22.767 1 22.48 1L14.52 1C14.233 1 14 1.233 14 1.52l0 5.46c0 0.287 0.233 0.52 0.52 0.52l7.96 0C22.767 7.5 23 7.267 23 6.98l0 -5.46z"
+        android:fillColor="#000000"/>
     <path
-        android:fillColor="#000000"
-        android:pathData="M1.18,15.944 L10.619,15.944 L10.619,22.611 L1.18,22.611 L1.18,15.944 Z" />
+        android:pathData="M22.544 12.229c0 -0.351 -0.285 -0.636 -0.636 -0.636l-6.679 0c-0.351 0 -0.636 0.285 -0.636 0.636l0 9.545c0 0.352 0.285 0.637 0.636 0.637l6.679 0c0.351 0 0.636 -0.285 0.636 -0.637l0 -9.545z"
+        android:fillColor="#4d000000" />
     <path
-        android:strokeColor="#000"
+        android:pathData="M22.544 12.229c0 -0.351 -0.285 -0.636 -0.636 -0.636l-6.679 0c-0.351 0 -0.636 0.285 -0.636 0.636l0 9.545c0 0.352 0.285 0.637 0.636 0.637l6.679 0c0.351 0 0.636 -0.285 0.636 -0.637l0 -9.545z"
         android:strokeWidth="1.2"
-        android:pathData="M2,1.778 L9.889,1.778 L9.889,11.889 L2,11.889 L2,1.778 Z" />
+        android:strokeLineJoin="round"
+        android:strokeColor="#000000"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M10 16.56C10 16.251 9.749 16 9.44 16L1.56 16C1.251 16 1 16.251 1 16.56l0 5.88C1 22.749 1.251 23 1.56 23l7.88 0C9.749 23 10 22.749 10 22.44l0 -5.88z"
+        android:fillColor="#000000" />
 </vector>
