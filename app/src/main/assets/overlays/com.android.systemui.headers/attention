@@ -1,1 +1,0 @@
-Only use this on Cardinal-AOSP, applying this overlay on any other ROM will cause SystemUI force close, changing clock placement will hide carrier label on lockscreen.
