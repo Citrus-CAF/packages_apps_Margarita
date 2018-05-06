@@ -19,7 +19,7 @@ A Open-Source Substratum theme made with ❤️ by #TEAMCARDINAL
 Firstly i'd like to thank all the wonderful themers out there, without their help, patience, and support, this theme would have been impossible.
 ``
 
-- `Gurpreet` - For guiding us on theming and helping at anytime, its really wasn't possible without him :), checkout his wonderful theme: [Streamlined Night & Day on Playstore](https://play.google.com/store/apps/details?id=snn.streamlined.night). 
+- `Gurpreet` - For guiding us on theming and helping at anytime, its really wasn't possible without him :), checkout his wonderful theme: [Streamlined Night & Day on Playstore](https://play.google.com/store/apps/details?id=snn.streamlined.night).
 
 - `David Wilson @daveyannihilation` - for Open-Sourcing  his great theme: [Domination Github](https://github.com/daveyannihilation/Domination), its really a tresure chest for newbie themers,
   checkout [Domination on Playstore](https://play.google.com/store/apps/details?id=com.annihilation.dominationdonate).
@@ -33,5 +33,3 @@ Firstly i'd like to thank all the wonderful themers out there, without their hel
 - `Gaurav` - for 24/7 frequent testing.
 
 - `[Projekt.]` - for such a great theming engine, template and guide.
-
-
