@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.google.android.dialer:id/search_box_expanded"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:visibility="gone">
+
+    <ImageButton
+        android:id="@*com.google.android.dialer:id/search_back_button"
+        android:layout_width="@*com.google.android.dialer:dimen/search_box_icon_size"
+        android:layout_height="@*com.google.android.dialer:dimen/search_box_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16.0dip"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@*com.google.android.dialer:string/action_menu_back_from_search"
+        android:src="@*com.google.android.dialer:drawable/back_arrow"
+        android:tint="@*android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@*com.google.android.dialer:id/search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8.0dip"
+        android:layout_toStartOf="@*com.google.android.dialer:id/search_close_button"
+        android:layout_toEndOf="@*com.google.android.dialer:id/search_back_button"
+        android:background="@null"
+        android:fontFamily="@*com.google.android.dialer:string/search_font_family"
+        android:imeOptions="flagNoExtractUi"
+        android:inputType="textFilter"
+        android:maxLines="1"
+        android:textColor="@*com.google.android.dialer:color/searchbox_text_color"
+        android:textColorHint="@*com.google.android.dialer:color/searchbox_hint_text_color"
+        android:textCursorDrawable="@*com.google.android.dialer:drawable/searchedittext_custom_cursor"
+        android:textSize="@*com.google.android.dialer:dimen/search_text_size" />
+
+    <ImageView
+        android:id="@*com.google.android.dialer:id/search_close_button"
+        android:layout_width="@*com.google.android.dialer:dimen/search_box_close_icon_size"
+        android:layout_height="@*com.google.android.dialer:dimen/search_box_close_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:contentDescription="@*com.google.android.dialer:string/description_clear_search"
+        android:padding="@*com.google.android.dialer:dimen/search_box_close_icon_padding"
+        android:src="@*com.google.android.dialer:drawable/quantum_ic_close_vd_theme_24"
+        android:tint="@*com.google.android.dialer:color/searchbox_icon_tint" />
+</RelativeLayout>

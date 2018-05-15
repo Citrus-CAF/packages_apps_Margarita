@@ -4,6 +4,9 @@
         <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
     </style>
+
+    <style name="Theme.AppCompat.Light.Dialog.Alert" parent="@*com.android.dialer:style/Base.Theme.AppCompat.Dialog.Alert" />
+
     <style name="AppBarTheme" parent="@*com.android.dialer:style/Theme.AppCompat">
         <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>

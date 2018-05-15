@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<resources>
+
+    <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@*com.google.android.dialer:drawable/quantum_ic_more_vert_white_24</item>
+    </style>
+
+    <style name="DialtactsActionBarTabTextStyle" parent="@android:style/Widget.Material.ActionBar.TabText">
+        <item name="android:textSize">@*com.google.android.dialer:dimen/tab_text_size</item>
+        <item name="android:textColor">@*com.google.android.dialer:color/tab_text_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="AfterCallDialogStyle" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="AfterCallNotificationTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:alertDialogTheme">@*com.google.android.dialer:style/AfterCallDialogStyle</item>
+        <item name="*com.google.android.dialer:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="PrimaryText" parent="@*com.google.android.dialer:style/TextAppearance.AppCompat">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#deffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="SecondaryText" parent="@*com.google.android.dialer:style/TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#8affffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="CallDetailsActionItemStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#8affffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="android:drawablePadding">28.0dip</item>
+        <item name="android:paddingStart">28.0dip</item>
+        <item name="android:paddingEnd">28.0dip</item>
+    </style>
+
+    <style name="CallLogActionIconStyle">
+        <item name="android:layout_width">@*com.google.android.dialer:dimen/call_log_action_icon_dimen</item>
+        <item name="android:layout_height">@*com.google.android.dialer:dimen/call_log_action_icon_dimen</item>
+        <item name="android:tint">@*android:color/holo_blue_bright</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:layout_marginStart">@*com.google.android.dialer:dimen/call_log_action_icon_margin_start</item>
+    </style>
+
+    <style name="Incall.Button.End" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@*com.google.android.dialer:drawable/incall_end_call_background</item>
+        <item name="android:backgroundTint">@*android:color/holo_blue_bright</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:layout_width">@*com.google.android.dialer:dimen/incall_end_call_button_size</item>
+        <item name="android:layout_height">@*com.google.android.dialer:dimen/incall_end_call_button_size</item>
+        <item name="android:src">@*com.google.android.dialer:drawable/incall_end_call_icon</item>
+        <item name="android:elevation">8.0dip</item>
+        <item name="android:stateListAnimator">@*com.google.android.dialer:animator/disabled_alpha</item>
+    </style>
+
+    <style name="Incall.Button.VideoCall" parent="@*com.google.android.dialer:style/Widget.AppCompat.ImageButton">
+        <item name="android:background">@*com.google.android.dialer:drawable/videocall_video_button_background</item>
+        <item name="android:backgroundTint">@*android:color/holo_blue_bright</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:tint">@*com.google.android.dialer:color/videocall_button_icon_tint</item>
+        <item name="android:tintMode">src_atop</item>
+        <item name="android:stateListAnimator">@*com.google.android.dialer:animator/disabled_alpha</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@*com.google.android.dialer:style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.Light" parent="@*com.google.android.dialer:style/Base.ThemeOverlay.AppCompat" />
+    <style name="DialtactsSearchBarThemeOverlay" parent="@*com.google.android.dialer:style/ThemeOverlay.AppCompat.Dark" />
+</resources>

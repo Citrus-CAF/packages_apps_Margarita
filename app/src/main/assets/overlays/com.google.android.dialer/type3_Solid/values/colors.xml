@@ -18,9 +18,31 @@
 <resources>
 
     <!-- Colors for the notification actions -->
-    <color name="notification_action_accept">@*android:color/holo_blue_bright</color>
-    <color name="notification_action_answer_video">@*android:color/holo_blue_bright</color>
-    <color name="notification_action_dismiss">@*android:color/holo_blue_bright</color>
-    <color name="notification_action_end_call">@*android:color/holo_blue_bright</color>
+    <color name="incall_background_gradient_top">@*android:color/background_holo_dark</color>
+    <color name="incall_background_gradient_middle">@*android:color/background_holo_dark</color>
+    <color name="incall_background_gradient_bottom">@*android:color/background_holo_dark</color>
+    <color name="incall_background_multiwindow">@*android:color/background_holo_dark</color>
+    <color name="incall_background_gradient_spam_top">@*android:color/background_holo_dark</color>
+    <color name="incall_background_gradient_spam_middle">@*android:color/background_holo_dark</color>
+    <color name="incall_background_gradient_spam_bottom">@*android:color/background_holo_dark</color>
+    <color name="incall_background_multiwindow_spam">@*android:color/background_holo_dark</color>
+
+<!-- common -->
+
+    <color name="dialer_theme_color_dark">@*android:color/holo_blue_dark</color>
+    <color name="call_subject_history_background">@*android:color/background_dark</color>
+    <color name="background_dialer_light">@*android:color/holo_blue_dark</color>
+    <color name="background_dialer_white">@*android:color/holo_blue_light</color>
+    <color name="background_dialer_results">@*android:color/holo_blue_light</color>
+    <color name="background_dialpad">@*android:color/holo_blue_dark</color>
+    <color name="setting_background_color">@*android:color/background_dark</color>
+    <color name="searchbox_background_color">@*android:color/holo_blue_dark</color>
+    <color name="contactscommon_actionbar_background_color">@*android:color/holo_blue_light</color>
+    <color name="design_snackbar_background_color">@*android:color/holo_blue_light</color>
+    <color name="incall_dialpad_background">@*android:color/holo_blue_light</color>
+    <color name="titlebar_in_recents_background_color">@*android:color/holo_blue_light</color>
+
+    <color name="actionbar_background_color">@*android:color/holo_blue_light</color>
+
 
 </resources>
