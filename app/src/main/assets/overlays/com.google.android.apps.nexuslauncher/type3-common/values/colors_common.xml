@@ -22,4 +22,11 @@
     <color name="colorPrimary">@*android:color/holo_blue_light</color>
     <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
 
+    <!-- QSB -->
+    <color name="qsb_background_hotseat_default">@*android:color/holo_primary_dark</color>
+    <color name="qsb_background_hotseat_white">@*android:color/holo_primary_dark</color>
+    <color name="qsb_background_drawer_default">@*android:color/holo_primary_dark</color>
+    <color name="qsb_background_drawer_dark">@*android:color/holo_primary_dark</color>
+    <color name="qsb_drawer_text_color">@*android:color/text_color_secondary</color>
+
 </resources>
