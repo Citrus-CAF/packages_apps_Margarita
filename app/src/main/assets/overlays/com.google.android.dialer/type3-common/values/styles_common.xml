@@ -102,4 +102,11 @@
 
     <style name="ThemeOverlay.AppCompat.Light" parent="@*com.google.android.dialer:style/Base.ThemeOverlay.AppCompat" />
     <style name="DialtactsSearchBarThemeOverlay" parent="@*com.google.android.dialer:style/ThemeOverlay.AppCompat.Dark" />
+
+    <style name="LocationErrorTextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
 </resources>

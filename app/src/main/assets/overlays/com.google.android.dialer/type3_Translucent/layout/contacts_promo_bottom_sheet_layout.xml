@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@*com.google.android.dialer:id/bottom_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="@*com.google.android.dialer:dimen/bottom_sheet_expanded_height"
+    android:background="@*android:color/background_holo_dark"
+    android:clipToPadding="false"
+    android:elevation="4.0dip"
+    android:paddingStart="16.0dip"
+    android:paddingTop="16.0dip"
+    android:paddingEnd="24.0dip"
+    android:paddingBottom="10.0dip"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="@*com.google.android.dialer:dimen/bottom_sheet_peek_height"
+    app:layout_behavior="com.google.android.apps.dialer.contactspromo.LockedBottomSheetBehavior"
+    app:layout_insetEdge="bottom">
+
+    <TextView
+        android:id="@*com.google.android.dialer:id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="12.0dip"
+        android:drawableStart="@*com.google.android.dialer:drawable/cleanup_icon"
+        android:drawablePadding="16.0dip"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:textColor="#ffffffff"
+        android:textSize="16.0sp" />
+
+    <Button
+        android:id="@*com.google.android.dialer:id/accept_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@*com.google.android.dialer:id/title_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16.0dip"
+        android:text="@*com.google.android.dialer:string/contacts_suggestions_promo_accept_button" />
+
+    <Button
+        android:id="@*com.google.android.dialer:id/dismiss_button"
+        style="@android:style/Widget.Material.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@*com.google.android.dialer:id/accept_button"
+        android:layout_toStartOf="@*com.google.android.dialer:id/accept_button"
+        android:text="@*com.google.android.dialer:string/contacts_suggestions_promo_dismiss_button"
+        android:textColor="@*android:color/text_color_secondary" />
+</RelativeLayout>

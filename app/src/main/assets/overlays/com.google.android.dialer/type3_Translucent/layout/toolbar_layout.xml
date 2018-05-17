@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.dialer.main.impl.toolbar.MainToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="@*com.google.android.dialer:dimen/expanded_search_bar_height"
+    android:background="@*android:color/holo_primary"
+    app:contentInsetEnd="0.0dip"
+    app:contentInsetStart="0.0dip">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.android.dialer.main.impl.toolbar.SearchBarView
+            android:id="@*com.google.android.dialer:id/search_view_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@*com.google.android.dialer:dimen/search_bar_margin"
+            android:background="@*com.google.android.dialer:drawable/search_bar_background_rounded_corners"
+            android:elevation="4.0dip"
+            android:minHeight="@*com.google.android.dialer:dimen/collapsed_search_bar_height">
+
+            <RelativeLayout
+                android:id="@*com.google.android.dialer:id/search_box_collapsed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="?android:selectableItemBackground"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@*com.google.android.dialer:id/search_magnifying_glass"
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="8.0dip"
+                    android:importantForAccessibility="no"
+                    android:scaleType="center"
+                    android:src="@*com.google.android.dialer:drawable/quantum_ic_search_vd_theme_24"
+                    android:tint="@*com.google.android.dialer:color/dialer_secondary_text_color" />
+
+                <TextView
+                    android:id="@*com.google.android.dialer:id/search_box_start_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="8.0dip"
+                    android:layout_toStartOf="@*com.google.android.dialer:id/voice_search_button"
+                    android:layout_toEndOf="@*com.google.android.dialer:id/search_magnifying_glass"
+                    android:fontFamily="sans-serif"
+                    android:text="@*com.google.android.dialer:string/dialer_hint_find_contact"
+                    android:textColor="@*com.google.android.dialer:color/dialer_secondary_text_color"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:id="@*com.google.android.dialer:id/voice_search_button"
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:layout_toStartOf="@*com.google.android.dialer:id/main_options_menu_button"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:contentDescription="@*com.google.android.dialer:string/description_start_voice_search"
+                    android:scaleType="center"
+                    android:src="@*com.google.android.dialer:drawable/quantum_ic_mic_vd_theme_24"
+                    android:tint="@*com.google.android.dialer:color/dialer_secondary_text_color" />
+
+                <ImageButton
+                    android:id="@*com.google.android.dialer:id/main_options_menu_button"
+                    android:layout_width="48.0dip"
+                    android:layout_height="48.0dip"
+                    android:layout_alignParentEnd="true"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:contentDescription="@*com.google.android.dialer:string/action_menu_overflow_description"
+                    android:scaleType="center"
+                    android:src="@*com.google.android.dialer:drawable/quantum_ic_more_vert_vd_theme_24"
+                    android:tint="@*com.google.android.dialer:color/dialer_secondary_text_color" />
+            </RelativeLayout>
+
+            <include layout="@*com.google.android.dialer:layout/expanded_search_bar" />
+        </com.android.dialer.main.impl.toolbar.SearchBarView>
+
+        <com.android.dialer.app.list.RemoveView
+            android:id="@*com.google.android.dialer:id/remove_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@*com.google.android.dialer:dimen/search_bar_margin"
+            android:contentDescription="@*com.google.android.dialer:string/main_remove_contact"
+            android:importantForAccessibility="no">
+
+            <LinearLayout
+                android:id="@*com.google.android.dialer:id/remove_view_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@*com.google.android.dialer:color/dialer_theme_color"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@*com.google.android.dialer:id/remove_view_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip"
+                    android:layout_marginBottom="8.0dip"
+                    android:src="@*com.google.android.dialer:drawable/quantum_ic_close_vd_theme_24"
+                    android:tint="@*com.google.android.dialer:color/dialer_primary_text_color_white" />
+
+                <TextView
+                    android:id="@*com.google.android.dialer:id/remove_view_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@*com.google.android.dialer:string/main_remove_contact"
+                    android:textColor="@*com.google.android.dialer:color/dialer_primary_text_color_white"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+        </com.android.dialer.app.list.RemoveView>
+    </FrameLayout>
+</com.android.dialer.main.impl.toolbar.MainToolbar>
