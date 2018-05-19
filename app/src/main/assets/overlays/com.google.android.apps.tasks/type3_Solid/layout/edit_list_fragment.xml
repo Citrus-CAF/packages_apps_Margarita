@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@*android:color/background_dark"
+    android:orientation="vertical">
+
+    <include layout="@*com.google.android.apps.tasks:layout/horizontal_separator" />
+
+    <EditText
+        android:id="@*com.google.android.apps.tasks:id/edit_list_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@*android:color/holo_blue_light"
+        android:hint="@*com.google.android.apps.tasks:string/list_title_hint"
+        android:inputType="textAutoComplete|textCapSentences|textMultiLine"
+        android:maxLength="@*com.google.android.apps.tasks:integer/max_task_list_title_size"
+        android:maxLines="1"
+        android:paddingLeft="@*com.google.android.apps.tasks:dimen/edit_list_start_spacing"
+        android:paddingTop="@*com.google.android.apps.tasks:dimen/edit_list_top_spacing"
+        android:paddingRight="@*com.google.android.apps.tasks:dimen/edit_list_start_spacing"
+        android:paddingBottom="@*com.google.android.apps.tasks:dimen/edit_list_bottom_spacing"
+        android:textAppearance="@*com.google.android.apps.tasks:style/EditListNameTextAppearance"
+        android:textColorHint="@*com.google.android.apps.tasks:color/google_grey600" />
+
+    <include layout="@*com.google.android.apps.tasks:layout/horizontal_separator" />
+</LinearLayout>

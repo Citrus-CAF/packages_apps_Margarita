@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@*com.google.android.apps.tasks:color/tasksListBackground">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@*com.google.android.apps.tasks:id/tasks_refresh"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.0"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@*com.google.android.apps.tasks:id/tasks_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="@*com.google.android.apps.tasks:dimen/tasks_list_bottom_spacing" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@*com.google.android.apps.tasks:id/tasks_refresh_empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.0"
+        android:visibility="gone">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@*com.google.android.apps.tasks:id/tasks_refresh_empty_scrollable"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@*android:color/background_dark"
+            android:clipToPadding="false"
+            android:fillViewport="true"
+            android:paddingBottom="@*com.google.android.apps.tasks:dimen/tasks_list_bottom_spacing">
+
+            <include layout="@*com.google.android.apps.tasks:layout/tasks_fragment_empty" />
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>

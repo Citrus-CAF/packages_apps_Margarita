@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme" parent="@*com.google.android.apps.tasks:style/Theme.GoogleMaterial.Light.NoActionBar">
+        <item name="android:colorBackground">@*com.google.android.apps.tasks:color/colorBackground</item>
+        <item name="android:textAppearanceSmall">@*com.google.android.apps.tasks:style/CustomTextAppearanceSmall</item>
+        <item name="android:textColorHint">@*com.google.android.apps.tasks:color/textColorHint</item>
+        <item name="android:textColorTertiary">@*com.google.android.apps.tasks:color/default_text_color</item>
+        <item name="*com.google.android.apps.tasks:bottomSheetDialogTheme">@*com.google.android.apps.tasks:style/CustomBottomSheetDialogTheme</item>
+        <item name="*com.google.android.apps.tasks:dialogTheme">@*com.google.android.apps.tasks:style/CustomDialogTheme</item>
+        <item name="*com.google.android.apps.tasks:colorPrimary">@*com.google.android.apps.tasks:color/colorPrimary</item>
+        <item name="*com.google.android.apps.tasks:colorPrimaryDark">@*com.google.android.apps.tasks:color/colorPrimaryDark</item>
+        <item name="*com.google.android.apps.tasks:colorAccent">@*com.google.android.apps.tasks:color/colorAccent</item>
+        <item name="*com.google.android.apps.tasks:alertDialogTheme">@*com.google.android.apps.tasks:style/CustomAlertDialogTheme</item>
+        <item name="*com.google.android.apps.tasks:autoCompleteTextViewStyle">@*com.google.android.apps.tasks:style/AutocompleteAppearance</item>
+        <item name="*com.google.android.apps.tasks:optionItemStyle">@*com.google.android.apps.tasks:style/OptionItem</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light" parent="@*com.google.android.apps.tasks:style/Base.Theme.AppCompat">
+        <item name="*com.google.android.apps.tasks:colorPrimary">@*android:color/holo_blue_light</item>
+        <item name="*com.google.android.apps.tasks:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="*com.google.android.apps.tasks:colorAccent">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="BottomAppBar" parent="@*com.google.android.apps.tasks:style/Widget.GoogleMaterial.BottomAppBar">
+        <item name="*com.google.android.apps.tasks:fabAttached">false</item>
+        <item name="*com.google.android.apps.tasks:fabCradleDiameter">0.0dip</item>
+        <item name="*com.google.android.apps.tasks:backgroundTint">@*android:color/holo_blue_light</item>
+        <item name="*com.google.android.apps.tasks:backgroundTintMode">src_over</item>
+    </style>
+
+    <style name="DatePickerStyle" parent="@*android:style/Widget.Material.DatePicker">
+        <item name="android:headerBackground">@*android:color/holo_blue_light</item>
+        <item name="android:headerMonthTextAppearance">@*com.google.android.apps.tasks:style/DatePickerMonthTextAppearance</item>
+    </style>
+
+</resources>

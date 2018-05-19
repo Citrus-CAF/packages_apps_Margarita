@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppCompat.Light.Dialog" parent="@*com.google.android.apps.tasks:style/Base.Theme.AppCompat.Dialog" />
+    <style name="Theme.Design.Light.BottomSheetDialog" parent="@*com.google.android.apps.tasks:style/Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@*com.google.android.apps.tasks:style/Animation.Design.BottomSheetDialog</item>
+        <item name="*com.google.android.apps.tasks:bottomSheetStyle">@*com.google.android.apps.tasks:style/Widget.Design.BottomSheet.Modal</item>
+    </style>
+
+    <style name="BaseFooterActionItemStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@*android:color/text_color_secondary</item>
+    </style>
+
+</resources>
