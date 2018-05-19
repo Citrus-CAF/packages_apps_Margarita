@@ -13,29 +13,8 @@
     <color name="holo_green_dark">#ff388e3c</color>
     <color name="transparent">#00000000</color>
     <color name="micro_text_light">#ffdddddd</color>
-    <color name="timepicker_default_text_color_material">@android:color/white</color>
-    <color name="datepicker_default_header_dayofweek_background_color_material_light">#ffffffff
-    </color>
-    <color name="datepicker_default_normal_text_color_material_light">#ffffffff</color>
-    <color name="datepicker_default_disabled_text_color_material_light">#80ffffff</color>
-    <color name="datepicker_default_disabled_text_color_material_dark">#80ffffff</color>
-    <color name="datepicker_default_selected_text_color_material_light">#ffbbbbbb</color>
-    <color name="datepicker_default_selected_text_color_material_dark">#ffbbbbbb</color>
-    <color name="datepicker_default_pressed_text_color_material_light">#ffaaaaaa</color>
-    <color name="datepicker_default_pressed_text_color_material_dark">#ffaaaaaa</color>
-    <color name="datepicker_default_circle_background_color_material_light">#ffffffff</color>
-    <color name="datepicker_default_circle_background_color_material_dark">#ffffffff</color>
     <color name="secondary_text_default_material_light">#ff9e9e9e</color>
     <color name="notification_mtrl_action_text_light">#ffffffff</color>
-    <color name="datepicker_default_header_dayofweek_background_color_holo_light">#ffffffff</color>
-    <color name="datepicker_default_header_dayofweek_background_color_holo_dark">#ffffffff</color>
-    <color name="datepicker_default_normal_text_color_holo_light">#ffffffff</color>
-    <color name="datepicker_default_disabled_text_color_holo_light">#80ffffff</color>
-    <color name="datepicker_default_disabled_text_color_holo_dark">#80ffffff</color>
-    <color name="datepicker_default_selected_text_color_holo_light">#ffffffff</color>
-    <color name="datepicker_default_selected_text_color_holo_dark">#ffffffff</color>
-    <color name="datepicker_default_pressed_text_color_holo_light">#ffdddddd</color>
-    <color name="datepicker_default_pressed_text_color_holo_dark">#ffdddddd</color>
 
     <!-- Our changes starts -->
     <!-- Notification panel default color -->
