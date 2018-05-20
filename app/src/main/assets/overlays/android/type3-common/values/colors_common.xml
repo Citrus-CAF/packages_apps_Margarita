@@ -42,4 +42,8 @@
     <color name="tooltip_text_light">#ffffff</color>
     <color name="tooltip_text_dark">#ffffff</color>
 
+    <!-- Date and time picker -->
+    <color name="datepicker_default_normal_text_color_material_light">@android:color/white</color>
+    <color name="timepicker_default_text_color_material">@android:color/white</color>
+
 </resources>

@@ -33,4 +33,19 @@
     <color name="notification_action_list">@*android:color/holo_blue_dark</color>
     <color name="notification_action_list_dark">@*android:color/holo_blue_dark</color>
 
+    <!-- Date picker -->
+    <color name="datepicker_default_header_selector_background_material_light">@*android:color/holo_primary_dark</color>
+    <color name="datepicker_default_header_selector_background_material_dark">@*android:color/holo_primary_dark</color>
+    <color name="datepicker_default_header_dayofweek_background_color_material_light">@*android:color/holo_primary</color>
+    <color name="datepicker_default_header_dayofweek_background_color_material_dark">@*android:color/holo_primary</color>
+    <color name="datepicker_default_circle_background_color_material_light">@*android:color/holo_primary</color>
+    <color name="datepicker_default_circle_background_color_material_dark">@*android:color/holo_primary</color>
+    <color name="datepicker_default_view_animator_color_material_light">@*android:color/holo_primary</color>
+    <color name="datepicker_default_view_animator_color_material_dark">@*android:color/holo_primary</color>
+
+    <!-- Time picker -->
+    <color name="timepicker_default_background_material">@*android:color/background_holo_dark</color>
+    <color name="timepicker_default_ampm_selected_background_color_material">@*android:color/holo_blue_bright</color>
+    <color name="timepicker_default_selector_color_material">@*android:color/holo_blue_bright</color>
+
 </resources>
