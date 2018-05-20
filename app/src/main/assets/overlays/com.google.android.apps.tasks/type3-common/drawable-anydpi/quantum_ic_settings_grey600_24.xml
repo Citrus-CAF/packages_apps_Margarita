@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Citrus-CAF Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#4dffffff"
+        android:pathData="M14.764,1.683c-1.811,-0.485 -3.717,-0.485 -5.528,0l-0.588,2.458c-0.632,0.269
+-1.229,0.614 -1.778,1.026l-2.422,-0.719c-1.326,1.325 -2.279,2.977
+-2.765,4.788l1.834,1.737c-0.082,0.682 -0.082,1.372
+0,2.054l-1.834,1.737c0.486,1.811 1.439,3.463
+2.765,4.788l2.422,-0.719c0.549,0.412 1.146,0.757
+1.778,1.026l0.588,2.458c1.811,0.485 3.717,0.485
+5.528,0l0.588,-2.458c0.632,-0.269 1.229,-0.614
+1.778,-1.026l2.422,0.719c1.326,-1.325 2.279,-2.977
+2.765,-4.788l-1.834,-1.737c0.082,-0.682 0.082,-1.372
+0,-2.054l1.834,-1.737c-0.486,-1.811 -1.439,-3.463
+-2.765,-4.788l-2.422,0.719c-0.549,-0.412 -1.146,-0.757
+-1.778,-1.026l-0.588,-2.458Zm-2.764,7.113c1.768,0 3.204,1.436
+3.204,3.204c0,1.768 -1.436,3.204 -3.204,3.204c-1.768,0 -3.204,-1.436
+-3.204,-3.204c0,-1.768 1.436,-3.204 3.204,-3.204Z" />
+    <path
+        android:strokeColor="#000"
+        android:strokeWidth="1.5"
+        android:pathData="M14.764,1.683c-1.811,-0.485 -3.717,-0.485 -5.528,0l-0.588,2.458c-0.632,0.269
+-1.229,0.614 -1.778,1.026l-2.422,-0.719c-1.326,1.325 -2.279,2.977
+-2.765,4.788l1.834,1.737c-0.082,0.682 -0.082,1.372
+0,2.054l-1.834,1.737c0.486,1.811 1.439,3.463
+2.765,4.788l2.422,-0.719c0.549,0.412 1.146,0.757
+1.778,1.026l0.588,2.458c1.811,0.485 3.717,0.485
+5.528,0l0.588,-2.458c0.632,-0.269 1.229,-0.614
+1.778,-1.026l2.422,0.719c1.326,-1.325 2.279,-2.977
+2.765,-4.788l-1.834,-1.737c0.082,-0.682 0.082,-1.372
+0,-2.054l1.834,-1.737c-0.486,-1.811 -1.439,-3.463
+-2.765,-4.788l-2.422,0.719c-0.549,-0.412 -1.146,-0.757
+-1.778,-1.026l-0.588,-2.458Zm-2.764,7.113c1.768,0 3.204,1.436
+3.204,3.204c0,1.768 -1.436,3.204 -3.204,3.204c-1.768,0 -3.204,-1.436
+-3.204,-3.204c0,-1.768 1.436,-3.204 3.204,-3.204Z" />
+</vector>

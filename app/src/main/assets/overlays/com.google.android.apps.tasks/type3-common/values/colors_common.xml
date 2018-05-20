@@ -19,7 +19,6 @@
     <color name="google_grey200">#ffffffff</color>
     <color name="google_grey300">#ffffffff</color>
     <color name="google_grey400">#33000000</color>
-    <color name="google_grey50">#ffffffff</color>
     <color name="google_grey500">#ffffffff</color>
     <color name="google_grey600">#ffffffff</color>
     <color name="google_grey700">@*android:color/text_color_secondary</color>

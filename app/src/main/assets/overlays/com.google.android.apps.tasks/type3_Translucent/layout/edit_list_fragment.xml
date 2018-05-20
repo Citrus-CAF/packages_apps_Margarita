@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
-    <include layout="@layout/horizontal_separator" />
+    <include layout="@*com.google.android.apps.tasks:layout/horizontal_separator" />
 
     <EditText
         android:id="@*com.google.android.apps.tasks:id/edit_list_title"

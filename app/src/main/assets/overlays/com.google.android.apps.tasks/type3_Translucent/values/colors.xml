@@ -8,8 +8,9 @@
     <color name="design_default_color_primary_dark">@*android:color/holo_primary_dark</color>
     <color name="design_snackbar_background_color">@*android:color/holo_primary</color>
     <color name="google_blue50">@*android:color/holo_primary</color>
+    <color name="google_grey50">@*android:color/holo_primary</color>
     <color name="google_grey100">@*android:color/holo_primary</color>
-    <color name="google_grey900">@*android:color/holo_primary</color>
+    <color name="google_grey900">@*android:color/white</color>
     <color name="google_white">@*android:color/holo_primary_dark</color>
     <color name="taskBackground">#1a000000</color>
     <color name="tasksListBackground">@*android:color/transparent</color>

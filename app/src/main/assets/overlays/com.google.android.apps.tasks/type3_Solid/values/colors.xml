@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bottom_drawer_background_color">@*android:color/holo_blue_dark</color>
+    <color name="bottom_drawer_background_color">@*android:color/holo_blue_light</color>
     <color name="colorBackground">@*android:color/background_dark</color>
     <color name="colorPrimary">@*android:color/holo_blue_dark</color>
     <color name="colorPrimaryDark">@*android:color/holo_blue_dark</color>
     <color name="design_default_color_primary">@*android:color/holo_blue_light</color>
     <color name="design_default_color_primary_dark">@*android:color/holo_blue_dark</color>
     <color name="design_snackbar_background_color">@*android:color/holo_blue_light</color>
-    <color name="google_blue50">@*android:color/holo_blue_light</color>
+    <color name="google_blue50">@*android:color/holo_blue_dark</color>
+    <color name="google_grey50">@*android:color/holo_blue_light</color>
     <color name="google_grey100">@*android:color/holo_blue_light</color>
-    <color name="google_grey900">@*android:color/holo_blue_light</color>
+    <color name="google_grey900">@*android:color/white</color>
     <color name="google_white">@*android:color/holo_blue_dark</color>
     <color name="taskBackground">@*android:color/holo_blue_light</color>
     <color name="tasksListBackground">@*android:color/background_dark</color>
