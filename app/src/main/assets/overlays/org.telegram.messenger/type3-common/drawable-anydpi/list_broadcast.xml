@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 Citrus-CAF Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorAccent">
+
+    <path
+        android:pathData="M20.255 11.75A8.0050001 8.0050001 0 0 1 12.25 19.755 8.0050001 8.0050001 0 0 1 4.2449999 11.75 8.0050001 8.0050001 0 0 1 12.25 3.7449999 8.0050001 8.0050001 0 0 1 20.255 11.75Z"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M21.574 6.484c0.877 1.557 1.378 3.353 1.378 5.266 0 1.951 -0.521 3.781 -1.431 5.359"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M2.929 17.105C2.02 15.528 1.5 13.699 1.5 11.75 1.5 9.794 2.024 7.959 2.938 6.378"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M18.426 11.75A6.1760001 6.1760001 0 0 1 12.25 17.926 6.1760001 6.1760001 0 0 1 6.0739999 11.75 6.1760001 6.1760001 0 0 1 12.25 5.5739999 6.1760001 6.1760001 0 0 1 18.426 11.75Z"
+        android:fillType="evenOdd"
+        android:fillColor="#4dffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M16.596 11.75A4.3460002 4.3460002 0 0 1 12.25 16.096 4.3460002 4.3460002 0 0 1 7.9039998 11.75 4.3460002 4.3460002 0 0 1 12.25 7.4039998 4.3460002 4.3460002 0 0 1 16.596 11.75Z"
+        android:fillType="evenOdd"
+        android:fillColor="#4dffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M13.851 11.75A1.601 1.601 0 0 1 12.25 13.351 1.601 1.601 0 0 1 10.649 11.75 1.601 1.601 0 0 1 12.25 10.149 1.601 1.601 0 0 1 13.851 11.75Z"
+        android:fillType="evenOdd"
+        android:fillColor="#ffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+</vector>

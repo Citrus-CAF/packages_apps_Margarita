@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 Citrus-CAF Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="34dp"
+    android:height="34dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorAccent">
+
+    <path
+        android:pathData="M14.371 11.543A5.914 5.914 0 0 1 8.4569998 17.457 5.914 5.914 0 0 1 2.5429997 11.543 5.914 5.914 0 0 1 8.4569998 5.6290002 5.914 5.914 0 0 1 14.371 11.543Z"
+        android:fillType="evenOdd"
+        android:fillColor="#4dffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M7.135 11.077c0 0 -1.221 0.527 -1.221 0.768l0 3.023c0 0.241 0.208 0.437 0.463 0.437l4.161 0c0.255 0 0.462 -0.196 0.462 -0.437l0 -3.023C11 11.604 9.779 11.077 9.779 11.077"
+        android:strokeWidth="0.5"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M10.186 12.302c0 -0.146 -0.28 -0.264 -0.28 -0.264 -0.243 -0.083 -1.004 -0.45 -1.287 0.009L8.395 12.038c-0.189 -0.414 -1.136 -0.099 -1.368 0 0 0 -0.28 0.118 -0.28 0.264l0 2.119c0 0.146 0.125 0.265 0.28 0.265l2.879 0c0.155 0 0.28 -0.119 0.28 -0.265l0 -2.119z"
+        android:fillType="evenOdd"
+        android:fillColor="#4dffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M9.9359999 9.191a1.493 1.41 0 0 1 -1.4930001 1.41 1.493 1.41 0 0 1 -1.493 -1.41 1.493 1.41 0 0 1 1.493 -1.41 1.493 1.41 0 0 1 1.4930001 1.41z"
+        android:fillType="evenOdd"
+        android:fillColor="#ffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M8.504 14.333l0.58 -0.542 -0.441 -1.755 -0.257 0 -0.451 1.755 0.569 0.542z"
+        android:fillType="evenOdd"
+        android:fillColor="#ffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M16 11.543A7.5430002 7.5430002 0 0 1 8.4569998 19.086 7.5430002 7.5430002 0 0 1 0.91399956 11.543 7.5430002 7.5430002 0 0 1 8.4569998 4 7.5430002 7.5430002 0 0 1 16 11.543Z"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M3.44 6.525L13.543 16.629"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M22.451 12l-4 0"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M20.451 14l0 -4"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+</vector>
