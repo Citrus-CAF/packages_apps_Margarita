@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 Citrus-CAF Project
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorAccent">
+
+    <path
+        android:pathData="M23 12A11 11 0 0 1 12 23 11 11 0 0 1 1 12 11 11 0 0 1 12 1 11 11 0 0 1 23 12Z"
+        android:strokeWidth="0.7"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M21 12a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9z"
+        android:fillType="evenOdd"
+        android:fillColor="#4dffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M15.61 9.427L13.218 7 9.112 7C8.714 7 8.39 7.324 8.39 7.722l0 8.556C8.39 16.676 8.714 17 9.112 17l5.776 0c0.398 0 0.722 -0.324 0.722 -0.722l0 -6.851z"
+        android:strokeWidth="0.45"
+        android:strokeLineJoin="round"
+        android:strokeColor="#ffffff"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M14.518 10.968l-2.949 -0.067 -0.018 -2.925 -1.504 0C9.773 7.976 9.55 8.199 9.55 8.473l0 7.054c0 0.274 0.223 0.497 0.497 0.497l3.974 0c0.274 0 0.497 -0.223 0.497 -0.497l0 -4.559z"
+        android:fillType="evenOdd"
+        android:fillColor="#73ffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M12.353 7.976l2.165 2.185 -2.165 0 0 -2.185z"
+        android:fillType="evenOdd"
+        android:fillColor="#ffffff"
+        android:strokeLineJoin="round"
+        android:strokeMiterLimit="1.5"
+        android:strokeLineCap="round" />
+</vector>
