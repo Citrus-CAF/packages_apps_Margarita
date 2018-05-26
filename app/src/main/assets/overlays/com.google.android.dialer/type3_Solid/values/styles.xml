@@ -78,9 +78,9 @@
         <item name="*com.google.android.dialer:actionModeStyle">@*com.google.android.dialer:style/NuiActionModeStyle</item>
     </style>
 
-    <style name="Theme.AppCompat.Light" parent="@*com.android.dialer:style/Base.Theme.AppCompat">
-        <item name="*com.android.dialer:colorPrimary">@*android:color/holo_blue_light</item>
-        <item name="*com.android.dialer:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+    <style name="Theme.AppCompat.Light" parent="@*com.google.android.dialer:style/Base.Theme.AppCompat">
+        <item name="*com.google.android.dialer:colorPrimary">@*android:color/holo_blue_light</item>
+        <item name="*com.google.android.dialer:colorPrimaryDark">@*android:color/holo_blue_dark</item>
         <item name="*android:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="*android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
         <item name="*android:windowBackground">@*android:color/background_dark</item>

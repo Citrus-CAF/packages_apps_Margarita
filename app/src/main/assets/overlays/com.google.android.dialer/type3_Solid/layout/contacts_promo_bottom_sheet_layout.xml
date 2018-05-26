@@ -4,7 +4,7 @@
     android:id="@*com.google.android.dialer:id/bottom_sheet"
     android:layout_width="fill_parent"
     android:layout_height="@*com.google.android.dialer:dimen/bottom_sheet_expanded_height"
-    android:background="@*android:color/background_dark"
+    android:background="@*android:color/holo_blue_light"
     android:clipToPadding="false"
     android:elevation="4.0dip"
     android:paddingStart="16.0dip"

@@ -93,5 +93,4 @@
     <color name="incall_background_gradient_spam_middle">@*android:color/background_holo_dark</color>
     <color name="incall_background_gradient_spam_bottom">@*android:color/background_holo_dark</color>
     <color name="incall_background_multiwindow_spam">@*android:color/background_holo_dark</color>
-
 </resources>
