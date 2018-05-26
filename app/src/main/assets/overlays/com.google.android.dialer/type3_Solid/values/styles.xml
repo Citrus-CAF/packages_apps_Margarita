@@ -45,23 +45,6 @@
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
     </style>
 
-    <style name="Theme.InCallScreen" parent="@*com.google.android.dialer:style/Theme.AppCompat.NoActionBar">
-        <item name="android:textColorPrimary">#ffffffff</item>
-        <item name="android:textColorSecondary">#ddffffff</item>
-        <item name="android:windowBackground">@*com.google.android.dialer:drawable/incall_background_gradient</item>
-        <item name="android:windowAnimationStyle">@null</item>
-        <item name="android:windowShowWallpaper">true</item>
-        <item name="android:alertDialogTheme">@*com.google.android.dialer:style/AlertDialogTheme</item>
-        <item name="android:colorPrimary">@*android:color/holo_blue_bright</item>
-        <item name="android:colorPrimaryDark">@*android:color/holo_blue_bright</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="*com.google.android.dialer:dialpad_style">@*com.google.android.dialer:style/InCallDialpad</item>
-        <item name="*com.google.android.dialer:dialpad_key_button_touch_tint">@*com.google.android.dialer:color/incall_dialpad_touch_tint</item>
-        <item name="android:backgroundTint">@*android:color/background_dark</item>
-    </style>
-
     <style name="NuiActivityThemeBase" parent="@*com.google.android.dialer:style/Theme.AppCompat.NoActionBar">
         <item name="android:textColorPrimary">@*com.google.android.dialer:color/dialer_primary_text_color</item>
         <item name="android:textColorSecondary">@*com.google.android.dialer:color/dialer_secondary_text_color</item>

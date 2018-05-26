@@ -17,18 +17,6 @@
 
 <resources>
 
-    <!-- Colors for the notification actions -->
-    <color name="incall_background_gradient_top">@*android:color/background_holo_dark</color>
-    <color name="incall_background_gradient_middle">@*android:color/background_holo_dark</color>
-    <color name="incall_background_gradient_bottom">@*android:color/background_holo_dark</color>
-    <color name="incall_background_multiwindow">@*android:color/background_holo_dark</color>
-    <color name="incall_background_gradient_spam_top">@*android:color/background_holo_dark</color>
-    <color name="incall_background_gradient_spam_middle">@*android:color/background_holo_dark</color>
-    <color name="incall_background_gradient_spam_bottom">@*android:color/background_holo_dark</color>
-    <color name="incall_background_multiwindow_spam">@*android:color/background_holo_dark</color>
-
-<!-- common -->
-
     <color name="dialer_theme_color_dark">@*android:color/holo_blue_dark</color>
     <color name="call_subject_history_background">@*android:color/background_dark</color>
     <color name="background_dialer_light">@*android:color/holo_blue_dark</color>

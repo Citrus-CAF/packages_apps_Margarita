@@ -87,10 +87,10 @@
     <color name="incoming_answer_icon">@android:color/transparent</color>
     <color name="incall_background_gradient_top">@*android:color/background_holo_dark</color>
     <color name="incall_background_gradient_middle">@*android:color/background_holo_dark</color>
-    <color name="incall_background_gradient_bottom">@*android:color/background_holo_dark</color>
+    <color name="incall_background_gradient_bottom">#000000</color>
     <color name="incall_background_multiwindow">@*android:color/background_holo_dark</color>
     <color name="incall_background_gradient_spam_top">@*android:color/background_holo_dark</color>
     <color name="incall_background_gradient_spam_middle">@*android:color/background_holo_dark</color>
-    <color name="incall_background_gradient_spam_bottom">@*android:color/background_holo_dark</color>
+    <color name="incall_background_gradient_spam_bottom">#000000</color>
     <color name="incall_background_multiwindow_spam">@*android:color/background_holo_dark</color>
 </resources>

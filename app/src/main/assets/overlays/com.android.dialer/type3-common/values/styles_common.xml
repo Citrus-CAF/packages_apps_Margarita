@@ -74,4 +74,21 @@
         <item name="android:maxLines">1</item>
     </style>
 
+    <style name="Theme.InCallScreen" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#DDFFFFFF</item>
+        <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="*com.android.dialer:dialpad_key_button_touch_tint">@*com.android.dialer:color/incall_dialpad_touch_tint</item>
+        <item name="*com.android.dialer:dialpad_style">@*com.android.dialer:style/InCallDialpad</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
+        <item name="android:windowBackground">@*com.android.dialer:drawable/incall_background_gradient</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:backgroundTint">@android:color/black</item>
+    </style>
+
 </resources>
