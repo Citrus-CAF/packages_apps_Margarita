@@ -24,7 +24,7 @@
     <color name="qs_tiles_label_color">@*android:color/text_color_primary</color>
     <color name="qs_tiles_underline_color">@*android:color/holo_blue_bright</color>
 
-    <!-- Config to enable/diaable qs tiles grayscale tinting (Themers, Set this to false to fix custom qs tiles tinting -->
-    <bool name="config_enable_qs_tiles_grayscale_tinting">false</bool>
+    <!-- Config to enable/diaable qs tile tinting -->
+    <bool name="config_enable_qs_tile_tinting">true</bool>
 
 </resources>
