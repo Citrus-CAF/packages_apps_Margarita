@@ -20,6 +20,7 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
+        <item>v6.1.0 - Wed, 27-06-2018\n- Fixed QS tiles tinting.\n- Fixed Launcher3 errors.\n- Added option to choose notification tint.\n</item>
         <item>v6.0.0 - Thu, 21-06-2018\n- Added ability to change qs tile color.\n- Added Grape Accent, Plum red and Dark chocolate Backgrounds.\n</item>
         <item>v5.5.5 - Sun, 27-05-2018\n- Updated Google dialer resources to v19.\n- Themed Google tasks.\n- Themed Telegram icons.\n- Minor adjustments to In-CallUI bg.\n- Fixed Gboard language picker text color.\n- Minor under-the-hood adjustments.\n</item>
         <item>v5.5.0 - Thu, 17-05-2018\n- Themed Google Calculator.\n- Added more custom icons for MusicFX, Settings and DocumentsUI.\n- Added navigationBarColor for most of the apps.\n- Themed AOSP Gallery.\n- Small adjustments to Accent colors.\n- Added peach and mango accents.\n- Themed storage manager.\n- Removed Clock position options.\n- Themed Google Dialer.\n- Themed magisk manager.\n- Themed emergency information app.\n- Merged latest template changes.\n</item>
