@@ -28,12 +28,10 @@
         <item name="android:textColorTertiary">#CCFFFFFF</item>
         <item name="android:textColorHint">#A0FFFFFF</item>
         <item name="android:colorControlHighlight">#A0FFFFFF</item>
-        <item name="*com.android.launcher3:bottomSheetNavBarColor">#00000000</item>
     </style>
     <style name="WidgetContainerTheme.Dark" parent="@*com.android.launcher3:style/LauncherThemeDark">
         <item name="android:colorEdgeEffect">?android:attr/colorAccent</item>
         <item name="android:colorPrimaryDark">@*com.android.launcher3:color/colorPrimaryDark</item>
-        <item name="*com.android.launcher3:bottomSheetNavBarColor">#00000000</item>
     </style>
 
 </resources>

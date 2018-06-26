@@ -45,7 +45,6 @@
         <item name="android:colorEdgeEffect">?android:attr/colorAccent</item>
         <item name="android:textColorPrimary">?android:attr/textColorPrimary</item>
         <item name="android:textColorSecondary">?android:attr/textColorSecondary</item>
-        <item name="*com.android.launcher3:bottomSheetNavBarColor">@*com.android.launcher3:color/all_apps_navbar_color</item>
 
         <!-- Backports -->
         <item name="android:textColorPrimaryInverse">@*com.android.launcher3:color/textColorPrimaryInverse</item>
@@ -57,7 +56,6 @@
 
     <style name="WidgetContainerTheme.Dark" parent="@*com.android.launcher3:style/LauncherThemeDark">
         <item name="android:colorPrimaryDark">@*com.android.launcher3:color/colorPrimaryDark</item>
-        <item name="*com.android.launcher3:bottomSheetNavBarColor">#00000000</item>
     </style>
 
     <style name="BaseLauncherThemeWithCustomAttrs" parent="@*com.android.launcher3:style/BaseLauncherTheme">
