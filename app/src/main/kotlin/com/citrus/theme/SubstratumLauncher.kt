@@ -185,9 +185,11 @@ class SubstratumLauncher : Activity() {
         val themeSystems: MutableList<String> = mutableListOf()
         themeSystems.addAll(ORGANIZATION_THEME_SYSTEMS)
         themeSystems.addAll(OTHER_THEME_SYSTEMS)
-        themeSystems
+        if (caller != null){
+            themeSystems
                 .filter { caller.startsWith(prefix = it, ignoreCase = true) }
                 .forEach { callerVerified = true }
+        }   
         if (!callerVerified) {
             Log.e(tag, "This theme does not support the launching theme system. [HIJACK] ($caller)")
             val hijackString =
