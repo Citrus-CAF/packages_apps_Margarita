@@ -21,6 +21,7 @@
     <!-- QS tiles and label colors -->
     <color name="qs_tiles_active_tint">@*android:color/holo_blue_bright</color>
     <color name="qs_tiles_inactive_tint">@*android:color/ripple_material_dark</color>
+    <color name="qs_tiles_unavailable_tint">@*android:color/ripple_material_dark</color> <!-- keep in mind that the code adds 0.26 (light) or 0.30 (dark) alpha to this color. --> 
     <color name="qs_tiles_expand_tint">@*android:color/holo_blue_bright</color>
     <color name="qs_tiles_label_color">@*android:color/text_color_primary</color>
     <color name="qs_tiles_underline_color">@*android:color/holo_blue_bright</color>
