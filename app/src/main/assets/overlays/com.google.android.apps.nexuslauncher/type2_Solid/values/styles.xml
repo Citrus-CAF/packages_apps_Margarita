@@ -25,6 +25,8 @@
         <item name="*com.android.launcher3:popupColorPrimary">@*android:color/holo_blue_light</item>
         <item name="*com.android.launcher3:popupColorSecondary">@*android:color/holo_blue_dark</item> <!-- Gray 100 -->
         <item name="*com.android.launcher3:popupColorTertiary">@*android:color/holo_blue_dark</item> <!-- Gray 300 -->
+        <item name="*com.android.launcher3:popupItemColor">@*android:color/holo_blue_light</item>
+        <item name="*com.android.launcher3:fastscrollerTextColor">#000000</item>
         <item name="*com.android.launcher3:isMainColorDark">true</item>
         <item name="*com.android.launcher3:isWorkspaceDarkText">false</item>
         <item name="*com.android.launcher3:workspaceTextColor">@android:color/white</item>
@@ -47,6 +49,8 @@
         <item name="*com.android.launcher3:popupColorPrimary">@*android:color/holo_blue_light</item>
         <item name="*com.android.launcher3:popupColorSecondary">@*android:color/holo_blue_dark</item> <!-- Gray 800 -->
         <item name="*com.android.launcher3:popupColorTertiary">@*android:color/holo_blue_dark</item> <!-- Gray 600 -->
+        <item name="*com.android.launcher3:popupItemColor">@*android:color/holo_blue_light</item>
+        <item name="*com.android.launcher3:fastscrollerTextColor">#000000</item>
         <item name="*com.android.launcher3:widgetsTheme">@*com.android.launcher3:style/WidgetContainerTheme.Dark</item>
         <item name="*com.android.launcher3:isMainColorDark">true</item>
     </style>
