@@ -20,7 +20,8 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>v6.1.5 - Mon, 9-07-2018\n- Themed misc QS tiles elements.\n- Themed Wifi detail page icons (Settings).\n- Added Bourbon Background and Citrus Green Accent.\n</item>
+        <item>v6.5.5 - Fri, 17-08-2018\n- Added Golden Kiwi accent.\n- Added Prestine accent.\n- Updated Launcher3 resources.\n</item>
+        <item>v6.5.0 - Mon, 9-07-2018\n- Themed misc QS tiles elements.\n- Themed Wifi detail page icons (Settings).\n- Added Bourbon Background and Citrus Green Accent.\n</item>
         <item>v6.1.0 - Wed, 27-06-2018\n- Fixed QS tiles tinting.\n- Fixed Launcher3 errors.\n- Added option to choose notification tint.\n</item>
         <item>v6.0.0 - Thu, 21-06-2018\n- Added ability to change qs tile color.\n- Added Grape Accent, Plum red and Dark chocolate Backgrounds.\n</item>
     </string-array>
