@@ -44,6 +44,7 @@ object AdvancedConstants {
             "org.mobilism.android",
             "com.blackmartalpha",
             "org.blackmart.market"
+            "com.happymod.apk"
     )
 
 
