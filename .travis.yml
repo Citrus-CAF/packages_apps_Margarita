@@ -14,6 +14,7 @@ android:
 branches:
   only:
   - o8x-exp
+  - p9x-exp
 
 before_install:
   - "./notify.sh"
