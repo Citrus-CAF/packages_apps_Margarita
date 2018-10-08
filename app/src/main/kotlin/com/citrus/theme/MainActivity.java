@@ -21,24 +21,26 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.graphics.drawable.VectorDrawableCompat;
-import android.support.v4.content.ContextCompat;
-import android.view.View;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v4.content.res.ResourcesCompat;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.content.ContextCompat;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -81,7 +83,7 @@ public class MainActivity extends AppCompatActivity
                 boolean substratumInstalled = isAppInstalled("projekt.substratum");
                 if (substratumInstalled) {
                     Intent intent = new Intent("android.intent.action.MAIN");
-                    intent.setComponent(new ComponentName("projekt.substratum","projekt.substratum.LaunchActivity"));
+                    intent.setComponent(new ComponentName("projekt.substratum", "projekt.substratum.LaunchActivity"));
 
                     startActivity(intent);
                 } else {
@@ -135,7 +137,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 if (sublimeInstalled) {
                     Intent intent = new Intent("android.intent.action.MAIN");
-                    intent.setComponent(new ComponentName("projekt.substratum","projekt.substratum.LaunchActivity"));
+                    intent.setComponent(new ComponentName("projekt.substratum", "projekt.substratum.LaunchActivity"));
                     startActivity(intent);
                 } else {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.sublime_download_link))));

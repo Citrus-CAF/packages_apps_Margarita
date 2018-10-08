@@ -10,10 +10,6 @@ apply plugin: 'kotlin-android'
 apply from: 'ThemerConstants.gradle'
 
 ext {
-
-    // Library version
-    SUPPORT_LIBRARY_VERSION = "27.0.2"
-
     // Encryption values, do not touch as we generate a random key every time you compile!
     byte[] key = new byte[16]
     new Random().nextBytes(key)
@@ -102,10 +98,12 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version") {
         transitive = true
     }
-    implementation "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
-    implementation "com.android.support:support-v4:$SUPPORT_LIBRARY_VERSION"
-    implementation "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
-    implementation "com.android.support:cardview-v7:$SUPPORT_LIBRARY_VERSION"
+
+    // Library version
+    implementation "androidx.appcompat:appcompat:1.0.0"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation "com.google.android.material:material:1.0.0"
+    implementation "androidx.cardview:cardview:1.0.0"
     implementation 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
 }
 
