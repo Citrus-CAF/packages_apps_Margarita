@@ -14,10 +14,9 @@
   ~ limitations under the License.
   ~
   -->
-
-<transition xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:drawable="@*android:color/holo_primary" />
-    <item
-        android:drawable="@*android:color/transparent" />
-</transition>
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <solid android:color="@*android:color/holo_blue_light"/>
+        <corners android:radius="?android:attr/dialogCornerRadius" />
+    </shape>
+</inset>

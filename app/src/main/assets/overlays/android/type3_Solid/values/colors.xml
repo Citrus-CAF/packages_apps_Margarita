@@ -6,8 +6,6 @@
     <color name="material_grey_900">@*android:color/holo_blue_dark</color>
     <color name="material_grey_850">@*android:color/holo_blue_dark</color>
     <color name="material_grey_800">@*android:color/holo_blue_dark</color>
-    <color name="holo_orange_dark">@*android:color/background_dark</color>
-    <color name="holo_red_dark">@*android:color/holo_blue_dark</color>
     <color name="background_floating_material_dark">@*android:color/background_dark</color>
     <color name="background_material_dark">@*android:color/background_dark</color>
     <color name="primary_material_dark">@*android:color/background_dark</color>
@@ -31,7 +29,6 @@
 
     <!-- Notification panel action buttons bg -->
     <color name="notification_action_list">@*android:color/holo_blue_dark</color>
-    <color name="notification_action_list_dark">@*android:color/holo_blue_dark</color>
 
     <!-- Date picker -->
     <color name="datepicker_default_header_selector_background_material_light">@*android:color/holo_primary_dark</color>
@@ -47,5 +44,8 @@
     <color name="timepicker_default_background_material">@*android:color/background_holo_dark</color>
     <color name="timepicker_default_ampm_selected_background_color_material">@*android:color/holo_blue_bright</color>
     <color name="timepicker_default_selector_color_material">@*android:color/holo_blue_bright</color>
+
+    <!-- Notification background -->
+    <color name="notification_material_background_color">@*android:color/holo_blue_light</color>
 
 </resources>

@@ -22,11 +22,11 @@
     android:orientation="vertical"
     android:clickable="true"
     android:background="@*com.android.systemui:color/notification_guts_bg_color"
-    android:theme="@*android:style/Theme.DeviceDefault.Light">
+    android:theme="@*android:style/Theme.DeviceDefault">
 
     <RelativeLayout
-        android:layout_width="match_parent"
         android:id="@*com.android.systemui:id/notification_snooze"
+        android:layout_width="match_parent"
         android:layout_height="@*com.android.systemui:dimen/snooze_snackbar_min_height">
 
         <TextView
@@ -35,8 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:paddingStart="16dp"
-            android:textColor="#ffffffff"
+            android:paddingStart="@*android:dimen/notification_content_margin_start"
+            android:textColor="#ddffffff"
             android:paddingEnd="4dp"/>
 
         <ImageView
@@ -50,13 +50,14 @@
 
         <TextView
             android:id="@*com.android.systemui:id/undo"
-            style="@*com.android.systemui:style/TextAppearance.NotificationInfo.Button"
             android:layout_width="wrap_content"
-            android:layout_height="36dp"
-            android:layout_marginEnd="8dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="@*com.android.systemui:dimen/notification_guts_button_side_margin"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:text="@*com.android.systemui:string/snooze_undo" />
+            android:text="@*com.android.systemui:string/snooze_undo"
+            style="@*com.android.systemui:style/TextAppearance.NotificationInfo.Button"
+             />
     </RelativeLayout>
 
     <View

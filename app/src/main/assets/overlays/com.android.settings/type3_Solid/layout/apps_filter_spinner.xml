@@ -40,7 +40,7 @@
         android:layout_height="56dp"
         android:contentDescription="@*com.android.settings:string/configure"
         android:scaleType="center"
-        android:src="@*com.android.settings:drawable/ic_settings_24dp_inverse"
+        android:src="@*com.android.settings:drawable/ic_settings_24dp"
         android:visibility="gone" />
 
 </LinearLayout>

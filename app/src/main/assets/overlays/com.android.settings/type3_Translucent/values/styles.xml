@@ -17,10 +17,6 @@
   -->
 
 <resources>
-    <style name="PreferenceFragmentListSinglePane" parent="@*android:style/PreferenceFragmentList">
-        <item name="android:scrollbarStyle">outsideOverlay</item>
-        <item name="android:background">@*android:color/background_holo_dark</item>
-    </style>
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
         <item name="android:elevation">0.0dip</item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />
-    <style name="Theme.SystemUI.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
+    <style name="Theme.SystemUI.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert" />
 
     <!-- Phyisical Keyboard Dialog style -->
-    <style name="KeyboardShortcutsDialog" parent="@*android:style/Theme.Material" />
+    <style name="KeyboardShortcutsDialog" parent="@*android:style/Theme.DeviceDefault" />
 
 </resources>

@@ -19,6 +19,5 @@
 <resources>
     <attr name="cardBackgroundColor" format="color" />
     <attr name="cardCornerRadius" format="dimension" />
-    <attr name="cardUseCompatPadding" format="boolean" />
     <attr name="cardElevation" format="dimension" />
 </resources>

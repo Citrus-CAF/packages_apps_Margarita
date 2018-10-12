@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <color name="zen_introduction_message_background">@*android:color/holo_blue_dark</color>
-
     <!-- Floating action button -->
     <color name="fab_color">@*android:color/holo_blue_light</color>
 
     <!-- notification -->
     <color name="notification_legacy_background_color">@*android:color/holo_blue_light</color>
-    <color name="notification_material_background_media_default_color">@*android:color/holo_blue_light</color>
-    <color name="notification_material_background_color">@*android:color/holo_blue_light</color>
     <color name="notification_material_background_dimmed_color">@*android:color/background_dark</color>
-    <color name="notification_material_background_low_priority_color">@*android:color/background_dark</color>
     <color name="notification_guts_bg_color">@*android:color/background_dark</color>
     <color name="notification_shade_background_color">@*android:color/background_dark</color>
     <color name="qs_edit_item_decoration_bg">@*android:color/holo_blue_dark</color>
