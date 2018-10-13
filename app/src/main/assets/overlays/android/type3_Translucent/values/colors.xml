@@ -45,7 +45,4 @@
     <color name="timepicker_default_ampm_selected_background_color_material">@*android:color/holo_blue_bright</color>
     <color name="timepicker_default_selector_color_material">@*android:color/holo_blue_bright</color>
 
-    <!-- Notification background -->
-    <color name="notification_material_background_color">@*android:color/holo_primary</color>
-
 </resources>
