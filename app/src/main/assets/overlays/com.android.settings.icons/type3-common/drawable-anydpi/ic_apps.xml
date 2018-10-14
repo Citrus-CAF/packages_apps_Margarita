@@ -20,7 +20,7 @@
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24"
-    android:tint="?android:attr/colorControlNormal">
+    android:tint="@*com.android.settings:color/fallback_tintColor">
 
     <path
         android:pathData="M10 2.353C10 1.984 9.7 1.684 9.331 1.684l-7.024 0c-0.369 0 -0.669 0.3 -0.669 0.669l0 9.385c0 0.369 0.3 0.669 0.669 0.669l7.024 0C9.7 12.407 10 12.107 10 11.738l0 -9.385z"

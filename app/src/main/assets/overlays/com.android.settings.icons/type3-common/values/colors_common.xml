@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The fallback color for tinting icons. Only used when colorControlNormal is unavailable -->
+    <color name="fallback_tintColor">@*android:color/holo_blue_bright</color>
+
+</resources>

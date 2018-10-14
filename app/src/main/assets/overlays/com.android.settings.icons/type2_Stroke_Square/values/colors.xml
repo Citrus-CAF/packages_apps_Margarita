@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fallback_tintColor">@*android:color/white</color>
+    <color name="homepage_generic_icon_background">@*android:color/holo_blue_bright</color>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@*com.android.settings:drawable/ic_homepage_generic_background" />
+
+    <item
+        android:height="@*com.android.settings:dimen/dashboard_tile_foreground_image_size"
+        android:width="@*com.android.settings:dimen/dashboard_tile_foreground_image_size"
+        android:drawable="@*com.android.settings:drawable/ic_settings_display_white"
+        android:top="@*com.android.settings:dimen/dashboard_tile_foreground_image_inset"
+        android:start="@*com.android.settings:dimen/dashboard_tile_foreground_image_inset" />
+</layer-list>

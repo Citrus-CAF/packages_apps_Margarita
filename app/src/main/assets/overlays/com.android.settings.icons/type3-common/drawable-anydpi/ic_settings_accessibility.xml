@@ -20,7 +20,7 @@
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24"
-    android:tint="?android:attr/colorControlNormal">
+    android:tint="@*com.android.settings:color/fallback_tintColor">
 
     <path
         android:strokeColor="#000"

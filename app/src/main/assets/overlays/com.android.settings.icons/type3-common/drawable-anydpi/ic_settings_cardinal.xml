@@ -20,7 +20,7 @@
     android:height="48dp"
     android:viewportWidth="48"
     android:viewportHeight="48"
-    android:tint="?android:attr/colorControlNormal">
+    android:tint="@*com.android.settings:color/fallback_tintColor">
 
     <path
         android:fillColor="#4dffffff"
