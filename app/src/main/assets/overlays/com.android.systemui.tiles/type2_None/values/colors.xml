@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- QS tiles Active, Inactive and Unavailable tint (Requires config_enable_qs_tile_tinting bool set to true) -->
+    <!-- Since bg is hidden, use accent as active tile tint to distinguish between inactive tile -->
+    <color name="qs_tiles_active_tint">@*android:color/holo_blue_bright</color>
+
+</resources>

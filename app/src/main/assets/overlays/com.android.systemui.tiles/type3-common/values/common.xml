@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Config to enable/diaable qs tile tinting -->
+    <bool name="config_enable_qs_tile_tinting">true</bool>
+
+    <!-- QS tiles Active, Inactive and Unavailable tint (Requires config_enable_qs_tile_tinting bool set to true) -->
+    <color name="qs_tiles_active_tint">@*android:color/primary_device_default_settings</color>
+
+    <!-- QS tiles background Active, Disable, and Inactive tint (Requires config_enable_qs_tile_tinting bool set to true) -->
+    <color name="qs_tiles_background_disabled_tint">@*android:color/secondary_text_material_dark</color> <!-- keep in mind that the code adds 0.26 (light) or 0.30 (dark) alpha to this color. -->
+
+    <!-- QS tiles expand, underline and label colors -->
+    <color name="qs_tiles_expand_tint">@*android:color/holo_blue_bright</color>
+    <color name="qs_tiles_underline_color">@*android:color/holo_blue_bright</color>
+
+</resources>
