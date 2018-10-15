@@ -48,4 +48,7 @@
     <!-- Color for preference icons on the Wifi Network Details page -->
     <color name="wifi_details_icon_color">@*android:color/holo_blue_bright</color>
 
+    <!-- Storage icons -->
+    <color name="storage_private_1">@*android:color/holo_blue_bright</color>
+
 </resources>
