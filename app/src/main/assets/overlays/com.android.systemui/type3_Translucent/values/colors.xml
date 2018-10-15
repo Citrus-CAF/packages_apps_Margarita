@@ -4,11 +4,11 @@
     <!-- Floating action button -->
     <color name="fab_color">@*android:color/holo_primary</color>
 
-    <!-- notification -->
-
     <!-- Notification background -->
     <color name="notification_guts_bg_color">@*android:color/background_holo_dark</color>
     <color name="notification_legacy_background_color">@*android:color/holo_primary</color>
-    <color name="qs_edit_item_decoration_bg">@*android:color/holo_primary_dark</color>
 
+   <!-- QS -->
+   <color name="qs_detail_transition">#1a000000</color>
+   <color name="qs_edit_item_decoration_bg">@*android:color/holo_primary_dark</color>
 </resources>
