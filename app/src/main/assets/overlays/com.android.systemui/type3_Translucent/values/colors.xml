@@ -11,4 +11,9 @@
    <!-- QS -->
    <color name="qs_detail_transition">#1a000000</color>
    <color name="qs_edit_item_decoration_bg">@*android:color/holo_primary_dark</color>
+
+    <style name="qs_base" parent="android:Theme.DeviceDefault">
+        <item name="android:panelColorBackground">@*android:color/transparent</item>
+    </style>
+
 </resources>
