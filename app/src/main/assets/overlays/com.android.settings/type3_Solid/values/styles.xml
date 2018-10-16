@@ -18,20 +18,12 @@
 
 <resources>
 
-    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
-        <item name="android:elevation">0.0dip</item>
-    </style>
-
-    <style name="CardView" parent="@*com.android.settings:style/Base.CardView">
-        <item name="*com.android.settings:cardBackgroundColor">#33000000</item>
-    </style>
-
     <style name="ThemeOverlay.SwitchBar.Settings" parent="@*android:style/ThemeOverlay.Material.ActionBar">
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="*com.android.settings:switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
         <item name="*com.android.settings:switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
-        <item name="*com.android.settings:switchBarBackgroundColor">@*android:color/holo_primary</item>
-        <item name="*com.android.settings:switchBarBackgroundActivatedColor">@*android:color/holo_primary</item>
+        <item name="*com.android.settings:switchBarBackgroundColor">@*android:color/holo_blue_light</item>
+        <item name="*com.android.settings:switchBarBackgroundActivatedColor">@*android:color/holo_blue_light</item>
     </style>
 
 </resources>

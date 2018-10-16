@@ -42,4 +42,8 @@
         <item name="android:tint">@android:color/holo_blue_bright</item>
     </style>
 
+    <style name="Widget.SwitchBar.Switch" parent="@*android:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:minHeight">@*com.android.settings:dimen/min_tap_target_size</item>
+    </style>
+
 </resources>
