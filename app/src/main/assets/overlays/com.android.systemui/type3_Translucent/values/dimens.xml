@@ -28,4 +28,7 @@
     <!-- The alpha of the dividing line between child notifications of a notification group. -->
     <item name="notification_divider_alpha" format="float" type="dimen">0.0</item>
 
+    <!-- heads up elevation that is added if the view is pinned -->
+    <dimen name="heads_up_pinned_elevation">0dp</dimen>
+
 </resources>
