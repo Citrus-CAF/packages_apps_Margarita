@@ -22,7 +22,6 @@
     </style>
 
     <style name="AsSectionTextAppearance" parent="@*com.google.android.gms:style/TextAppearance.AppCompat.Body1">
-        <item name="android:textSize">@*com.google.android.gms:dimen/as_text_size_menu_section</item>
         <item name="android:textColor">@*android:color/holo_blue_bright</item>
         <item name="android:textStyle">bold</item>
     </style>
