@@ -198,4 +198,31 @@
         <item name="android:amPmTextColor">?android:attr/textColorSecondary</item>
     </style>
 
+    <!-- Variant of {@link #Theme_DeviceDefault} with no action bar -->
+    <style name="Theme.DeviceDefault.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
+        <!-- Color palette -->
+        <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:colorError">@*android:color/error_color_device_default_dark</item>
+
+        <!-- Dialog attributes -->
+        <item name="android:dialogCornerRadius">@*android:dimen/config_dialogCornerRadius</item>
+        <item name="android:alertDialogTheme">@*android:style/Theme.DeviceDefault.Dialog.Alert</item>
+
+        <!-- Text styles -->
+        <item name="android:textAppearanceButton">@*android:style/TextAppearance.DeviceDefault.Widget.Button</item>
+
+        <!-- Button styles -->
+        <item name="android:buttonCornerRadius">@*android:dimen/config_buttonCornerRadius</item>
+        <item name="android:buttonBarButtonStyle">@*android:style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
+
+        <!-- Progress bar attributes -->
+        <item name="*android:colorProgressBackgroundNormal">@*android:color/config_progress_background_tint</item>
+        <item name="*android:progressBarCornerRadius">@*android:dimen/config_progressBarCornerRadius</item>
+
+        <!-- Toolbar attributes -->
+        <item name="android:toolbarStyle">@*android:style/Widget.DeviceDefault.Toolbar</item>
+    </style>
+
 </resources>
