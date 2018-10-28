@@ -46,4 +46,10 @@
         <item name="android:minHeight">@*com.android.settings:dimen/min_tap_target_size</item>
     </style>
 
+    <style name="PreviewPagerPageIndicator">
+        <item name="*com.android.settings:dotGap">8dp</item>
+        <item name="*com.android.settings:pageIndicatorColor">@*android:color/ripple_material_dark</item>
+        <item name="*com.android.settings:currentPageIndicatorColor">?android:attr/colorControlNormal</item>
+    </style>
+
 </resources>
