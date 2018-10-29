@@ -4,4 +4,6 @@
     <!-- The fallback color for tinting icons. Only used when colorControlNormal is unavailable -->
     <color name="fallback_tintColor">@*android:color/holo_blue_bright</color>
 
+    <!-- Homepage icons generic background -->
+    <color name="homepage_generic_icon_background">#00000000</color>
 </resources>
