@@ -37,4 +37,14 @@
     <!-- Notification background -->
     <color name="notification_material_background_color">@*android:color/holo_blue_light</color>
 
+    <!-- Default user icon colors -->
+    <color name="user_icon_1">#ff08D8C4</color>
+    <color name="user_icon_2">#ffB388ff</color>
+    <color name="user_icon_3">#ff2979ff</color>
+    <color name="user_icon_4">#fff50057</color>
+    <color name="user_icon_5">#ff4caf50</color>
+    <color name="user_icon_6">#ff38ffB1</color>
+    <color name="user_icon_7">#ffff6e40</color>
+    <color name="user_icon_8">#ffff9100</color>
+
 </resources>
