@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.V28.Theme.YouTube.Dark" />
+
+</resources>

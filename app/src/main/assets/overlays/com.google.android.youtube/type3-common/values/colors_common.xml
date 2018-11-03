@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="yt_material_blue_500">@android:color/holo_blue_bright</color>
+    <!--color name="youtube_red">@android:color/holo_blue_bright</color-->
+    <color name="quantum_googred500">@android:color/holo_blue_bright</color>
+    <color name="quantum_googblue500">@android:color/holo_blue_bright</color>
+    <color name="live_chat_more_comments_background">@android:color/holo_blue_bright</color>
+    <color name="live_chat_seek_bar_tint">@android:color/holo_blue_bright</color>
+    <color name="permission_request_button_color">@android:color/holo_blue_bright</color>
+    <color name="quantum_vanillablue500">@android:color/holo_blue_bright</color>
+    <color name="color_brand_primary">@android:color/holo_blue_bright</color>
+    <color name="reel_progress_played">@android:color/holo_blue_bright</color>
+    <color name="yt_brand_red">@android:color/holo_blue_bright</color>
+    <color name="yt_youtube_red">@android:color/holo_blue_bright</color>
+    <color name="yt_selected_nav_icon_dark">@android:color/holo_blue_bright</color>
+    <color name="yt_light_blue">@android:color/holo_blue_bright</color>
+    <color name="buffering_progress_color">@android:color/holo_blue_bright</color>
+    <color name="navigation_bar_divider_dark">@android:color/transparent</color>
+    <color name="navigation_bar_divider_light">@android:color/transparent</color>
+
+</resources>

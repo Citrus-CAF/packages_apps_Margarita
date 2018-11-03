@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="yt_black1">@*android:color/background_dark</color>
+    <color name="yt_black2">@*android:color/holo_blue_light</color>
+    <color name="yt_navy_blue">@*android:color/holo_blue_light</color>
+    <color name="yt_status_bar_background_dark">@*android:color/holo_blue_dark</color>
+    <color name="live_chat_dark_vem_background_color">@*android:color/holo_blue_light</color>
+    <color name="navigation_bar_background_dark">@*android:color/holo_blue_light</color>
+    <color name="navigation_bar_background_light">@*android:color/holo_blue_light</color>
+
+</resources>
