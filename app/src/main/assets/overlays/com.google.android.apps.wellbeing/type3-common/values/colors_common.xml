@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accents and ripple's -->
+    <color name="google_blue500">@*android:color/ripple_material_dark</color>
+    <color name="google_dark_blue500">@*android:color/ripple_material_dark</color>
+    <color name="google_blue600">@*android:color/holo_blue_bright</color>
+    <color name="google_dark_blue600">@*android:color/holo_blue_bright</color>
+    <color name="google_blue800">#1a000000</color>
+
+    <!-- Beta badge -->
+    <color name="beta_badge_background_color">@android:color/holo_blue_bright</color>
+
+    <!-- Chart -->
+    <color name="pie_chart_label_color">@*com.google.android.apps.wellbeing:color/primary_text_default_material_dark</color>
+
+    <!-- Chip -->
+    <color name="google_white">@*android:color/holo_blue_light</color>
+
+    <!-- Graph inactive bar -->
+    <color name="google_blue100">@*android:color/ripple_material_dark</color>
+
+    <!-- Spinner disabled background -->
+    <color name="google_grey600">@*android:color/ripple_material_dark</color>
+
+    <!-- Text color -->
+    <color name="google_grey900">@*com.google.android.apps.wellbeing:color/primary_text_default_material_dark</color>
+    <color name="google_grey700">@*com.google.android.apps.wellbeing:color/secondary_text_default_material_dark</color>
+    <color name="quantum_grey700">@*com.google.android.apps.wellbeing:color/secondary_text_default_material_dark</color>
+
+</resources>

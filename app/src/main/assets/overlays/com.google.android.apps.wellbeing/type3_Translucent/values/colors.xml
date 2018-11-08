@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Graph background -->
+    <color name="google_grey50">@*android:color/holo_primary</color>
+
+    <!-- Main background -->
+    <color name="design_default_color_background">@*android:color/background_holo_dark</color>
+
+    <!-- Timer info card -->
+    <color name="background_floating_material_dark">@*android:color/holo_blue_light</color>
+
+</resources>
