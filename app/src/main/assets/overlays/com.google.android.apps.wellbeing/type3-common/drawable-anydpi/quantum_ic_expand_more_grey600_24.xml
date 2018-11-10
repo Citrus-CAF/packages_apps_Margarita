@@ -4,11 +4,11 @@
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24"
-    android:tint="@*android:color/holo_blue_light">
+    android:tint="?android:attr/colorAccent">
 
     <path
         android:pathData="M21 12a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9z"
-        android:fillColor="#73ffffff" />
+        android:fillColor="#4dffffff" />
     <path
         android:pathData="M23 12A11 11 0 0 1 12 23 11 11 0 0 1 1 12 11 11 0 0 1 12 1 11 11 0 0 1 23 12Z"
         android:strokeWidth="1"
