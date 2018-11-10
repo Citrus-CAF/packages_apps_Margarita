@@ -16,7 +16,7 @@
 
     <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse" parent="@*com.android.dialer:style/Widget.AppCompat.ActionBar.Solid" />
 
-    <style name="AfterCallDialogStyle" parent="@*com.android.dialer:style/Theme.AppCompat.Dialog.MinWidth">
+    <style name="AfterCallDialogStyle" parent="@*android:style/Theme.Material.Light.Dialog">
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
     </style>
 
@@ -24,7 +24,7 @@
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
     </style>
 
-    <style name="PrimaryText">
+    <style name="PrimaryText" parent="@*com.android.dialer:style/TextAppearance.AppCompat">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:ellipsize">end</item>

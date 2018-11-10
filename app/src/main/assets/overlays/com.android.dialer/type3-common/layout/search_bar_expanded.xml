@@ -14,45 +14,48 @@
   ~ limitations under the License.
   ~
   -->
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@*com.android.dialer:id/search_box_expanded"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
-    android:orientation="horizontal"
     android:visibility="gone">
 
     <ImageButton
         android:id="@*com.android.dialer:id/search_back_button"
         android:layout_width="@*com.android.dialer:dimen/search_box_icon_size"
         android:layout_height="@*com.android.dialer:dimen/search_box_icon_size"
-        android:layout_margin="@*com.android.dialer:dimen/search_box_navigation_icon_margin"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16.0dip"
         android:background="?android:attr/selectableItemBackgroundBorderless"
         android:contentDescription="@*com.android.dialer:string/action_menu_back_from_search"
-        android:src="@*com.android.dialer:drawable/quantum_ic_arrow_back_vd_theme_24"
+        android:src="@*com.android.dialer:drawable/back_arrow"
         android:tint="@*android:color/holo_blue_bright"/>
 
     <EditText
         android:id="@*com.android.dialer:id/search_view"
-        android:layout_width="0dp"
-        android:layout_height="@*com.android.dialer:dimen/search_box_icon_size"
-        android:layout_weight="1"
-        android:layout_marginLeft="@*com.android.dialer:dimen/search_box_text_left_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8.0dip"
+        android:layout_toStartOf="@*com.android.dialer:id/search_close_button"
+        android:layout_toEndOf="@*com.android.dialer:id/search_back_button"
         android:background="@null"
         android:fontFamily="@*com.android.dialer:string/search_font_family"
         android:imeOptions="flagNoExtractUi"
         android:inputType="textFilter"
-        android:singleLine="true"
+        android:maxLines="1"
         android:textColor="@*com.android.dialer:color/searchbox_text_color"
         android:textColorHint="@*com.android.dialer:color/searchbox_hint_text_color"
         android:textCursorDrawable="@*com.android.dialer:drawable/searchedittext_custom_cursor"
-        android:textSize="@*com.android.dialer:dimen/search_text_size"/>
+        android:textSize="@*com.android.dialer:dimen/search_text_size" />
 
     <ImageView
         android:id="@*com.android.dialer:id/search_close_button"
         android:layout_width="@*com.android.dialer:dimen/search_box_close_icon_size"
         android:layout_height="@*com.android.dialer:dimen/search_box_close_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
         android:padding="@*com.android.dialer:dimen/search_box_close_icon_padding"
         android:background="?android:attr/selectableItemBackgroundBorderless"
         android:clickable="true"
@@ -60,4 +63,4 @@
         android:src="@*com.android.dialer:drawable/quantum_ic_close_vd_theme_24"
         android:tint="@*com.android.dialer:color/searchbox_icon_tint"/>
 
-</LinearLayout>
+</RelativeLayout>

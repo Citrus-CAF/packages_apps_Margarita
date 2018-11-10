@@ -52,12 +52,11 @@
     <color name="dialpad_digits_text_color">@*android:color/text_color_primary</color>
     <color name="dialpad_icon_tint">@*android:color/holo_blue_bright</color>
     <color name="dialpad_secondary_text_color">@*android:color/holo_blue_bright</color>
-    <color name="dialpad_separator_line_color">@*android:color/holo_blue_bright</color>
     <color name="dialpad_voicemail_tint">@*android:color/holo_blue_bright</color>
     <color name="dialpad_primary_text_color">@*android:color/text_color_primary</color>
 
     <!-- Color of call type icons in call log, e.g. voicemail, video, WiFi, HD etc. -->
-    <color name="call_type_icon_color">@*android:color/holo_blue_bright</color>
+    <color name="call_type_icon_read_color">@*android:color/holo_blue_bright</color>
 
     <!-- Call log -->
     <color name="call_log_icon_tint">@*android:color/holo_blue_bright</color>
@@ -65,7 +64,6 @@
     <color name="call_log_detail_color">@*android:color/text_color_secondary</color>
     <color name="call_log_day_group_heading_color">@*android:color/holo_blue_bright</color>
     <color name="call_log_action_divider">@*android:color/holo_blue_bright</color>
-    <color name="call_log_action_text">@*android:color/text_color_primary</color>
     <color name="call_log_action_color">@*android:color/text_color_primary</color>
 
     <!-- Text color for section header. -->

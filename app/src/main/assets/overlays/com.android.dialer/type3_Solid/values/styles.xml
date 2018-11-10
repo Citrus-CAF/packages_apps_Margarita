@@ -7,11 +7,6 @@
 
     <style name="Theme.AppCompat.Light.Dialog.Alert" parent="@*com.android.dialer:style/Base.Theme.AppCompat.Dialog.Alert" />
 
-    <style name="AppBarTheme" parent="@*com.android.dialer:style/Theme.AppCompat">
-        <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
-        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
-    </style>
-
     <style name="DialerThemeBase" parent="@*com.android.dialer:style/Theme.AppCompat">
         <item name="android:textColorPrimary">@*com.android.dialer:color/dialer_primary_text_color</item>
         <item name="android:textColorSecondary">@*com.android.dialer:color/dialer_secondary_text_color</item>
@@ -41,11 +36,29 @@
         <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
     </style>
 
-    <style name="NuiMainActivityTheme" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
+
+    <style name="NuiActivityTheme" parent="@*com.android.dialer:style/NuiActivityThemeBase">
         <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
         <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
+    </style>
+
+    <style name="NuiActivityThemeBase" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@*com.android.dialer:color/dialer_primary_text_color</item>
+        <item name="android:textColorSecondary">@*com.android.dialer:color/dialer_secondary_text_color</item>
+        <item name="android:textColorLink">@*com.android.dialer:color/dialer_theme_color</item>
+        <item name="android:textAppearanceButton">@*com.android.dialer:style/DialerButtonTextStyle</item>
+        <item name="android:alertDialogTheme">@*com.android.dialer:style/AlertDialogTheme</item>
+        <item name="android:colorControlActivated">@*android:color/holo_blue_bright</item>
+        <item name="android:colorButtonNormal">@*android:color/holo_blue_bright</item>
+        <item name="android:colorPrimary">@*android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@*android:color/holo_blue_dark</item>
+        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
+        <item name="android:navigationBarColor">@*android:color/holo_blue_light</item>
+        <item name="*com.android.dialer:actionBarTheme">@*com.android.dialer:style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="*com.android.dialer:actionModeStyle">@*com.android.dialer:style/ActionModeStyle</item>
+        <item name="*com.android.dialer:dialpad_style">@*com.android.dialer:style/Dialpad.Light</item>
     </style>
 
     <style name="Theme.AppCompat.Light" parent="@*com.android.dialer:style/Base.Theme.AppCompat">

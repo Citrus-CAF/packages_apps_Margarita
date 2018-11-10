@@ -30,16 +30,12 @@
     <!-- White background for dialer -->
     <color name="background_dialer_white">@*android:color/holo_blue_light</color>
     <color name="background_dialer_results">@*android:color/holo_blue_light</color>
-    <color name="background_dialer_call_log">@*android:color/background_dark</color>
 
     <!-- Dialpad -->
     <color name="background_dialpad">@*android:color/holo_blue_dark</color>
-    <color name="background_dialpad_pressed">@*android:color/holo_blue_light</color>
 
     <!-- Settings -->
     <color name="setting_background_color">@*android:color/background_dark</color>
-
-    <color name="actionbar_background_color_dark">@*android:color/holo_blue_light</color>
 
     <!-- Searchbox -->
     <color name="searchbox_background_color">@*android:color/holo_blue_dark</color>
@@ -50,7 +46,6 @@
 
     <!-- IncallUI -->
     <color name="incall_dialpad_background">@*android:color/holo_blue_light</color>
-    <color name="incall_dialpad_background_pressed">@*android:color/holo_blue_dark</color>
 
     <!-- Background color of title bars in recents -->
     <color name="titlebar_in_recents_background_color">@*android:color/holo_blue_light</color>
