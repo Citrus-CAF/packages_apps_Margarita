@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Cardview background -->
+    <color name="design_default_color_surface">@*android:color/holo_blue_dark</color>
+
     <!-- Accents and ripple's -->
     <color name="google_blue500">@*android:color/ripple_material_dark</color>
     <color name="google_dark_blue500">@*android:color/ripple_material_dark</color>

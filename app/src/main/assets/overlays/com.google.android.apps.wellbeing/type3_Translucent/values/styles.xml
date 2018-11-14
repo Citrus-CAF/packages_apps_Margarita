@@ -53,6 +53,11 @@
         <item name="android:background">@*android:color/holo_primary_dark</item>
     </style>
 
+    <style name="Widget.GoogleMaterial.TimePicker" parent="@*android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">@*com.google.android.apps.wellbeing:drawable/google_picker_header_with_divider</item>
+        <item name="android:numbersBackgroundColor">@*android:color/holo_primary_dark</item>
+    </style>
+
     <style name="Theme.AppCompat.Light" parent="@*com.google.android.apps.wellbeing:style/Base.Theme.AppCompat">
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <item name="android:colorPrimary">@*android:color/holo_primary</item>

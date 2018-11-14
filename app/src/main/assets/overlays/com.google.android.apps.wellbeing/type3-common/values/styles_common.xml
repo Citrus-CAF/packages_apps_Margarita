@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="Base.V14.ThemeOverlay.GoogleMaterial.Dialog.Picker" parent="@*com.google.android.apps.wellbeing:style/ThemeOverlay.GoogleMaterial.Dialog">
+        <item name="android:textColorPrimary">@*com.google.android.apps.wellbeing:color/primary_text_default_material_dark</item>
+        <item name="android:textColorSecondary">@*com.google.android.apps.wellbeing:color/secondary_text_default_material_dark</item>
+        <item name="android:buttonBarButtonStyle">@*com.google.android.apps.wellbeing:style/Widget.GoogleMaterial.TextButton.Dialog</item>
+        <item name="*com.google.android.apps.wellbeing:dialogCornerRadius">@*com.google.android.apps.wellbeing:dimen/google_dialog_corner_radius</item>
+    </style>
+
     <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar" />
 
 </resources>
