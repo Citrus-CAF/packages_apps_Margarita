@@ -21,5 +21,7 @@
     <color name="primary_dark">@*android:color/holo_primary_dark</color>
     <color name="flashing_background_color">@*android:color/background_holo_dark</color>
     <color name="card_background_color_dark">@*android:color/holo_primary</color>
+    <color name="su_request_background">@*android:color/background_holo_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_holo_dark</color>
 
 </resources>
