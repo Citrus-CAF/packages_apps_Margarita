@@ -2,6 +2,6 @@
 <androidx.appcompat.widget.Toolbar android:id="@*com.topjohnwu.magisk:id/toolbar"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="?android:attr/actionBarSize"
-    android:background="@*android:color/holo_blue_light"
+    android:layout_height="56.0dip"
+    android:background="?android:attr/colorPrimary"
     android:elevation="4dp"/>

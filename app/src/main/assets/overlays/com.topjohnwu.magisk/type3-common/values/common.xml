@@ -18,20 +18,11 @@
 
 <resources>
 
-    <!-- Attributes -->
-    <attr name="menu" format="reference" />
-    <attr name="tabPaddingEnd" format="dimension" />
-    <attr name="tabPaddingStart" format="dimension" />
-
     <!-- Colors -->
     <color name="primary">@*android:color/holo_blue_bright</color>
     <color name="accent">@*android:color/holo_blue_bright</color>
     <color name="accentFallback">@*android:color/holo_blue_bright</color>
     <color name="icon_grey">@*android:color/holo_blue_bright</color>
-    <color name="red500">#ff1744</color>
-    <color name="green500">@*android:color/holo_blue_bright</color>
-    <color name="blue500">#2979ff</color>
-    <color name="yellow500">#ffC400</color>
     <color name="dark_secondary_text">@*android:color/text_color_secondary</color>
     <color name="su_request_background">@*android:color/background_holo_dark</color>
 
@@ -39,12 +30,13 @@
     <dimen name="card_elevation">0dp</dimen>
 
     <!-- Styles -->
-    <style name="SuRequest" parent="@*com.topjohnwu.magisk:style/Theme.AppCompat.Dialog">
-        <item name="android:windowCloseOnTouchOutside">false</item>
-        <item name="*com.topjohnwu.magisk:colorBackgroundFloating">@*com.topjohnwu.magisk:color/su_request_background</item>
-    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@*com.topjohnwu.magisk:style/AppTheme.Dark" />
+
     <style name="SuRequest.Dark" parent="@*com.topjohnwu.magisk:style/Theme.AppCompat.Dialog">
         <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="*com.topjohnwu.magisk:colorBackgroundFloating">@*com.topjohnwu.magisk:color/su_request_background</item>
     </style>
 
 </resources>

@@ -20,5 +20,6 @@
 
     <color name="primary_dark">@*android:color/holo_blue_dark</color>
     <color name="flashing_background_color">@*android:color/background_dark</color>
+    <color name="card_background_color_dark">@*android:color/holo_blue_light</color>
 
 </resources>
