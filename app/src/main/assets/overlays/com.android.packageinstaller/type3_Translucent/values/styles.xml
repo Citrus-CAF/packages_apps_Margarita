@@ -17,7 +17,7 @@
 
 <resources>
 
-    <style name="DialogWhenLarge" parent="@*android:style/Theme.DeviceDefault.Light.NoActionBar">
+    <style name="DialogWhenLarge" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
         <item name="android:textAppearanceMedium">@*com.android.packageinstaller:style/MediumText</item>
         <item name="android:textAppearanceSmall">@*com.android.packageinstaller:style/SmallText</item>
         <item name="android:titleTextStyle">@*com.android.packageinstaller:style/TitleText</item>
@@ -25,6 +25,18 @@
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
+    </style>
+
+    <style name="GrantPermissions"
+           parent="@*android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+        <item name="*android:windowFixedHeightMajor">100%</item>
+        <item name="*android:windowFixedHeightMinor">100%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AlertDialogActivity"
+            parent="@*android:style/Theme.DeviceDefault.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
     </style>
 
 </resources>
