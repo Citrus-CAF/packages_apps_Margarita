@@ -17,75 +17,23 @@
 
 <resources>
 
-    <style name="DialerThemeBase" parent="@*com.google.android.dialer:style/Theme.AppCompat">
-        <item name="android:textColorPrimary">@*com.google.android.dialer:color/dialer_primary_text_color</item>
-        <item name="android:textColorSecondary">@*com.google.android.dialer:color/dialer_secondary_text_color</item>
-        <item name="android:textAppearanceButton">@*com.google.android.dialer:style/DialerButtonTextStyle</item>
-        <item name="android:actionBarStyle">@*com.google.android.dialer:style/DialerActionBarBaseStyle</item>
-        <item name="android:actionBarSize">@*com.google.android.dialer:dimen/action_bar_height</item>
-        <item name="android:alertDialogTheme">@*com.google.android.dialer:style/AlertDialogTheme</item>
-        <item name="android:colorControlActivated">@*android:color/holo_blue_bright</item>
-        <item name="android:colorButtonNormal">@*android:color/holo_blue_bright</item>
-        <item name="android:colorPrimary">@*android:color/holo_primary</item>
-        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
-        <item name="*com.google.android.dialer:actionBarStyle">@*com.google.android.dialer:style/DialerActionBarBaseStyle</item>
-        <item name="*com.google.android.dialer:actionBarSize">@*com.google.android.dialer:dimen/action_bar_height</item>
+    <style name="Dialer.Dark.ThemeBase.NoActionBar" parent="@*com.google.android.dialer:style/Dialer.Dark.ThemeBase">
+        <item name="*com.google.android.dialer:windowActionBar">false</item>
+        <item name="*com.google.android.dialer:windowNoTitle">true</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:windowElevation">0.5dip</item>
-        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="*com.google.android.dialer:actionOverflowButtonStyle">@*com.google.android.dialer:style/wideActionButton</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
-    <style name="DialerThemeBase.NoActionBar" parent="@*com.google.android.dialer:style/Theme.AppCompat.NoActionBar">
-        <item name="android:textColorPrimary">@*com.google.android.dialer:color/dialer_primary_text_color</item>
-        <item name="android:textColorSecondary">@*com.google.android.dialer:color/dialer_secondary_text_color</item>
-        <item name="android:textAppearanceButton">@*com.google.android.dialer:style/DialerButtonTextStyle</item>
-        <item name="android:alertDialogTheme">@*com.google.android.dialer:style/AlertDialogTheme</item>
-        <item name="android:colorControlActivated">@*android:color/holo_blue_bright</item>
-        <item name="android:colorButtonNormal">@*android:color/holo_blue_bright</item>
-        <item name="android:colorPrimary">@*android:color/holo_primary</item>
+    <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityTheme.Dark">
+        <item name="android:colorPrimary">@*com.google.android.dialer:color/google_grey_400</item>
         <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:statusBarColor">@*android:color/transparent</item>
-        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
-    </style>
-
-    <style name="NuiActivityThemeBase" parent="@*com.google.android.dialer:style/Theme.AppCompat.NoActionBar">
-        <item name="android:textColorPrimary">@*com.google.android.dialer:color/dialer_primary_text_color</item>
-        <item name="android:textColorSecondary">@*com.google.android.dialer:color/dialer_secondary_text_color</item>
-        <item name="android:textColorLink">@*android:color/holo_blue_bright</item>
-        <item name="android:textAppearanceButton">@*com.google.android.dialer:style/DialerButtonTextStyle</item>
-        <item name="android:alertDialogTheme">@*com.google.android.dialer:style/AlertDialogTheme</item>
-        <item name="android:colorControlActivated">@*android:color/holo_blue_bright</item>
-        <item name="android:colorButtonNormal">@*android:color/holo_blue_bright</item>
-        <item name="android:colorPrimary">@*android:color/holo_primary</item>
-        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="android:colorAccent">@*android:color/holo_blue_bright</item>
-        <item name="*com.google.android.dialer:dialpad_style">@*com.google.android.dialer:style/Dialpad.Light</item>
-        <item name="*com.google.android.dialer:actionBarTheme">@*com.google.android.dialer:style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
-        <item name="*com.google.android.dialer:actionModeStyle">@*com.google.android.dialer:style/NuiActionModeStyle</item>
-        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
-        <item name="android:windowShowWallpaper">true</item>
-        <item name="android:statusBarColor">@*android:color/transparent</item>
-        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
-    </style>
-
-    <style name="Theme.AppCompat.Light" parent="@*com.google.android.dialer:style/Base.Theme.AppCompat">
-        <item name="*com.google.android.dialer:colorPrimary">@*android:color/holo_primary</item>
+        <item name="*com.google.android.dialer:colorPrimary">@*com.google.android.dialer:color/google_grey_400</item>
         <item name="*com.google.android.dialer:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="*android:colorPrimary">@*android:color/holo_primary</item>
-        <item name="*android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="*android:windowBackground">@*android:color/background_holo_dark</item>
-        <item name="android:navigationBarColor">@*android:color/holo_primary</item>
-    </style>
-
-    <style name="NuiActionModeStyle" parent="@*com.google.android.dialer:style/Widget.AppCompat.ActionMode">
-        <item name="*com.google.android.dialer:titleTextStyle">@*com.google.android.dialer:style/ActionModeTitleTextStyle</item>
-        <item name="*com.google.android.dialer:background">@*android:color/holo_primary</item>
+        <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
 </resources>

@@ -16,21 +16,13 @@
   -->
 
 <resources>
+    <!-- Background -->
+    <color name="google_grey_900">@*android:color/background_holo_dark</color>
 
-    <color name="dialer_theme_color_dark">@*android:color/transparent</color>
-    <color name="call_subject_history_background">@*android:color/background_holo_dark</color>
-    <color name="background_dialer_light">@*android:color/holo_primary_dark</color>
-    <color name="background_dialer_white">@*android:color/holo_primary</color>
-    <color name="background_dialer_results">@*android:color/holo_primary</color>
-    <color name="background_dialpad">@*android:color/holo_primary_dark</color>
-    <color name="setting_background_color">@*android:color/background_holo_dark</color>
-    <color name="searchbox_background_color">@*android:color/holo_primary_dark</color>
-    <color name="contactscommon_actionbar_background_color">@*android:color/holo_primary</color>
-    <color name="design_snackbar_background_color">@*android:color/holo_primary</color>
-    <color name="incall_dialpad_background">@*android:color/holo_primary</color>
-    <color name="titlebar_in_recents_background_color">@*android:color/holo_primary</color>
+    <!-- End call button -->
+    <color name="dialer_end_call_button_color">#8cff1744</color>
 
-    <color name="actionbar_background_color">@*android:color/holo_primary</color>
-
+    <!-- Searchbar -->
+    <color name="google_grey_900_elevated">@*android:color/holo_primary_dark</color>
 
 </resources>
