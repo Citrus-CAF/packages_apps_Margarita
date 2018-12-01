@@ -23,5 +23,6 @@
     <color name="card_background_color_dark">@*android:color/holo_blue_light</color>
     <color name="su_request_background">@*android:color/background_dark</color>
     <color name="background_floating_material_dark">@android:color/background_dark</color>
+    <color name="design_snackbar_background_color">@android:color/holo_blue_light</color>
 
 </resources>

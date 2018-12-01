@@ -20,6 +20,7 @@
 
     <style name="AppTheme.Dark" parent="@*com.topjohnwu.magisk:style/Theme.AppCompat.NoActionBar">
         <item name="android:colorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:navigationBarColor">@android:color/holo_blue_light</item>
         <item name="*com.topjohnwu.magisk:colorPrimary">@android:color/holo_blue_bright</item>
         <item name="*com.topjohnwu.magisk:colorPrimaryDark">@android:color/holo_blue_dark</item>
         <item name="*com.topjohnwu.magisk:colorAccent">@android:color/holo_blue_bright</item>
