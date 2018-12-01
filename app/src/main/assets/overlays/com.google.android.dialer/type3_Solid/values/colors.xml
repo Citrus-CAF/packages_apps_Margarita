@@ -24,4 +24,8 @@
 
     <!-- Searchbar -->
     <color name="google_grey_900_elevated">@*android:color/holo_blue_light</color>
+
+    <!-- Snackbar -->
+    <color name="design_snackbar_background_color">@android:color/holo_blue_dark</color>
+
 </resources>

@@ -24,6 +24,7 @@
         <item name="android:windowShowWallpaper">true</item>
         <item name="*com.google.android.dialer:actionOverflowButtonStyle">@*com.google.android.dialer:style/wideActionButton</item>
         <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
+        <item name="android:windowElevation">0.5dip</item>
     </style>
 
     <style name="MainActivityTheme" parent="@*com.google.android.dialer:style/MainActivityTheme.Dark">
