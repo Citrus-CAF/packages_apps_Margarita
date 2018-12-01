@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Fab" parent="@*com.google.android.apps.tasks:style/Widget.GoogleMaterial.Button">
+        <item name="android:textSize">@*com.google.android.apps.tasks:dimen/small_font_size</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">@*com.google.android.apps.tasks:dimen/fab_top_padding</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">@*com.google.android.apps.tasks:dimen/fab_bottom_padding</item>
+        <item name="android:fontFamily">@*com.google.android.apps.tasks:font/google_sans_medium</item>
+        <item name="android:paddingStart">@*com.google.android.apps.tasks:dimen/fab_start_padding</item>
+        <item name="android:paddingEnd">@*com.google.android.apps.tasks:dimen/fab_end_padding</item>
+        <item name="android:stateListAnimator">@*com.google.android.apps.tasks:animator/fab_state_list_animator</item>
+        <item name="android:backgroundTint">@*com.google.android.apps.tasks:color/fab_selector</item>
+        <item name="*com.google.android.apps.tasks:icon">@*com.google.android.apps.tasks:drawable/quantum_gm_ic_add_vd_theme_24</item>
+        <item name="*com.google.android.apps.tasks:iconPadding">@*com.google.android.apps.tasks:dimen/fab_icon_text_spacing</item>
+        <item name="*com.google.android.apps.tasks:iconTint">@android:color/holo_blue_light</item>
+        <item name="*com.google.android.apps.tasks:cornerRadius">@*com.google.android.apps.tasks:dimen/fab_corner_radius</item>
+    </style>
+
+</resources>

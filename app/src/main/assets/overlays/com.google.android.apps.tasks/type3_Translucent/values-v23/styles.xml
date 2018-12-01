@@ -3,4 +3,10 @@
     <style name="AppTheme" parent="@*com.google.android.apps.tasks:style/AppTheme.V21">
         <item name="android:windowLightStatusBar">false</item>
     </style>
+
+    <style name="DatePickerStyle" parent="@*android:style/Widget.Material.DatePicker">
+        <item name="android:headerBackground">@*android:color/holo_primary</item>
+        <item name="android:headerMonthTextAppearance">@*com.google.android.apps.tasks:style/DatePickerMonthTextAppearance</item>
+    </style>
+
 </resources>

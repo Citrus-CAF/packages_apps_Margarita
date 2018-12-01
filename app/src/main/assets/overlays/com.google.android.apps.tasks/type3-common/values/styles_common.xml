@@ -8,9 +8,4 @@
         <item name="*com.google.android.apps.tasks:bottomSheetStyle">@*com.google.android.apps.tasks:style/Widget.Design.BottomSheet.Modal</item>
     </style>
 
-    <style name="BaseFooterActionItemStyle">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">@*android:color/text_color_secondary</item>
-    </style>
-
 </resources>

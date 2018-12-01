@@ -30,6 +30,7 @@
     <color name="notification_color_overdue_task">@*com.google.android.apps.tasks:color/quantum_googred900</color>
     <color name="notification_highlight">@*com.google.android.apps.tasks:color/quantum_grey900</color>
     <color name="quantum_googblue500">@*android:color/holo_blue_bright</color>
+    <color name="og_default_icon_color">@*android:color/holo_blue_bright</color>
     <color name="quantum_googred900">#ff1744</color>
     <color name="quantum_grey900">#ff212121</color>
     <color name="quantum_orange600">#ff3D00</color>
