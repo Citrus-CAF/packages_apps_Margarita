@@ -10,9 +10,9 @@
         <item name="*com.google.android.youtube:liveChatMetadataBackground">@*com.google.android.youtube:drawable/live_chat_dark_metadata_background</item>
         <item name="*com.google.android.youtube:liveChatMetadataItemIconColor">@*com.google.android.youtube:color/yt_white1</item>
         <item name="*com.google.android.youtube:liveChatOverlayTextItemBackground">@*com.google.android.youtube:drawable/live_chat_dark_overlay_text_item_background</item>
+        <item name="*com.google.android.youtube:liveChatStickerOpenedFromTickerBackground">@*com.google.android.youtube:drawable/live_chat_paid_sticker_background_light</item>
         <item name="*com.google.android.youtube:liveChatTierSeekbarTick">@*com.google.android.youtube:drawable/live_chat_dark_tier_seek_bar_tick</item>
         <item name="*com.google.android.youtube:liveChatVerifiedAuthorName">@*com.google.android.youtube:color/yt_white2</item>
         <item name="*com.google.android.youtube:liveChatViewerEngagementMessageBackground">@*com.google.android.youtube:drawable/live_chat_dark_viewer_engagement_message_background</item>
     </style>
-
 </resources>
