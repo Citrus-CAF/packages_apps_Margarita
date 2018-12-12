@@ -1,7 +1,7 @@
 package com.citrus.theme
 
 object AdvancedConstants {
-        
+
     // Custom message on theme launch, see theme_strings.xml for changing the dialog content
     // Set SHOW_DIALOG_REPEATEDLY to true if you want the dialog to be showed on every theme launch
     const val SHOW_LAUNCH_DIALOG = false
@@ -42,6 +42,7 @@ object AdvancedConstants {
     // List of all organization theming systems officially supported by the team
     val ORGANIZATION_THEME_SYSTEMS = arrayOf(
             "projekt.substratum",
+            "projekt.substratum.debug",
             "projekt.substratum.lite",
             "projekt.themer"
     )
