@@ -16,4 +16,7 @@
 
 <resources>
     <dimen name="rounded_corner_radius">8dp</dimen>
+    <dimen name="rounded_corner_radius_top">8dp</dimen>
+    <dimen name="rounded_corner_radius_bottom">8dp</dimen>
+
 </resources>
