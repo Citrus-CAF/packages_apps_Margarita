@@ -28,4 +28,7 @@
     <!-- Color for the setting description text. -->
     <color name="setting_secondary_color">@*android:color/text_color_secondary</color>
 
+    <!-- Colors for the dialpad -->
+    <color name="dialer_theme_color">@android:color/holo_blue_bright</color>
+
 </resources>
