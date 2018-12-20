@@ -31,7 +31,6 @@
         <item name="*android:progressBarCornerRadius">@*android:dimen/config_progressBarCornerRadius</item>
         <!-- Toolbar attributes -->
         <item name="android:toolbarStyle">@*android:style/Widget.DeviceDefault.Toolbar</item>
-        <item name="android:backgroundTint">@*android:color/holo_primary_dark</item>
     </style>
 
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
