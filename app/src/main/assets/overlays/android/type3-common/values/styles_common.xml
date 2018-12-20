@@ -2,7 +2,7 @@
 <resources>
     <style name="Theme.DeviceDefault.Light" parent="@*android:style/Theme.Material" />
     <style name="Theme.Material.Light.Dialog.NoActionBar"
-           parent="@android:style/Theme.Material.Dialog">
+           parent="@*android:style/Theme.Material.Dialog.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
