@@ -41,8 +41,8 @@
     <!-- Primary text color in the Phone app -->
     <color name="dialer_primary_text_color">@*android:color/text_color_primary</color>
     <color name="dialer_secondary_color">@*android:color/holo_blue_bright</color>
-    <color name="dialer_secondary_text_color">@*android:color/text_color_secondary</color>
-    <color name="dialer_edit_text_hint_color">@*android:color/text_color_secondary</color>
+    <color name="dialer_secondary_text_color">#b3ffffff</color>
+    <color name="dialer_edit_text_hint_color">#b3ffffff</color>
 
     <!-- White background for dialer -->
     <color name="blue_grey_100">@*android:color/holo_blue_bright</color>
@@ -61,7 +61,7 @@
     <!-- Call log -->
     <color name="call_log_icon_tint">@*android:color/holo_blue_bright</color>
     <color name="call_log_primary_color">@*android:color/text_color_primary</color>
-    <color name="call_log_detail_color">@*android:color/text_color_secondary</color>
+    <color name="call_log_detail_color">#b3ffffff</color>
     <color name="call_log_day_group_heading_color">@*android:color/holo_blue_bright</color>
     <color name="call_log_action_divider">@*android:color/holo_blue_bright</color>
     <color name="call_log_action_color">@*android:color/text_color_primary</color>
