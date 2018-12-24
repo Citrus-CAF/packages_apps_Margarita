@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+android:id="@*com.google.android.gms:id/main_content"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout
+    android:theme="@*com.google.android.gms:style/ThemeOverlay.AppCompat.Light"
+    android:id="@*com.google.android.gms:id/appbar"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:elevation="0.0dip"
+    app:layout_behavior="com.google.android.gms.accountsettings.mg.poc.ui.view.AppBarBehavior" />
+    <android.support.v4.widget.SwipeRefreshLayout
+    android:enabled="false"
+    android:id="@*com.google.android.gms:id/swipe_refresh_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@*com.google.android.gms:string/appbar_scrolling_view_behavior">
+        <FrameLayout
+        android:id="@*com.google.android.gms:id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="AsMgKeyboardCluster" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <ImageView
+    android:layout_gravity="center|left|top"
+     android:id="@*com.google.android.gms:id/header_avatar_image"
+     android:visibility="invisible"
+     android:layout_width="wrap_content"
+     android:layout_height="150.0dip"
+     android:contentDescription="@null"
+     android:elevation="8.0dip"
+     app:layout_behavior="com.google.android.gms.accountsettings.mg.poc.ui.view.HeaderAvatarImageBehavior1" />
+</android.support.design.widget.CoordinatorLayout>

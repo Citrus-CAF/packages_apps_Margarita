@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.google.android.gms:id/toolbar"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:transitionName="@*com.google.android.gms:string/as_mg_header_transition_name">
+
+    <com.google.android.libraries.material.productlockup.ProductLockupView
+        android:layout_gravity="center"
+        android:id="@*com.google.android.gms:id/mg_lockup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@*com.google.android.gms:string/common_asm_google_account_title" />
+
+    <FrameLayout
+        android:layout_gravity="end"
+        android:id="@*com.google.android.gms:id/collapsed_avatar_placeholder_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.0dip"
+        android:layout_marginRight="@*com.google.android.gms:dimen/as_mg_appbar_collapsed_avatar_end_margin"
+        android:layout_marginStart="0.0dip"
+        android:layout_marginEnd="@*com.google.android.gms:dimen/as_mg_appbar_collapsed_avatar_end_margin">
+
+        <Space
+            android:id="@*com.google.android.gms:id/collapsed_avatar_placeholder"
+            android:layout_width="@*com.google.android.gms:dimen/as_mg_collapsed_avatar_size"
+            android:layout_height="@*com.google.android.gms:dimen/as_mg_collapsed_avatar_size" />
+    </FrameLayout>
+
+</android.support.v7.widget.Toolbar>

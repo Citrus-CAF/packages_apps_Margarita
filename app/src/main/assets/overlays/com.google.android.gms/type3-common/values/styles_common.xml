@@ -19,15 +19,38 @@
 
     <style name="common.Theme.Base.ActionBar" parent="@*com.google.android.gms:style/ThemeOverlay.AppCompat.ActionBar">
         <item name="android:colorControlNormal">@*android:color/holo_blue_bright</item>
-    </style>
-
-    <style name="AsSectionTextAppearance" parent="@*com.google.android.gms:style/TextAppearance.AppCompat.Body1">
-        <item name="android:textColor">@*android:color/holo_blue_bright</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textColorPrimary">@*android:color/white</item>
     </style>
 
     <style name="IdentityWhiteSpinnerDropDownItemStyle" parent="@*com.google.android.gms:style/Widget.AppCompat.DropDownItem.Spinner">
         <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="DiscoveryTransparentActivityStyle" parent="@*com.google.android.gms:style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DiscoveryButtonStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="*com.google.android.gms:backgroundTint">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="DiscoveryNavTextButtonStyle" parent="@*com.google.android.gms:style/DiscoveryButtonStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="*com.google.android.gms:backgroundTint">@*android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="CommonAccountChip.AccountNameTextAppearance" parent="@*com.google.android.gms:style/CommonAccountChip.AccountNameTextAppearanceBase">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#b3ffffff</item>
     </style>
 
 </resources>

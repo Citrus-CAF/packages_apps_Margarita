@@ -16,12 +16,38 @@
   -->
 
 <resources>
-
-    <color name="primary_text_default_material_light">#ffffffff</color>
-    <color name="primary_text_disabled_material_light">#4dffffff</color>
-    <color name="secondary_text_default_material_light">#b3ffffff</color>
-    <color name="secondary_text_disabled_material_light">#36ffffff</color>
-    <color name="as_g_blue_text">@*android:color/holo_blue_bright</color>
-
-
+  <color name="primary_text_default_material_light">#ffffffff</color>
+  <color name="primary_text_disabled_material_light">#4dffffff</color>
+  <color name="secondary_text_default_material_light">#b3ffffff</color>
+  <color name="secondary_text_disabled_material_light">#36ffffff</color>
+  <color name="as_g_blue_text">@android:color/holo_blue_bright</color>
+  <color name="material_grey_700">#b3ffffff</color>
+  <color name="material_grey_900">#ffffffff</color>
+  <color name="material_teal_500">@android:color/holo_blue_bright</color>
+  <color name="google_blue_500">@android:color/holo_blue_bright</color>
+  <color name="quantum_black_secondary_text">#b3ffffff</color>
+  <color name="quantum_black_text">#ffffffff</color>
+  <color name="suw_color_accent_glif_v3">@android:color/holo_blue_bright</color>
+  <color name="discovery_activity_accent">@android:color/holo_blue_bright</color>
+  <color name="discovery_activity_secondary">@android:color/holo_blue_bright</color>
+  <color name="discovery_education_text">#4dffffff</color>
+  <color name="discovery_list_item_hero_image_progress_bar">@android:color/holo_blue_bright</color>
+  <color name="discovery_list_sub_text">#b3ffffff</color>
+  <color name="discovery_list_title">#ffffffff</color>
+  <color name="discovery_list_url_text">@android:color/holo_blue_bright</color>
+  <color name="discovery_onboarding_text_color">#ffffffff</color>
+  <color name="discovery_pageindicator_fill_color">@android:color/holo_blue_bright</color>
+  <color name="discovery_pageindicator_page_color">@android:color/white</color>
+  <color name="google_grey700">#b3ffffff</color>
+  <color name="google_grey800">#ffffffff</color>
+  <color name="google_grey900">#ffffffff</color>
+  <color name="as_mg_white_0_percent">#00000000</color>
+  <color name="as_mg_white_75_percent">#bf000000</color>
+  <color name="as_mg_white_85_percent">#d8000000</color>
+  <color name="google_blue600">@android:color/holo_blue_bright</color>
+  <color name="common_account_main_title_text_color">#ffffffff</color>
+  <color name="common_account_chip_account_display_name_color">#ffffffff</color>
+  <color name="common_account_add_account_chip_title_color">#b3ffffff</color>
+  <color name="common_account_divider_color">#1fffffff</color>
+  <color name="common_account_link_color">@android:color/holo_blue_bright</color>
 </resources>

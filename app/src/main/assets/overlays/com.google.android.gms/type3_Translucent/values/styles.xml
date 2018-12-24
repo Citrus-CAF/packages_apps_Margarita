@@ -36,7 +36,6 @@
     <style name="IdentityWhiteAppTheme" parent="@*com.google.android.gms:style/IdentityWhiteAppThemeBase">
         <item name="android:windowLightStatusBar">false</item>
         <item name="*com.google.android.gms:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="android:backgroundTint">@*android:color/background_holo_dark</item>
     </style>
 
     <style name="IdentityWhiteAppThemeBase" parent="@*com.google.android.gms:style/Theme.AppCompat">
@@ -52,4 +51,34 @@
         <item name="android:navigationBarColor">@*android:color/holo_primary_dark</item>
     </style>
 
+    <style name="DevicesListActivityStyle" parent="@*com.google.android.gms:style/Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="*com.google.android.gms:colorPrimary">@*android:color/holo_primary</item>
+        <item name="*com.google.android.gms:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="*com.google.android.gms:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="DiscoveryListActivityStyle" parent="@*com.google.android.gms:style/Theme.AppCompat">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="*com.google.android.gms:colorPrimary">@*android:color/holo_primary</item>
+        <item name="*com.google.android.gms:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="*com.google.android.gms:colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="DiscoveryCardStyle">
+        <item name="android:background">@*android:color/holo_primary</item>
+        <item name="android:elevation">2.0dip</item>
+    </style>
+    <style name="AsMgAppTheme" parent="@*com.google.android.gms:style/AsMgAppBaseTheme">
+        <item name="android:colorPrimaryDark">@*android:color/holo_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@*android:color/background_holo_dark</item>
+        <item name="android:windowBackground">@*android:color/background_holo_dark</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
 </resources>
