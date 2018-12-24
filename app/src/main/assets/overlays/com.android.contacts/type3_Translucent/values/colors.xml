@@ -77,4 +77,10 @@
     <!-- Background color for the current selected item icon in the navigation drawer -->
     <color name="drawer_selected_icon_color">@*android:color/holo_primary</color>
 
+    <!-- Search-box's colors.  -->
+    <color name="searchbox_phone_background_color">@*android:color/transparent</color>
+
+    <!-- Popup select button background. -->
+    <color name="select_popup_button_background">@android:color/holo_blue_dark</color>
+
 </resources>

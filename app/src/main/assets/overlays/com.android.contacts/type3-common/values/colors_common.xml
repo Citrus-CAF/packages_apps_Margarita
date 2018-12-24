@@ -149,4 +149,22 @@
 
     <color name="contact_list_name_text_color">#ffffffff</color>
 
+    <!-- The text color of contacts item's label. -->
+    <color name="multi_pick_label_text_color">#91ffffff</color>
+    <!-- Contacts item's text-colors. -->
+    <color name="contacts_or_name_text_color">#dfffffff</color>
+    <!-- Confirm or disable button's text-colors in multi-pick. -->
+    <color name="ok_or_clear_button_disable_color">#44ffffff</color>
+    <color name="ok_or_clear_button_normal_color">@android:color/holo_blue_bright</color>
+    <!-- Horizontal separator line should be 10% dark in the light theme. -->
+    <color name="divider_line_color">#1affffff</color>
+
+    <!-- Search-box's colors.  -->
+    <color name="searchbox_phone_text_color">#dbffffff</color>
+    <color name="searchbox_phone_hint_text_color">#42ffffff</color>
+
+    <!-- The selection button's expand window text-color in actionbar. -->
+    <color name="action_bar_expand_text_color">#ffffffff</color>
+    <color name="contact_section_index_color">#8cffffff</color>
+
 </resources>
