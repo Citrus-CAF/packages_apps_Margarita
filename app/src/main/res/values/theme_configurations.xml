@@ -20,9 +20,6 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>v6.5.5 - Fri, 17-08-2018\n- Added Golden Kiwi accent.\n- Added Prestine accent.\n- Updated Launcher3 resources.\n</item>
-        <item>v6.5.0 - Mon, 9-07-2018\n- Themed misc QS tiles elements.\n- Themed Wifi detail page icons (Settings).\n- Added Bourbon Background and Citrus Green Accent.\n</item>
-        <item>v6.1.0 - Wed, 27-06-2018\n- Fixed QS tiles tinting.\n- Fixed Launcher3 errors.\n- Added option to choose notification tint.\n</item>
-        <item>v6.0.0 - Thu, 21-06-2018\n- Added ability to change qs tile color.\n- Added Grape Accent, Plum red and Dark chocolate Backgrounds.\n</item>
+        <item>v7.0.0 - Mon, 24-12-2018\n- Migrate support library to AndroidX.\n- Initial support for Android 9.0.\n- Added Cranberry and Raspberry accents.\n- Added option for QS tiles background shape.\n- Added option for Settings dashboard icons background shape.\n- Themed more Settings icons.\n- Translucent style improvements.\n- Themed Digital Wellbeing.\n- Themed YouTube (only solid style for now).\n- Themed AOSP Launcher3.\n- Updated Google Dialer overlay to v25.0.220310144.\n- Updated Magisk resources to v6.0.1.\n- Updated Google Tasks overlay to v1.2.216368383.release.\n- Updated Play service overlay to 14.7.99.\n- Hide some overlays which is not ready yet.</item>
     </string-array>
 </resources>
