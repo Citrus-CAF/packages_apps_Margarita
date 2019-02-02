@@ -10,7 +10,7 @@
         <item name="*com.google.android.apps.wellbeing:colorAccent">@android:color/holo_blue_bright</item>
         <item name="*com.google.android.apps.wellbeing:colorPrimary">@*android:color/holo_blue_light</item>
         <item name="*com.google.android.apps.wellbeing:colorPrimaryDark">@*android:color/holo_blue_dark</item>
-        <item name="*com.google.android.apps.wellbeing:colorPrimaryLight">@*android:color/holo_blue_dark</item>
+        <item name="*com.google.android.apps.wellbeing:colorPrimaryVariant">@*android:color/holo_blue_dark</item>
     </style>
 
     <style name="Widget.GoogleMaterial.CardView.Dark" parent="@*com.google.android.apps.wellbeing:style/Widget.GoogleMaterial.CardView">
@@ -21,7 +21,7 @@
         <item name="*com.google.android.apps.wellbeing:colorAccent">@android:color/holo_blue_bright</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <item name="*com.google.android.apps.wellbeing:colorPrimaryDark">@*android:color/holo_blue_dark</item>
-        <item name="*com.google.android.apps.wellbeing:colorPrimaryLight">@*android:color/holo_blue_dark</item>
+        <item name="*com.google.android.apps.wellbeing:colorPrimaryVariant">@*android:color/holo_blue_dark</item>
         <item name="android:colorBackground">@android:color/background_dark</item>
     </style>
 
@@ -29,7 +29,7 @@
         <item name="*com.google.android.apps.wellbeing:colorAccent">@android:color/holo_blue_bright</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <item name="*com.google.android.apps.wellbeing:colorPrimaryDark">@*android:color/holo_blue_dark</item>
-        <item name="*com.google.android.apps.wellbeing:colorPrimaryLight">@*android:color/holo_blue_dark</item>
+        <item name="*com.google.android.apps.wellbeing:colorPrimaryVariant">@*android:color/holo_blue_dark</item>
         <item name="android:colorBackground">@android:color/background_dark</item>
     </style>
 

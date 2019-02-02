@@ -10,7 +10,7 @@
         <item name="*com.google.android.apps.wellbeing:colorAccent">@android:color/holo_blue_bright</item>
         <item name="*com.google.android.apps.wellbeing:colorPrimary">@*android:color/holo_primary</item>
         <item name="*com.google.android.apps.wellbeing:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="*com.google.android.apps.wellbeing:colorPrimaryLight">@*android:color/holo_primary_dark</item>
+        <item name="*com.google.android.apps.wellbeing:colorPrimaryVariant">@*android:color/holo_primary_dark</item>
         <item name="android:windowBackground">@*android:color/background_holo_dark</item>
         <item name="android:windowShowWallpaper">true</item>
     </style>
@@ -23,7 +23,7 @@
         <item name="*com.google.android.apps.wellbeing:colorAccent">@android:color/holo_blue_bright</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <item name="*com.google.android.apps.wellbeing:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="*com.google.android.apps.wellbeing:colorPrimaryLight">@*android:color/holo_primary_dark</item>
+        <item name="*com.google.android.apps.wellbeing:colorPrimaryVariant">@*android:color/holo_primary_dark</item>
         <item name="android:colorBackground">@*android:color/background_holo_dark</item>
     </style>
 
@@ -31,7 +31,7 @@
         <item name="*com.google.android.apps.wellbeing:colorAccent">@android:color/holo_blue_bright</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <item name="*com.google.android.apps.wellbeing:colorPrimaryDark">@*android:color/holo_primary_dark</item>
-        <item name="*com.google.android.apps.wellbeing:colorPrimaryLight">@*android:color/holo_primary_dark</item>
+        <item name="*com.google.android.apps.wellbeing:colorPrimaryVariant">@*android:color/holo_primary_dark</item>
         <item name="android:colorBackground">@*android:color/background_holo_dark</item>
     </style>
 
