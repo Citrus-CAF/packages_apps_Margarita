@@ -17,7 +17,7 @@ import com.citrus.theme.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
 import com.citrus.theme.AdvancedConstants.OTHER_THEME_SYSTEMS
 import com.citrus.theme.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
 import com.citrus.theme.AdvancedConstants.SHOW_LAUNCH_DIALOG
-import substratum.theme.template.ThemeFunctions.checkApprovedSignature
+import com.citrus.theme.ThemeFunctions.checkApprovedSignature
 import com.citrus.theme.ThemeFunctions.getSelfSignature
 import com.citrus.theme.ThemeFunctions.getSelfVerifiedPirateTools
 import com.citrus.theme.ThemeFunctions.isCallingPackageAllowed
@@ -41,7 +41,7 @@ class SubstratumLauncher : Activity() {
     private val receiveKeysIntent = "projekt.substratum.RECEIVE_KEYS"
 
     private val themePiracyCheck by lazy {
-    if (BuildConfig.ENABLE_APP_BLACKLIST_CHECK) {
+        if (BuildConfig.ENABLE_APP_BLACKLIST_CHECK) {
             getSelfVerifiedPirateTools(applicationContext)
         } else {
             false
@@ -68,6 +68,7 @@ class SubstratumLauncher : Activity() {
 
         val action = intent.action
         val sharedPref = getPreferences(Context.MODE_PRIVATE)
+        var verified = false
         if ((action == substratumIntentData) or (action == getKeysIntent)) {
             // Assume this called from organization's app
             if (organizationsSystem) {
@@ -87,13 +88,13 @@ class SubstratumLauncher : Activity() {
             finish()
             return
         }
-        if (debug) 
+        if (debug) {
             Log.d(tag, "'$action' has been authorized to launch this theme. (Phase 2)")
         }
 
         if (SHOW_LAUNCH_DIALOG) run {
             if (SHOW_DIALOG_REPEATEDLY) {
-                showDialog(certified)
+                showDialog()
                 sharedPref.edit().remove("dialog_showed").apply()
             } else if (!sharedPref.getBoolean("dialog_showed", false)) {
                 showDialog()
@@ -185,7 +186,7 @@ class SubstratumLauncher : Activity() {
                 .setIcon(R.mipmap.ic_launcher)
                 .setTitle(R.string.launch_dialog_title)
                 .setMessage(R.string.launch_dialog_content)
-                .setPositiveButton(R.string.launch_dialog_positive) { _, _ -> startAntiPiracyCheck() }  
+                .setPositiveButton(R.string.launch_dialog_positive) { _, _ -> startAntiPiracyCheck() }
         if (getString(R.string.launch_dialog_negative).isNotEmpty()) {
             if (getString(R.string.launch_dialog_negative_url).isNotEmpty()) {
                 dialog.setNegativeButton(R.string.launch_dialog_negative) { _, _ ->

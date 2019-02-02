@@ -50,7 +50,6 @@ object ThemeFunctions {
     @Suppress("DEPRECATION")
     @SuppressLint("PackageManagerGetSignatures")
     fun getSelfSignature(context: Context): Int {
-        val sigs: Array<Signature>
         try {
             val sigs = context.packageManager.getPackageInfo(
                     context.packageName,

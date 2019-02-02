@@ -34,7 +34,7 @@ object AdvancedConstants {
             "com.dv.marketmod.installer",
             "org.mobilism.android",
             "com.blackmartalpha",
-            "org.blackmart.market"
+            "org.blackmart.market",
             "com.happymod.apk"
     )
 
