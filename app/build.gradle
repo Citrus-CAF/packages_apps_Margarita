@@ -71,6 +71,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             versionNameSuffix '-debug'
+            applicationIdSuffix = ".debug"
             // Themers: DO NOT MODIFY
             buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "false"
             buildConfigField "String", "BASE_64_LICENSE_KEY", "\"\""
