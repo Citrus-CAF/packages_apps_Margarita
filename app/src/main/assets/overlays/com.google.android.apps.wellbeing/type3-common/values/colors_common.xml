@@ -13,9 +13,6 @@
     <!-- Beta badge -->
     <color name="beta_badge_background_color">@android:color/holo_blue_bright</color>
 
-    <!-- Chart -->
-    <color name="pie_chart_label_color">@*com.google.android.apps.wellbeing:color/primary_text_default_material_dark</color>
-
     <!-- Chip -->
     <color name="google_white">@*android:color/holo_blue_light</color>
 

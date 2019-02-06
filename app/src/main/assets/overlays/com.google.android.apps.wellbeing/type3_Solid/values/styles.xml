@@ -13,10 +13,6 @@
         <item name="*com.google.android.apps.wellbeing:colorPrimaryVariant">@*android:color/holo_blue_dark</item>
     </style>
 
-    <style name="Widget.GoogleMaterial.CardView.Dark" parent="@*com.google.android.apps.wellbeing:style/Widget.GoogleMaterial.CardView">
-        <item name="*com.google.android.apps.wellbeing:strokeColor">@android:color/background_dark</item>
-    </style>
-
     <style name="Platform.GoogleMaterial.Light.Bridge" parent="@*com.google.android.apps.wellbeing:style/Platform.GoogleMaterial.Dark.Bridge" >
         <item name="*com.google.android.apps.wellbeing:colorAccent">@android:color/holo_blue_bright</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
@@ -48,6 +44,10 @@
     </style>
 
     <style name="Widget.GoogleMaterial.Snackbar" parent="@*com.google.android.apps.wellbeing:style/Widget.MaterialComponents.Snackbar">
+        <item name="*com.google.android.apps.wellbeing:actionTextColorAlpha">@*com.google.android.apps.wellbeing:dimen/design_snackbar_action_text_color_alpha</item>
+        <item name="*com.google.android.apps.wellbeing:backgroundOverlayColorAlpha">@*com.google.android.apps.wellbeing:dimen/google_snackbar_background_overlay_color_alpha</item>
+        <item name="*com.google.android.apps.wellbeing:enforceMaterialTheme">true</item>
+        <item name="*com.google.android.apps.wellbeing:materialThemeOverlay">@*com.google.android.apps.wellbeing:style/ThemeOverlay.GoogleMaterial.Snackbar</item>
         <item name="android:background">@*android:color/holo_blue_light</item>
     </style>
 
