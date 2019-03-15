@@ -17,6 +17,7 @@
 package com.citrus.theme;
 
 import android.content.ComponentName;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -33,6 +34,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
@@ -81,19 +83,41 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 boolean substratumInstalled = isAppInstalled("projekt.substratum");
-                if (substratumInstalled) {
-                    Intent intent = new Intent("android.intent.action.MAIN");
-                    intent.setComponent(new ComponentName("projekt.substratum", "projekt.substratum.LaunchActivity"));
+                boolean substratumLiteInstalled = isAppInstalled("projekt.substratum.lite");
+                if (substratumInstalled  && !substratumLiteInstalled) {
+                    launchIntent("projekt.substratum", "projekt.substratum.LaunchActivity");
+                }
+                else if (!substratumInstalled  && substratumLiteInstalled) {
+                    launchIntent("projekt.substratum.lite", "projekt.substratum.lite.activity.SplashScreenActivity");
+                }
+                else if (substratumInstalled  && substratumLiteInstalled) {
+                    AlertDialog.Builder appListBuilder = new AlertDialog.Builder(MainActivity.this);
+                    appListBuilder.setTitle(getResources().getString(R.string.choose_sub_app));
 
-                    startActivity(intent);
-                } else {
+                    String[] substratumApps = {getResources().getString(R.string.sub_name), getResources().getString(R.string.sub_lite_name)};
+                    appListBuilder.setItems(substratumApps, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            switch (which) {
+                                case 0: launchIntent("projekt.substratum", "projekt.substratum.LaunchActivity");
+                                        break;
+                                case 1: launchIntent("projekt.substratum.lite", "projekt.substratum.lite.activity.SplashScreenActivity");
+                                        break;
+                            }
+                        }
+                    });
+
+                    AlertDialog dialog = appListBuilder.create();
+                    dialog.show();
+                }
+                else {
                     CoordinatorLayout cLayout = findViewById(R.id.app_bar_main_content);
                     Snackbar snackbar = Snackbar
                             .make(cLayout, R.string.substratum_not_installed_message, Snackbar.LENGTH_SHORT)
                             .setAction(R.string.install_message, new View.OnClickListener() {
                                 @Override
                                 public void onClick(View view) {
-                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.substratum_playstore_link))));
+                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.substratum_playstore_link_2))));
                                 }
                             });
                     snackbar.show();
@@ -169,6 +193,11 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    private void launchIntent(String appName, String appActivity) {
+        Intent intent = new Intent("android.intent.action.MAIN");
+        intent.setComponent(new ComponentName(appName, appActivity));
+        startActivity(intent);
+    }
 
     private boolean isAppInstalled(String appUri) {
         try {

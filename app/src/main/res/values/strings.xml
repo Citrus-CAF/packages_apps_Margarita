@@ -42,5 +42,8 @@
     <string name="dashboard_sublime_summary">Sublime is an extension to Margarita which lets you change fonts and bootanimations</string>
     <string name="dashboard_sublime_download">DOWNLOAD</string>
     <string name="dashboard_sublime_open">OPEN</string>
-
+    <string name="choose_sub_app">Choose a Substratum Application</string>
+    <string name="sub_name">Substratum</string>
+    <string name="sub_lite_name">Substratum Lite</string>
+    <string name="substratum_playstore_link_2">https://play.google.com/store/search?q=substratum+theme+engine+or+substratum+lite+theme+engine&amp;c=apps</string>
 </resources>
